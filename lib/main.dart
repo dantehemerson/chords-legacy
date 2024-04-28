@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_drive/components/chord.dart';
+import 'package:test_drive/components/chord_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -54,7 +54,7 @@ class SimpleGridDemo extends StatelessWidget {
           // shrinkWrap: true,
           scrollDirection: Axis.vertical,
           children: List.generate(1, (index) {
-            return Chord(key: ValueKey(index));
+            return ChordWidget(key: ValueKey(index));
           })),
     );
   }

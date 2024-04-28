@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Chord extends StatelessWidget {
-  const Chord({super.key});
+class ChordWidget extends StatelessWidget {
+  const ChordWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,15 +20,39 @@ class ChordPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final double width = size.width;
-    final double paddingTop = size.height * 0.09;
+    final double paddingTop = size.height * 0.2;
     final double stringSpacing = width / (strings.length - 1);
 
     final double fretSpacing = size.height / 4;
     final double fretboardWidth = width;
 
+    // Draw freet number indicator (X or 0)
+    for (int i = 0; i < strings.length; i++) {
+      if (strings[i] == 'X' || strings[i] == '0') {
+        final String fingerPosition = strings[i];
+        final double x = stringSpacing * i;
+        final double y = paddingTop - size.height * 0.08;
+
+        final TextPainter textPainter = TextPainter(
+          text: TextSpan(
+            text: fingerPosition,
+            style: const TextStyle(
+              color: Colors.black,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          textDirection: TextDirection.ltr,
+        )..layout();
+
+        textPainter.paint(canvas, Offset(x - textPainter.width / 2, y - 24));
+      }
+    }
+
+    // Draw nut
     canvas.drawRect(
-      Rect.fromPoints(
-          const Offset(-1, 5), Offset(fretboardWidth + 1, paddingTop)),
+      Rect.fromPoints(Offset(-1, paddingTop),
+          Offset(fretboardWidth + 1, paddingTop - (size.height * 0.08))),
       Paint()..color = Colors.black,
     );
 
