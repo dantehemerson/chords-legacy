@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class ChordWidget extends StatelessWidget {
@@ -82,8 +84,22 @@ class ChordPainter extends CustomPainter {
             fretSpacing * double.parse(fingerPosition) -
             fretSpacing / 2;
 
+        final TextPainter textPainter = TextPainter(
+          text: TextSpan(
+            text: fingerPosition,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 16,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+          textDirection: TextDirection.ltr,
+        )..layout();
+
         canvas.drawCircle(Offset(x, y), positionIndicatorWidth,
             Paint()..color = const Color(0xFF2465FF));
+        textPainter.paint(canvas,
+            Offset(x - textPainter.width / 2, y - textPainter.height / 2));
       }
     }
   }
