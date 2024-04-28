@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_drive/components/chord.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,44 +34,28 @@ class MyApp extends StatelessWidget {
       ),
       home: SimpleGridDemo(),
     );
+    // #2465ff
   }
 }
 
 class SimpleGridDemo extends StatelessWidget {
+  const SimpleGridDemo({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('GridView Demo')),
-      body: GridView(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+      appBar: AppBar(title: Text('GridView Demod')),
+      backgroundColor: Colors.white,
+      body: GridView.count(
           crossAxisCount: 2,
-        ),
-        padding: const EdgeInsets.all(10),
-        //physics: NeverScrollableScrollPhysics(),
-        shrinkWrap: false,
-        scrollDirection: Axis.vertical,
-        children: [
-          Image.network('https://picsum.photos/250?image=1'),
-          Image.network('https://picsum.photos/250?image=2'),
-          Image.network('https://picsum.photos/250?image=3'),
-          Image.network('https://picsum.photos/250?image=4'),
-          Image.network('https://picsum.photos/250?image=5'),
-          Image.network('https://picsum.photos/250?image=6'),
-          Image.network('https://picsum.photos/250?image=7'),
-          Image.network('https://picsum.photos/250?image=8'),
-          Image.network('https://picsum.photos/250?image=9'),
-          Image.network('https://picsum.photos/250?image=10'),
-          Image.network('https://picsum.photos/250?image=11'),
-          Image.network('https://picsum.photos/250?image=12'),
-          Image.network('https://picsum.photos/250?image=13'),
-          Image.network('https://picsum.photos/250?image=14'),
-          Image.network('https://picsum.photos/250?image=15'),
-          Image.network('https://picsum.photos/250?image=16'),
-          Image.network('https://picsum.photos/250?image=17'),
-          Image.network('https://picsum.photos/250?image=18'),
-          Image.network('https://picsum.photos/250?image=19'),
-        ],
-      ),
+          padding: const EdgeInsets.all(10),
+          //physics: NeverScrollableScrollPhysics(),
+          childAspectRatio: 3 / 4,
+          // shrinkWrap: true,
+          scrollDirection: Axis.vertical,
+          children: List.generate(1, (index) {
+            return Chord(key: ValueKey(index));
+          })),
     );
   }
 }
