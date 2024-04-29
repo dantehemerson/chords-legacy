@@ -86,7 +86,7 @@ class ChordPainter extends CustomPainter {
 
         final TextPainter textPainter = TextPainter(
           text: TextSpan(
-            text: fingerPosition,
+            text: fingerPosition, // TODO: Update this
             style: const TextStyle(
               color: Colors.white,
               fontSize: 16,

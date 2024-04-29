@@ -1,50 +1,90 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:test_drive/components/chord_widget.dart';
+import 'package:test_drive/models/chord_model.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final Future<List<ChordModel>> chordsFuture;
 
-  // This widget is the root of your application.
+  MyApp({Key? key})
+      : chordsFuture = loadChords(),
+        super(key: key);
+
+  static Future<List<ChordModel>> loadChords() async {
+    try {
+      String jsonString = await rootBundle.loadString('lib/data/chords.json');
+      List<dynamic> jsonList = jsonDecode(jsonString);
+
+      List<ChordModel> chords =
+          jsonList.map((json) => ChordModel.fromJson(json)).toList();
+
+      return chords;
+    } catch (error) {
+      print('Error loading chords: $error');
+      return [];
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: SimpleGridDemo(),
+    return FutureBuilder<List<ChordModel>>(
+      future: chordsFuture,
+      builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return MaterialApp(
+            home: Scaffold(
+              body: Center(
+                child: Text('Error loading chords: ${snapshot.error}'),
+              ),
+            ),
+          );
+        } else if (snapshot.connectionState == ConnectionState.waiting) {
+          return const MaterialApp(
+            home: Scaffold(
+              body: Center(
+                child: CircularProgressIndicator(),
+              ),
+            ),
+          );
+        } else {
+          List<ChordModel> chords = snapshot.data!;
+
+          print("Chords are $chords");
+
+          return MaterialApp(
+            title: 'Flutter Demo',
+            theme: ThemeData(
+              colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+              useMaterial3: true,
+            ),
+            home: SimpleGridDemo(chords: chords),
+          );
+        }
+      },
     );
     // #2465ff
   }
 }
 
 class SimpleGridDemo extends StatelessWidget {
-  const SimpleGridDemo({super.key});
+  final List<ChordModel> chords;
+
+  const SimpleGridDemo({super.key, required this.chords});
 
   @override
   Widget build(BuildContext context) {
+    print("Building SimpleGridDemo");
+    print(this.chords);
+
     return Scaffold(
-      appBar: AppBar(title: Text('GridView Demod')),
+      appBar: AppBar(title: Text('GridView Demo')),
       backgroundColor: Colors.white,
       body: GridView.count(
           crossAxisCount: 2,
