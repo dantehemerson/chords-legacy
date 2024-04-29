@@ -1,0 +1,34 @@
+[
+  {
+    "id": "05b15f1c-1efb-455d-aa71-13a400e65eff",
+    "name": "C#7sus2",
+    "root": "C#",
+    "tuning": "EADGBE",
+    "notes": [
+      {
+        "fret": null,
+        "finger": null
+      },
+      {
+        "fret": 3,
+        "finger": 3
+      },
+      {
+        "fret": 2,
+        "finger": 2
+      },
+      {
+        "fret": 0,
+        "finger": null
+      },
+      {
+        "fret": 1,
+        "finger": 1
+      },
+      {
+        "fret": 0,
+        "finger": null
+      }
+    ]
+  }
+]
