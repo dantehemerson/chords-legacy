@@ -51,8 +51,6 @@ class App extends StatelessWidget {
         } else {
           List<ChordModel> chords = snapshot.data!;
 
-          print("Chords are $chords");
-
           return MaterialApp(
             title: 'Flutter Demo',
             theme: ThemeData(

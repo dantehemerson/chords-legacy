@@ -19,8 +19,19 @@ class ChordsGrid extends StatelessWidget {
           childAspectRatio: 3 / 4,
           // shrinkWrap: true,
           scrollDirection: Axis.vertical,
-          children: List.generate(1, (index) {
-            return ChordWidget(key: ValueKey(index), chord: chords[index]);
+          children: List.generate(2, (index) {
+            print("Index: $index");
+            if (index == 0)
+              return ChordWidget(key: ValueKey(index), chord: chords[index]);
+            else {
+              final button = ElevatedButton(
+                onPressed: () {
+                  print("Button pressed");
+                },
+                child: Text("Button"),
+              );
+              return button;
+            }
           })),
     );
   }
