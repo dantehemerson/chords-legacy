@@ -9,9 +9,6 @@ class ChordsGrid extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print("Building SimpleGridDemo");
-    print(this.chords);
-
     return Scaffold(
       appBar: AppBar(title: Text('GridView Demo')),
       backgroundColor: Colors.white,
@@ -23,7 +20,7 @@ class ChordsGrid extends StatelessWidget {
           // shrinkWrap: true,
           scrollDirection: Axis.vertical,
           children: List.generate(1, (index) {
-            return ChordWidget(key: ValueKey(index));
+            return ChordWidget(key: ValueKey(index), chord: chords[index]);
           })),
     );
   }

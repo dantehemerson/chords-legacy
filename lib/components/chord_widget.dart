@@ -1,40 +1,41 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
+import 'package:test_drive/models/chord_model.dart';
 
 class ChordWidget extends StatelessWidget {
-  const ChordWidget({super.key});
+  final ChordModel chord;
+
+  const ChordWidget({super.key, required this.chord});
 
   @override
   Widget build(BuildContext context) {
     return CustomPaint(
       size: const Size(50, 100),
-      painter: ChordPainter(['X', '3', '2', '0', '1', '0']),
+      painter: ChordPainter(chord: chord),
     );
   }
 }
 
 class ChordPainter extends CustomPainter {
-  final List<String> strings;
+  final ChordModel chord;
 
-  ChordPainter(this.strings);
+  ChordPainter({required this.chord});
 
   @override
   void paint(Canvas canvas, Size size) {
     final double width = size.width;
     final double paddingTop = size.height * 0.2;
-    final double stringSpacing = width / (strings.length - 1);
+    final double stringSpacing = width / (chord.notes.length - 1);
 
     final double fretSpacing = size.height / 4;
     final double fretboardWidth = width;
 
     // Draw freet number indicator (X or 0)
-    for (int i = 0; i < strings.length; i++) {
-      if (strings[i] == 'X' || strings[i] == '0') {
-        final String fingerPosition = strings[i];
+    for (int i = 0; i < chord.notes.length; i++) {
+      if (chord.notes[i].fret == null || chord.notes[i].fret == 0) {
         final double x = stringSpacing * i;
         final double y = paddingTop - size.height * 0.08;
 
+        final String fingerPosition = chord.notes[i].fret == null ? 'X' : '0';
         final TextPainter textPainter = TextPainter(
           text: TextSpan(
             text: fingerPosition,
@@ -66,7 +67,7 @@ class ChordPainter extends CustomPainter {
     }
 
     // Draw strings
-    for (int i = 0; i < strings.length; i++) {
+    for (int i = 0; i < chord.notes.length; i++) {
       final double x = stringSpacing * i;
       canvas.drawLine(Offset(x, paddingTop + 0),
           Offset(x, paddingTop + size.height), Paint()..strokeWidth = 2);
@@ -75,18 +76,17 @@ class ChordPainter extends CustomPainter {
     const double positionIndicatorWidth = 12;
 
     // Draw finger positions
-    for (int stringIndex = 0; stringIndex < strings.length; stringIndex++) {
-      final String fingerPosition = strings[stringIndex];
+    for (int stringIndex = 0; stringIndex < chord.notes.length; stringIndex++) {
+      final int? fingerPosition = chord.notes[stringIndex].fret;
 
-      if (fingerPosition != 'X' && fingerPosition != '0') {
+      if (fingerPosition != null && fingerPosition != 0) {
         final double x = stringSpacing * stringIndex;
-        final double y = paddingTop +
-            fretSpacing * double.parse(fingerPosition) -
-            fretSpacing / 2;
+        final double y =
+            paddingTop + fretSpacing * fingerPosition - fretSpacing / 2;
 
         final TextPainter textPainter = TextPainter(
           text: TextSpan(
-            text: fingerPosition, // TODO: Update this
+            text: fingerPosition.toString(), // TODO: Update this
             style: const TextStyle(
               color: Colors.white,
               fontSize: 16,

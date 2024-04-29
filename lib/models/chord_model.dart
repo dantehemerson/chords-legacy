@@ -27,6 +27,16 @@ class ChordModel {
           .toList(),
     );
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'root': root,
+      'tuning': tuning,
+      'notes': notes.map((note) => note.toJson()).toList(),
+    };
+  }
 }
 
 class ChordNote {
@@ -34,4 +44,11 @@ class ChordNote {
   final int? finger;
 
   ChordNote({this.fret, this.finger});
+
+  Map<String, dynamic> toJson() {
+    return {
+      'fret': fret,
+      'finger': finger,
+    };
+  }
 }
