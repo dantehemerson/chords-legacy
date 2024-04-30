@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_drive/audio/chord_player.dart';
 import 'package:test_drive/components/chord_widget.dart';
 import 'package:test_drive/models/chord_model.dart';
 
@@ -20,15 +21,14 @@ class ChordsGrid extends StatelessWidget {
           // shrinkWrap: true,
           scrollDirection: Axis.vertical,
           children: List.generate(2, (index) {
-            print("Index: $index");
-            if (index == 0)
+            if (index == 0) {
               return ChordWidget(key: ValueKey(index), chord: chords[index]);
-            else {
+            } else {
               final button = ElevatedButton(
-                onPressed: () {
-                  print("Button pressed");
+                onPressed: () async {
+                  await ChordPlayer.playChord(chords[0]);
                 },
-                child: Text("Button"),
+                child: Text("But2ton"),
               );
               return button;
             }
