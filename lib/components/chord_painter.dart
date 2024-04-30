@@ -75,7 +75,8 @@ class ChordPainter extends CustomPainter {
           Offset(x, paddingTop + size.height), Paint()..strokeWidth = 2);
     }
 
-    const double positionIndicatorWidth = 12;
+    final double positionIndicatorWidth = size.width * 0.09;
+    final double positionIndicatorFontSize = size.width * 0.12;
 
     // Draw finger positions
     for (int stringIndex = 0; stringIndex < chord.notes.length; stringIndex++) {
@@ -90,9 +91,9 @@ class ChordPainter extends CustomPainter {
         final TextPainter textPainter = TextPainter(
           text: TextSpan(
             text: fingerPosition.toString(),
-            style: const TextStyle(
+            style: TextStyle(
               color: Colors.white,
-              fontSize: 16,
+              fontSize: positionIndicatorFontSize,
               fontWeight: FontWeight.w500,
             ),
           ),

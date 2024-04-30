@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:test_drive/bottom_navigation_view/bottom_bar_view.dart';
 import 'package:test_drive/components/chords_grid.dart';
 import 'package:test_drive/models/chord_model.dart';
 
@@ -52,13 +53,16 @@ class App extends StatelessWidget {
           List<ChordModel> chords = snapshot.data!;
 
           return MaterialApp(
-            title: 'Flutter Demo',
-            theme: ThemeData(
-              colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-              useMaterial3: true,
-            ),
-            home: ChordsGrid(chords: chords),
-          );
+              title: 'Flutter Demo',
+              color: Colors.black,
+              theme: ThemeData(
+                colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+                useMaterial3: true,
+              ),
+              home: Scaffold(
+                body: ChordsGrid(chords: chords),
+                bottomNavigationBar: BottomBar(),
+              ));
         }
       },
     );
