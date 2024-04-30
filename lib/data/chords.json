@@ -1,8 +1,8 @@
 [
   {
     "id": "05b15f1c-1efb-455d-aa71-13a400e65eff",
-    "name": "C#7sus2",
-    "root": "C#",
+    "name": "C major",
+    "root": "C",
     "tuning": "EADGBE",
     "notes": [
       {
@@ -28,6 +28,102 @@
       {
         "fret": 0,
         "finger": null
+      }
+    ]
+  },
+  {
+    "id": "e3d3f198-583b-4e34-8a48-0728a37424fd",
+    "name": "E major",
+    "root": "E",
+    "tuning": "EADGBE",
+    "notes": [
+      {
+        "fret": 0,
+        "finger": null
+      },
+      {
+        "fret": 2,
+        "finger": 2
+      },
+      {
+        "fret": 2,
+        "finger": 3
+      },
+      {
+        "fret": 1,
+        "finger": 1
+      },
+      {
+        "fret": 0,
+        "finger": null
+      },
+      {
+        "fret": 0,
+        "finger": null
+      }
+    ]
+  },
+  {
+    "id": "3b9e2a69-623d-42fb-bbbd-3281b2e0b215",
+    "name": "D major",
+    "root": "D",
+    "tuning": "EADGBE",
+    "notes": [
+      {
+        "fret": null,
+        "finger": null
+      },
+      {
+        "fret": null,
+        "finger": null
+      },
+      {
+        "fret": 0,
+        "finger": null
+      },
+      {
+        "fret": 2,
+        "finger": 1
+      },
+      {
+        "fret": 3,
+        "finger": 3
+      },
+      {
+        "fret": 2,
+        "finger": 2
+      }
+    ]
+  },
+  {
+    "id": "bfa4893a-7aae-4db3-b175-33ab10d750f4",
+    "name": "F major",
+    "root": "F",
+    "tuning": "EADGBE",
+    "notes": [
+      {
+        "fret": 1,
+        "finger": 1
+      },
+      {
+        "fret": 3,
+        "finger": 3
+      },
+      {
+        "fret": 3,
+        "finger": 4
+      },
+      {
+        "fret": 2,
+        "finger": 2
+      },
+      {
+        "fret": 1,
+        "finger": 1
+      },
+      {
+        "fret": 1,
+        "finger": 1
       }
     ]
   }
