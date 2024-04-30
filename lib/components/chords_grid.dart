@@ -11,16 +11,16 @@ class ChordsGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('GridView Demo')),
-      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title: const Text('Chords List'),
+        backgroundColor: Colors.blue,
+      ),
       body: GridView.count(
           crossAxisCount: 2,
-          padding: const EdgeInsets.all(20),
-          mainAxisSpacing: 70,
-          crossAxisSpacing: 50,
-          // physics: NeverScrollableScrollPhysics(),
+          padding: const EdgeInsets.all(50),
+          mainAxisSpacing: 90,
+          crossAxisSpacing: 60,
           childAspectRatio: 3 / 4,
-          // shrinkWrap: true,
           scrollDirection: Axis.vertical,
           children: List.generate(chords.length, (index) {
             return ChordWidget(
