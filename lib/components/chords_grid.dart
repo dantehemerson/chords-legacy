@@ -20,15 +20,15 @@ class ChordsGrid extends StatelessWidget {
           childAspectRatio: 3 / 4,
           // shrinkWrap: true,
           scrollDirection: Axis.vertical,
-          children: List.generate(2, (index) {
+          children: List.generate(chords.length, (index) {
             if (index == 0) {
               return ChordWidget(key: ValueKey(index), chord: chords[index]);
             } else {
               final button = ElevatedButton(
                 onPressed: () async {
-                  await ChordPlayer.playChord(chords[0]);
+                  await ChordPlayer.playChord(chords[index]);
                 },
-                child: Text("But2ton"),
+                child: Text("${chords[index].name}"),
               );
               return button;
             }
