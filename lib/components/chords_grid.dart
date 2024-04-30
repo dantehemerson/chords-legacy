@@ -18,7 +18,7 @@ class ChordsGrid extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           mainAxisSpacing: 70,
           crossAxisSpacing: 50,
-          //physics: NeverScrollableScrollPhysics(),
+          // physics: NeverScrollableScrollPhysics(),
           childAspectRatio: 3 / 4,
           // shrinkWrap: true,
           scrollDirection: Axis.vertical,

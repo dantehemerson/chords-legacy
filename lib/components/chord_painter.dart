@@ -35,6 +35,22 @@ class ChordPainter extends CustomPainter {
         )..layout();
 
         textPainter.paint(canvas, Offset(x - textPainter.width / 2, y - 24));
+
+        // TODO: Temp Chord Number
+        final TextPainter textPainter2 = TextPainter(
+          text: TextSpan(
+            text: chord.name,
+            style: const TextStyle(
+              color: Colors.black,
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          textDirection: TextDirection.ltr,
+        )..layout();
+
+        textPainter2.paint(
+            canvas, Offset(textPainter2.width / 2, size.height + 44));
       }
     }
 
@@ -63,16 +79,17 @@ class ChordPainter extends CustomPainter {
 
     // Draw finger positions
     for (int stringIndex = 0; stringIndex < chord.notes.length; stringIndex++) {
-      final int? fingerPosition = chord.notes[stringIndex].fret;
+      final int? fingerPosition = chord.notes[stringIndex].finger;
 
-      if (fingerPosition != null && fingerPosition != 0) {
+      if (fingerPosition != null) {
         final double x = stringSpacing * stringIndex;
-        final double y =
-            paddingTop + fretSpacing * fingerPosition - fretSpacing / 2;
+        final double y = paddingTop +
+            fretSpacing * chord.notes[stringIndex].fret! -
+            fretSpacing / 2;
 
         final TextPainter textPainter = TextPainter(
           text: TextSpan(
-            text: fingerPosition.toString(), // TODO: Update this
+            text: fingerPosition.toString(),
             style: const TextStyle(
               color: Colors.white,
               fontSize: 16,

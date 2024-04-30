@@ -10,6 +10,7 @@ class ChordWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(chord.toJson());
     return GestureDetector(
         onTap: onTap,
         child: CustomPaint(
