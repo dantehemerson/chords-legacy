@@ -15,23 +15,19 @@ class ChordsGrid extends StatelessWidget {
       backgroundColor: Colors.white,
       body: GridView.count(
           crossAxisCount: 2,
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.all(20),
+          mainAxisSpacing: 70,
+          crossAxisSpacing: 50,
           //physics: NeverScrollableScrollPhysics(),
           childAspectRatio: 3 / 4,
           // shrinkWrap: true,
           scrollDirection: Axis.vertical,
           children: List.generate(chords.length, (index) {
-            if (index == 0) {
-              return ChordWidget(key: ValueKey(index), chord: chords[index]);
-            } else {
-              final button = ElevatedButton(
-                onPressed: () async {
-                  await ChordPlayer.playChord(chords[index]);
-                },
-                child: Text("${chords[index].name}"),
-              );
-              return button;
-            }
+            return ChordWidget(
+                key: ValueKey(index),
+                chord: chords[index],
+                onTap: () async =>
+                    {await ChordPlayer.playChord(chords[index])});
           })),
     );
   }
