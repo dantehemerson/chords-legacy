@@ -119,4 +119,5 @@ main();
 var suffixFixes = {
   'major': 'Major',
   'minor': 'Minor',
+  'sus': 'sus4'
 }

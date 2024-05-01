@@ -83,6 +83,23 @@
     ]
   },
   {
+    "id": "aae82caddcaaf380bd800b1b417d53513c0eff85119ee8932ab45e198fce2f66",
+    "name": "C sus",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x33011",
+        "fingers": "034011",
+        "baseFret": 1
+      },
+      {
+        "frets": "x33013",
+        "fingers": "023014",
+        "baseFret": 1
+      }
+    ]
+  },
+  {
     "id": "0d6617aa3cb33e6588f276d4f5df5fd5a3fee5cae5b6ee81efcf9dda95f5e4c5",
     "name": "C sus2",
     "root": "C",
@@ -457,6 +474,12 @@
     ]
   },
   {
+    "id": "9a05669c1ead9c4f6587f26d7f4a80fc31880fc3a336afa6faef8c1dfd25c00f",
+    "name": "C# sus",
+    "root": "C#",
+    "positions": []
+  },
+  {
     "id": "2c9dff530b8c2d5d5db18899ce776c5ca20a06cc92d8b7496d84d6609b8ef340",
     "name": "C# sus2",
     "root": "C#",
@@ -781,6 +804,23 @@
         "frets": "x20431",
         "fingers": "020431",
         "baseFret": 7
+      }
+    ]
+  },
+  {
+    "id": "baf718d63b3bbd42be7e15d54178c1a7f163313d1600270217f88811c4a3f569",
+    "name": "D sus",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0233",
+        "fingers": "000122",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx0341",
+        "fingers": "000341",
+        "baseFret": 5
       }
     ]
   },
@@ -1184,6 +1224,18 @@
     ]
   },
   {
+    "id": "80c09c4e1cf9eb36d727d8e23a372210a494708541d441fd8e801f23b39c73e2",
+    "name": "Eb sus",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001344",
+        "baseFret": 1
+      }
+    ]
+  },
+  {
     "id": "4b3f95cde090cdfbc80a8ee3c5a8757ac524123bd8104bdd39ecb1affff97bd8",
     "name": "Eb sus2",
     "root": "Eb",
@@ -1538,6 +1590,33 @@
         "frets": "x2313x",
         "fingers": "023140",
         "baseFret": 6
+      }
+    ]
+  },
+  {
+    "id": "160778b2390cf107b32f539d31c46d3e4999031edf865a364c9a3006e0f4b67d",
+    "name": "E sus",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "002200",
+        "fingers": "001200",
+        "baseFret": 1
+      },
+      {
+        "frets": "002400",
+        "fingers": "001300",
+        "baseFret": 1
+      },
+      {
+        "frets": "022200",
+        "fingers": "012300",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx2200",
+        "fingers": "001200",
+        "baseFret": 1
       }
     ]
   },
@@ -1957,6 +2036,18 @@
     ]
   },
   {
+    "id": "38955cb0fa69e931956eb4b054b91f49c038e3a40519d76c24257df9ac95341f",
+    "name": "F sus",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001344",
+        "baseFret": 3
+      }
+    ]
+  },
+  {
     "id": "f13d7829cdd73887f79b78fd3425ea5d770487627fb1357dda49fa7c7d29bb8a",
     "name": "F sus2",
     "root": "F",
@@ -2262,6 +2353,18 @@
       {
         "frets": "xx1212",
         "fingers": "001324",
+        "baseFret": 4
+      }
+    ]
+  },
+  {
+    "id": "8848902c663183e783b5e8d4bf4cdd4f6c03021a9742ae3d63f7a89217ffc274",
+    "name": "F# sus",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001344",
         "baseFret": 4
       }
     ]
@@ -2600,6 +2703,18 @@
     ]
   },
   {
+    "id": "6899f7e01405b2d13298ce864da5c2101f546e9e9ea46819fbfc3fc2ddb31e71",
+    "name": "G sus",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "330013",
+        "fingers": "230014",
+        "baseFret": 1
+      }
+    ]
+  },
+  {
     "id": "91a953c944f6dae42a2b21d4a72115e255e636fae7b67baa325296e4190853bc",
     "name": "G sus2",
     "root": "G",
@@ -2913,6 +3028,18 @@
     ]
   },
   {
+    "id": "8d4e2d4ebe59bb66e95c6fefbeff8232ac858cf4a7de5264336b8b3ec34660fb",
+    "name": "Ab sus",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001344",
+        "baseFret": 6
+      }
+    ]
+  },
+  {
     "id": "fa4244922d58e4fef13b4ee03d44a63308833c2bb5daff608c2ec58144c76baf",
     "name": "Ab sus2",
     "root": "Ab",
@@ -3200,6 +3327,33 @@
         "frets": "x01212",
         "fingers": "001324",
         "baseFret": 7
+      }
+    ]
+  },
+  {
+    "id": "9d8a4d49c4b698ae89c0e957be99d90ea13d73733104760e27724b282d14dd5c",
+    "name": "A sus",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x00230",
+        "fingers": "000120",
+        "baseFret": 1
+      },
+      {
+        "frets": "x02230",
+        "fingers": "001230",
+        "baseFret": 1
+      },
+      {
+        "frets": "x01124",
+        "fingers": "001124",
+        "baseFret": 2
+      },
+      {
+        "frets": "x03311",
+        "fingers": "003411",
+        "baseFret": 5
       }
     ]
   },
@@ -3578,6 +3732,12 @@
     ]
   },
   {
+    "id": "354170727286805cbcfdf32ecad7af72e2e7ba5ec81a1d7c5b2dbc044b87ba11",
+    "name": "Bb sus",
+    "root": "Bb",
+    "positions": []
+  },
+  {
     "id": "b83f6ccb6e738100e98894a99d4867aa8333e5e77756ae3d53f1edecdb3d0691",
     "name": "Bb sus2",
     "root": "Bb",
@@ -3884,6 +4044,18 @@
         "frets": "2x121x",
         "fingers": "301420",
         "baseFret": 6
+      }
+    ]
+  },
+  {
+    "id": "c08b7f1ccd5c564bc01836cf1cb45cbe60d136a5676c78e3d72a49318d948ee4",
+    "name": "B sus",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x24400",
+        "fingers": "013400",
+        "baseFret": 1
       }
     ]
   },
