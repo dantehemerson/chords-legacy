@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chordsheetjs": "^9.0.2",
     "tonic.ts": "^0.1.0"
   }
 }

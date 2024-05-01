@@ -13,6 +13,7 @@ const https = require('https');
 const fs = require('fs');
 const crypto = require('crypto');
 const { Chord } = require('tonic.ts')
+const { Chord: ChordSheet } = require('chordsheetjs');
 
 
 const chordsJsonDir = `${__dirname}/../../lib/data/chords.json`;
@@ -63,29 +64,45 @@ async function main() {
   const data = await downloadJSON();
 
   const chords = Object.values(data.chords).flat().map(chordData => {
-    try {
-      const chordName = `${chordData.key} ${chordData.suffix}`;
+    const chordName = `${chordData.key} ${chordData.suffix}`;
 
-      return {
-        // Id is hashed from the chord name, to get always the same id for the same chord
-        id: generateUniqueId(chordName),
-        name: chordName,
-        // otherName: Chord.fromString(`${chordData.key}${chordData.suffix}`).fullName,
-        root: chordData.key,
-        // No capo support(at the moment)
-        positions: chordData.positions.filter(position => position.capo !== true).map(position => {
-          return {
-            frets: position.frets.map(fret => fret === -1 ? 'x' : fret.toString(16)).join(''),
-            fingers: position.fingers.join(''),
-            baseFret: position.baseFret,
-          }
-        })
-      }
-    } catch {
+    let chordInstance
+    let chordSheetInstance
+
+    try {
+      chordInstance = Chord.fromString(`${chordData.key}${chordData.suffix}`);
+    } catch (error) {
+
+      console.error('Error parsing chord:', chordName);
       return null;
+    }
+
+    try {
+      chordSheetInstance = new ChordSheet.parse(`${chordData.key}${chordData.suffix}`);
+    } catch (error) {
+      console.error('Error parsing chord with ChordSheet:', chordName);
+    }
+
+
+    return {
+      // Id is hashed from the chord name, to get always the same id for the same chord
+      id: generateUniqueId(chordName),
+      name: chordName,
+
+      root: chordData.key,
+      // No capo support(at the moment)
+      positions: chordData.positions.filter(position => position.capo !== true).map(position => {
+        return {
+          frets: position.frets.map(fret => fret === -1 ? 'x' : fret.toString(16)).join(''),
+          fingers: position.fingers.join(''),
+          baseFret: position.baseFret,
+        }
+      })
     }
   }).filter(chord => chord !== null);
 
+  // TODO: Ab9 doesn't exist, but G#9 does. Need to fix this.
+  console.log(ChordSheet.parse('G#9'))
 
   const chordsInfo = {
     count: chords.length,
