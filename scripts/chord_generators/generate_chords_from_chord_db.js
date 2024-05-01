@@ -61,8 +61,11 @@ function generateUniqueId(chordName) {
 async function main() {
   const data = await downloadJSON();
 
-  const chords = Object.values(data.chords).flat()
-    .filter(chord => !chord.suffix.includes('/')) // Ignore chords with slash, as they are not currently supported by the Chord library
+  const dataChords = Object.values(data.chords).flat()
+    // Ignore chords with slash, as they are not currently supported by the Chord library
+    .filter(chord => !chord.suffix.includes('/'))
+
+  const chords = dataChords
     .map(chordData => {
       const chordName = `${chordData.key} ${chordData.suffix}`;
 
@@ -103,9 +106,9 @@ async function main() {
   // })
 
   const chordsInfo = {
-    total: Object.values(data.chords).length,
+    total: dataChords.length,
     count: chords.length,
-    missingToParse: Object.values(data.chords).length - chords.length,
+    missingToParse: dataChords.length - chords.length,
   }
 
   // ovewrite chordsJSONDir file
