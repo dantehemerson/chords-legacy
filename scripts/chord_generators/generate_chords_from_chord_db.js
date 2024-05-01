@@ -98,9 +98,9 @@ async function main() {
 
 
 
-  console.log({
-    chord: Chord.fromString('Bma9(omit3)')
-  })
+  // console.log({
+  //   chord: Chord.fromString('Bma9(omit3)')
+  // })
 
   const chordsInfo = {
     count: chords.length,
