@@ -101,9 +101,9 @@ async function main() {
 
 
 
-  // console.log({
-  //   chord: Chord.fromString('Bma9(omit3)')
-  // })
+  console.log({
+    chord: Chord.fromString('B11')
+  })
 
   const chordsInfo = {
     total: dataChords.length,
@@ -126,8 +126,9 @@ var suffixFixes = {
   'sus': 'sus4',
 
   'maj9': 'M9',
-  'maj11': 'M11',
-  'maj13': 'M13',
+  'maj11': '11',
+
+  'maj13': '13',
 
   'mmaj7': 'min(maj7)',
   // 'mmaj9': 'min(maj9)',

@@ -330,6 +330,45 @@
     ]
   },
   {
+    "id": "cd95badf4ba018e1d25882770a874eea87bcfb16da5e33da4cfcc6ee462b6917",
+    "name": "C maj11",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x32001",
+        "fingers": "032001",
+        "baseFret": 1
+      },
+      {
+        "frets": "x33000",
+        "fingers": "011000",
+        "baseFret": 1
+      },
+      {
+        "frets": "324010",
+        "fingers": "324010",
+        "baseFret": 6
+      }
+    ]
+  },
+  {
+    "id": "8b13ec9839ac08304d83291a837a38f3cd96f378f4d2c821029eb7472c5d59c9",
+    "name": "C maj13",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x32201",
+        "fingers": "042301",
+        "baseFret": 1
+      },
+      {
+        "frets": "x11233",
+        "fingers": "011234",
+        "baseFret": 3
+      }
+    ]
+  },
+  {
     "id": "f52bdbc4d3a661673bb455a2f002986ba42688486f29a612c1ce0b07541bdbef",
     "name": "C m6",
     "root": "C",
@@ -732,6 +771,30 @@
         "frets": "xx2142",
         "fingers": "002143",
         "baseFret": 10
+      }
+    ]
+  },
+  {
+    "id": "d4d1276e154a8bc20af8c4dd91a41160b76e26c368179fa44dd4aaa181e68f2b",
+    "name": "C# maj11",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "32xx12",
+        "fingers": "420013",
+        "baseFret": 7
+      }
+    ]
+  },
+  {
+    "id": "375a691d58df37aa20c02bd13d78051afe8d7ce391092476f37e6dd25ec606f8",
+    "name": "C# maj13",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x41311",
+        "fingers": "042301",
+        "baseFret": 1
       }
     ]
   },
@@ -1195,6 +1258,45 @@
     ]
   },
   {
+    "id": "2f20877770e5798a4cc1586ede06d1dfe0f48f21bd0dfbb323250cb3daa307da",
+    "name": "D maj11",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0022",
+        "fingers": "000011",
+        "baseFret": 1
+      },
+      {
+        "frets": "x30123",
+        "fingers": "030124",
+        "baseFret": 7
+      }
+    ]
+  },
+  {
+    "id": "bd5f31784fcdd62fc07d58eee1ff50e0c9f34d856bf218ab742f97395ea021d8",
+    "name": "D maj13",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0422",
+        "fingers": "000311",
+        "baseFret": 1
+      },
+      {
+        "frets": "x43310",
+        "fingers": "042310",
+        "baseFret": 2
+      },
+      {
+        "frets": "x11233",
+        "fingers": "011234",
+        "baseFret": 5
+      }
+    ]
+  },
+  {
     "id": "60031dcd084c3882706ac15a2ffe84a96046929c663086d5107804bb186eaa6f",
     "name": "D m6",
     "root": "D",
@@ -1643,6 +1745,35 @@
         "frets": "xx2213",
         "fingers": "002314",
         "baseFret": 11
+      }
+    ]
+  },
+  {
+    "id": "7fa90962093c4ce16e61c3102a52d711491f8dcc4f9b4bf0c48c46ef4658630f",
+    "name": "Eb maj11",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1133",
+        "fingers": "001134",
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "53006e107f94976e0ec813bb3f03f85f37a029dcbe7dcff1cae796d54d095e97",
+    "name": "Eb maj13",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "x3103x",
+        "fingers": "031040",
+        "baseFret": 1
+      },
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 3
       }
     ]
   },
@@ -2141,6 +2272,45 @@
     ]
   },
   {
+    "id": "6e766de73b189180ac61d5ab9cb96c4e364f8d96f269594692b6a3408e0b65b5",
+    "name": "E maj11",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "001100",
+        "fingers": "001200",
+        "baseFret": 1
+      },
+      {
+        "frets": "003112",
+        "fingers": "003112",
+        "baseFret": 4
+      },
+      {
+        "frets": "031123",
+        "fingers": "031124",
+        "baseFret": 9
+      }
+    ]
+  },
+  {
+    "id": "a5d78f35101cbea97dac6be0328f32fed5ac79900b28ebb7c44512a47dff9dcc",
+    "name": "E maj13",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "021122",
+        "fingers": "021134",
+        "baseFret": 1
+      },
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 4
+      }
+    ]
+  },
+  {
     "id": "1d50a4fa8f16e2a94651a11dbd11d876f9a846eaa1dd1b4d1f9b79ba0e0dcbd4",
     "name": "E m6",
     "root": "E",
@@ -2577,6 +2747,40 @@
     ]
   },
   {
+    "id": "6c6772ba833ea5cde6dc254d02719c80cd130637fada8b5933b3d393c5ce8090",
+    "name": "F maj11",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "324010",
+        "fingers": "324010",
+        "baseFret": 11
+      }
+    ]
+  },
+  {
+    "id": "da879040b54cf2e701592aac07f63b7eb279679b7c37c8802ccce59cf2b3ddca",
+    "name": "F maj13",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "100010",
+        "fingers": "100020",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx3230",
+        "fingers": "002130",
+        "baseFret": 1
+      },
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 5
+      }
+    ]
+  },
+  {
     "id": "3c2c55559b57975c02a4509243daa150b2db65a85367db4e5500bf535eed949d",
     "name": "F m6",
     "root": "F",
@@ -2949,6 +3153,30 @@
         "frets": "22132x",
         "fingers": "221430",
         "baseFret": 8
+      }
+    ]
+  },
+  {
+    "id": "d0410bb4e688f41692bb8e75c8419851d4adf91b9d9f0ac90b75f95fffd3638e",
+    "name": "F# maj11",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "x21302",
+        "fingers": "021403",
+        "baseFret": 8
+      }
+    ]
+  },
+  {
+    "id": "2b6b82440bed62e783320e7914fd9ef51f160480273a5f153644bc9695ed3c81",
+    "name": "F# maj13",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 6
       }
     ]
   },
@@ -3376,6 +3604,35 @@
     ]
   },
   {
+    "id": "694b8b3d9fca131565fd07fb43d815336ec2f3cb48c108752527817aced30110",
+    "name": "G maj11",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "320012",
+        "fingers": "420013",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx3012",
+        "fingers": "003012",
+        "baseFret": 7
+      }
+    ]
+  },
+  {
+    "id": "3a6952f76a9eb5f80b11051b401fbe723eda61e7ac585440b8f423a5d9fabfa7",
+    "name": "G maj13",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 7
+      }
+    ]
+  },
+  {
     "id": "b83f8f02b68b1ccbd34d4b5e1c8c3f4b79c026fa6364bd5fb5528c8df53c9ca0",
     "name": "G m6",
     "root": "G",
@@ -3724,6 +3981,24 @@
         "baseFret": 10
       }
     ]
+  },
+  {
+    "id": "4ad46a4501f6bc3a4247f2ee23a6df2faaec5d6885d810ba294a05bfec557a95",
+    "name": "Ab maj11",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "43102x",
+        "fingers": "431020",
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "e9670e3855858c1595ba135f943f67ecd64f578009be0bf7f192fc8c948f860b",
+    "name": "Ab maj13",
+    "root": "Ab",
+    "positions": []
   },
   {
     "id": "4c89df3975da67655b930f7f5d312de71707d38095a7e8a4d7324e8f279bae66",
@@ -4179,6 +4454,45 @@
     ]
   },
   {
+    "id": "51a855d3043e6488aa2b849f902faf74def95adb12d77155242b937d893673d8",
+    "name": "A maj11",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x00120",
+        "fingers": "000120",
+        "baseFret": 1
+      },
+      {
+        "frets": "x00224",
+        "fingers": "000114",
+        "baseFret": 1
+      },
+      {
+        "frets": "112213",
+        "fingers": "112314",
+        "baseFret": 5
+      }
+    ]
+  },
+  {
+    "id": "30d9b86434a920e2122e675bfcab1f36ccf4c92627a74033217922d8afc4b338",
+    "name": "A maj13",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02122",
+        "fingers": "002134",
+        "baseFret": 1
+      },
+      {
+        "frets": "x01122",
+        "fingers": "001134",
+        "baseFret": 6
+      }
+    ]
+  },
+  {
     "id": "0d14729b55691b32540a2e1372defc5b8ef56934038016b46a5a34890446bb3c",
     "name": "A m6",
     "root": "A",
@@ -4558,6 +4872,24 @@
     ]
   },
   {
+    "id": "09077ff687a2e41ded4b2d7ba70a66bf8e55455b0d82d5d9689332997dc81a15",
+    "name": "Bb maj11",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "3x0212",
+        "fingers": "400213",
+        "baseFret": 4
+      }
+    ]
+  },
+  {
+    "id": "e63f9bfb7c9992f6be4cacc6bdfd9bcdd10dac038167d64b69383d98b74c28e5",
+    "name": "Bb maj13",
+    "root": "Bb",
+    "positions": []
+  },
+  {
     "id": "8c9dc3cefbf44a0c23fb0245914fb881e9ee8265ba14ab6f66d04ab880b3ae6e",
     "name": "Bb m6",
     "root": "Bb",
@@ -4931,6 +5263,24 @@
         "baseFret": 8
       }
     ]
+  },
+  {
+    "id": "0c2e7fc09b6b0b4bf66f32ab8ae18be85ad7ecdd1a7c38e8eb00668888637228",
+    "name": "B maj11",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x21300",
+        "fingers": "021300",
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "524ae59ea1abb2dae9858b1678db7835e5a3443f12081c77283c5ba373575e72",
+    "name": "B maj13",
+    "root": "B",
+    "positions": []
   },
   {
     "id": "cb07168fe09be80dc8e7790e0afaafd427a5edec3d992012760d80662561803b",

@@ -23,11 +23,11 @@ class ChordPlayer {
   static List<int> getMidiNotesFromFrets(ChordModel chord) {
     final List<int> midiNumbers = [];
 
-    for (int i = 0; i < chord.notes.length; i++) {
+    for (int i = 0; i < chord.positions.length; i++) {
       final string = 6 - i;
-      if (chord.notes[i].fret != null) {
+      if (chord.positions[i].fret != null) {
         midiNumbers.add(
-            PitchUtils.getMidiNumberFromFret(string, chord.notes[i].fret!));
+            PitchUtils.getMidiNumberFromFret(string, chord.positions[i].fret!));
       }
     }
 

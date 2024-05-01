@@ -10,18 +10,19 @@ class ChordPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final double width = size.width;
     final double paddingTop = size.height * 0.2;
-    final double stringSpacing = width / (chord.notes.length - 1);
+    final double stringSpacing = width / (chord.positions.length - 1);
 
     final double fretSpacing = size.height / 4;
     final double fretboardWidth = width;
 
     // Draw freet number indicator (X or 0)
-    for (int i = 0; i < chord.notes.length; i++) {
-      if (chord.notes[i].fret == null || chord.notes[i].fret == 0) {
+    for (int i = 0; i < chord.positions.length; i++) {
+      if (chord.positions[i].fret == null || chord.positions[i].fret == 0) {
         final double x = stringSpacing * i;
         final double y = paddingTop - size.height * 0.08;
 
-        final String fingerPosition = chord.notes[i].fret == null ? 'X' : '0';
+        final String fingerPosition =
+            chord.positions[i].fret == null ? 'X' : '0';
         final TextPainter textPainter = TextPainter(
           text: TextSpan(
             text: fingerPosition,
@@ -69,7 +70,7 @@ class ChordPainter extends CustomPainter {
     }
 
     // Draw strings
-    for (int i = 0; i < chord.notes.length; i++) {
+    for (int i = 0; i < chord.positions.length; i++) {
       final double x = stringSpacing * i;
       canvas.drawLine(Offset(x, paddingTop + 0),
           Offset(x, paddingTop + size.height), Paint()..strokeWidth = 2);
@@ -79,13 +80,15 @@ class ChordPainter extends CustomPainter {
     final double positionIndicatorFontSize = size.width * 0.12;
 
     // Draw finger positions
-    for (int stringIndex = 0; stringIndex < chord.notes.length; stringIndex++) {
-      final int? fingerPosition = chord.notes[stringIndex].finger;
+    for (int stringIndex = 0;
+        stringIndex < chord.positions.length;
+        stringIndex++) {
+      final int? fingerPosition = chord.positions[stringIndex].finger;
 
       if (fingerPosition != null) {
         final double x = stringSpacing * stringIndex;
         final double y = paddingTop +
-            fretSpacing * chord.notes[stringIndex].fret! -
+            fretSpacing * chord.positions[stringIndex].fret! -
             fretSpacing / 2;
 
         final TextPainter textPainter = TextPainter(

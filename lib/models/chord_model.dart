@@ -2,15 +2,13 @@ class ChordModel {
   final String id;
   final String name;
   final String root;
-  final String tuning;
-  final List<ChordNote> notes;
+  final List<ChordPosition> positions;
 
   ChordModel({
     required this.id,
     required this.name,
     required this.root,
-    required this.tuning,
-    required this.notes,
+    required this.positions,
   });
 
   factory ChordModel.fromJson(Map<String, dynamic> json) {
@@ -18,11 +16,11 @@ class ChordModel {
       id: json['id'],
       name: json['name'],
       root: json['root'],
-      tuning: json['tuning'],
-      notes: (json['notes'] as List<dynamic>)
-          .map((note) => ChordNote(
-                fret: note['fret'],
-                finger: note['finger'],
+      positions: (json['positions'] as List<dynamic>)
+          .map((note) => ChordPosition(
+                frets: note['frets'],
+                fingers: note['fingers'],
+                baseFret: note['baseFret'],
               ))
           .toList(),
     );
@@ -33,22 +31,24 @@ class ChordModel {
       'id': id,
       'name': name,
       'root': root,
-      'tuning': tuning,
-      'notes': notes.map((note) => note.toJson()).toList(),
+      'notes': positions.map((position) => position.toJson()).toList(),
     };
   }
 }
 
-class ChordNote {
-  final int? fret;
-  final int? finger;
+class ChordPosition {
+  final String frets;
+  final String fingers;
+  final int baseFret;
 
-  ChordNote({this.fret, this.finger});
+  ChordPosition(
+      {required this.frets, required this.fingers, required this.baseFret});
 
   Map<String, dynamic> toJson() {
     return {
-      'fret': fret,
-      'finger': finger,
+      'frets': frets,
+      'fingers': fingers,
+      'baseFret': baseFret,
     };
   }
 }
