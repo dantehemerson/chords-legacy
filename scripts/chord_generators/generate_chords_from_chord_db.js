@@ -60,7 +60,7 @@ async function main() {
   const data = await downloadJSON();
 
   const chords = Object.values(data.chords).flat().map(chordData => {
-    const chordName = `${chordData.key}${chordData.suffix}`;
+    const chordName = `${chordData.key} ${chordData.suffix}`;
 
     return {
       // Id is hashed from the chord name, to get always the same id for the same chord
