@@ -13,7 +13,6 @@ const https = require('https');
 const fs = require('fs');
 const crypto = require('crypto');
 const { Chord } = require('tonic.ts')
-const { Chord: ChordSheet } = require('chordsheetjs');
 
 const chordsJsonDir = `${__dirname}/../../lib/data/chords.json`;
 const chordsInfoJsonDir = `${__dirname}/../../lib/data/chords_info.json`;
@@ -100,11 +99,12 @@ async function main() {
 
 
   console.log({
-    chord: Chord.fromString('BM9')
+    chord: Chord.fromString('Bma9(omit3)')
   })
 
   const chordsInfo = {
     count: chords.length,
+    missingToParse: Object.values(data.chords).length - chords.length,
   }
 
   // ovewrite chordsJSONDir file
@@ -119,5 +119,20 @@ main();
 var suffixFixes = {
   'major': 'Major',
   'minor': 'Minor',
-  'sus': 'sus4'
+  'sus': 'sus4',
+
+  'maj9': 'M9',
+  'maj11': 'M11',
+  'maj13': 'M13',
+
+  'mmaj7': 'min(maj7)',
+  // 'mmaj9': 'min(maj9)',
+  // 'mmaj11': 'min(maj11)',
+  // 'mmaj13': 'min(maj13)',
+
+  'm11': '11',
+  'm69': '69',
+
+
+
 }
