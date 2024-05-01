@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "tonic.ts": "^0.1.0"
+  }
+}

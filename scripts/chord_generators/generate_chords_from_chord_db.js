@@ -12,9 +12,12 @@
 const https = require('https');
 const fs = require('fs');
 const crypto = require('crypto');
+const { Chord } = require('tonic.ts')
 
 
 const chordsJsonDir = `${__dirname}/../../lib/data/chords.json`;
+const chordsInfoJsonDir = `${__dirname}/../../lib/data/chords_info.json`;
+
 
 async function downloadJSON() {
   const url = 'https://raw.githubusercontent.com/tombatossals/chords-db/master/lib/guitar.json';
@@ -60,27 +63,37 @@ async function main() {
   const data = await downloadJSON();
 
   const chords = Object.values(data.chords).flat().map(chordData => {
-    const chordName = `${chordData.key} ${chordData.suffix}`;
+    try {
+      const chordName = `${chordData.key} ${chordData.suffix}`;
 
-    return {
-      // Id is hashed from the chord name, to get always the same id for the same chord
-      id: generateUniqueId(chordName),
-      name: chordName,
-      root: chordData.key,
-      // No capo support(at the moment)
-      positions: chordData.positions.filter(position => position.capo !== true).map(position => {
-        return {
-          frets: position.frets.map(fret => fret === -1 ? 'x' : fret.toString(16)).join(''),
-          fingers: position.fingers.join(''),
-          baseFret: position.baseFret,
-        }
-      })
+      return {
+        // Id is hashed from the chord name, to get always the same id for the same chord
+        id: generateUniqueId(chordName),
+        name: chordName,
+        // otherName: Chord.fromString(`${chordData.key}${chordData.suffix}`).fullName,
+        root: chordData.key,
+        // No capo support(at the moment)
+        positions: chordData.positions.filter(position => position.capo !== true).map(position => {
+          return {
+            frets: position.frets.map(fret => fret === -1 ? 'x' : fret.toString(16)).join(''),
+            fingers: position.fingers.join(''),
+            baseFret: position.baseFret,
+          }
+        })
+      }
+    } catch {
+      return null;
     }
-  });
+  }).filter(chord => chord !== null);
 
+
+  const chordsInfo = {
+    count: chords.length,
+  }
 
   // ovewrite chordsJSONDir file
   fs.writeFileSync(chordsJsonDir, JSON.stringify(chords, null, 2));
+  fs.writeFileSync(chordsInfoJsonDir, JSON.stringify(chordsInfo, null, 2));
 }
 
 main();
