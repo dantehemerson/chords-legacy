@@ -103,6 +103,7 @@ async function main() {
   // })
 
   const chordsInfo = {
+    total: Object.values(data.chords).length,
     count: chords.length,
     missingToParse: Object.values(data.chords).length - chords.length,
   }
