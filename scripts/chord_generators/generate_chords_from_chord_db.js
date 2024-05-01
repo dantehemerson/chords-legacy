@@ -102,7 +102,7 @@ async function main() {
 
 
   console.log({
-    chord: Chord.fromString('B11')
+    chord: Chord.fromString('Bm11')
   })
 
   const chordsInfo = {
