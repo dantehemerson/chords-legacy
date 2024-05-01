@@ -15,13 +15,12 @@ const crypto = require('crypto');
 const { Chord } = require('tonic.ts')
 const { Chord: ChordSheet } = require('chordsheetjs');
 
-
 const chordsJsonDir = `${__dirname}/../../lib/data/chords.json`;
 const chordsInfoJsonDir = `${__dirname}/../../lib/data/chords_info.json`;
 
 
 async function downloadJSON() {
-  const url = 'https://raw.githubusercontent.com/tombatossals/chords-db/master/lib/guitar.json';
+  const url = 'https://raw.githubusercontent.com/tombatossals/chords-db/b7028d7140ad8a1340f9138b51210d2417a6d8f0/lib/guitar.json';
 
   try {
     const response = await new Promise((resolve, reject) => {
@@ -63,46 +62,46 @@ function generateUniqueId(chordName) {
 async function main() {
   const data = await downloadJSON();
 
-  const chords = Object.values(data.chords).flat().map(chordData => {
-    const chordName = `${chordData.key} ${chordData.suffix}`;
+  const chords = Object.values(data.chords).flat()
+    .filter(chord => !chord.suffix.includes('/')) // Ignore chords with slash, as they are not currently supported by the Chord library
+    .map(chordData => {
+      const chordName = `${chordData.key} ${chordData.suffix}`;
 
-    let chordInstance
-    let chordSheetInstance
+      const suffix = suffixFixes[chordData.suffix] || chordData.suffix;
 
-    try {
-      chordInstance = Chord.fromString(`${chordData.key}${chordData.suffix}`);
-    } catch (error) {
+      const chordKey = `${chordData.key}${suffix}`;
 
-      console.error('Error parsing chord:', chordName);
-      return null;
-    }
+      let chordInstance
 
-    try {
-      chordSheetInstance = new ChordSheet.parse(`${chordData.key}${chordData.suffix}`);
-    } catch (error) {
-      console.error('Error parsing chord with ChordSheet:', chordName);
-    }
+      try {
+        chordInstance = Chord.fromString(chordKey);
+      } catch (error) {
+
+        console.error('Error parsing chord:', chordName);
+        return null;
+      }
+
+      return {
+        // Id is hashed from the chord name, to get always the same id for the same chord
+        id: generateUniqueId(chordName),
+        name: chordName,
+        root: chordData.key,
+        // No capo support(at the moment)
+        positions: chordData.positions.filter(position => position.capo !== true).map(position => {
+          return {
+            frets: position.frets.map(fret => fret === -1 ? 'x' : fret.toString(16)).join(''),
+            fingers: position.fingers.join(''),
+            baseFret: position.baseFret,
+          }
+        })
+      }
+    }).filter(chord => chord !== null);
 
 
-    return {
-      // Id is hashed from the chord name, to get always the same id for the same chord
-      id: generateUniqueId(chordName),
-      name: chordName,
 
-      root: chordData.key,
-      // No capo support(at the moment)
-      positions: chordData.positions.filter(position => position.capo !== true).map(position => {
-        return {
-          frets: position.frets.map(fret => fret === -1 ? 'x' : fret.toString(16)).join(''),
-          fingers: position.fingers.join(''),
-          baseFret: position.baseFret,
-        }
-      })
-    }
-  }).filter(chord => chord !== null);
-
-  // TODO: Ab9 doesn't exist, but G#9 does. Need to fix this.
-  console.log(ChordSheet.parse('G#9'))
+  console.log({
+    chord: Chord.fromString('BM9')
+  })
 
   const chordsInfo = {
     count: chords.length,
@@ -114,3 +113,10 @@ async function main() {
 }
 
 main();
+
+
+
+var suffixFixes = {
+  'major': 'Major',
+  'minor': 'Minor',
+}

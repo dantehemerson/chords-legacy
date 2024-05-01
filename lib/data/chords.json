@@ -1,5 +1,39 @@
 [
   {
+    "id": "95cd4b1ef209d5fa9eec8b4cd92a729585395bbf97c8c99e0c749fe3d39f088e",
+    "name": "C major",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x32010",
+        "fingers": "032010",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx1114",
+        "fingers": "001114",
+        "baseFret": 5
+      }
+    ]
+  },
+  {
+    "id": "2c1be8d3f11e0e918bdc1cc05b328ee33b5f911d9421b07551996a6b3f782d7d",
+    "name": "C minor",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x31013",
+        "fingers": "032014",
+        "baseFret": 1
+      },
+      {
+        "frets": "4211xx",
+        "fingers": "421100",
+        "baseFret": 5
+      }
+    ]
+  },
+  {
     "id": "4523ad3eadb6e874c52a8d5821c9038fc6a455705ed2d5322881702473361070",
     "name": "C dim",
     "root": "C",
@@ -340,6 +374,40 @@
     ]
   },
   {
+    "id": "f57f9332620f8b398806f7aaabc60e78711c008fed1f3580eb8db53b107b2266",
+    "name": "C# major",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x43121",
+        "fingers": "043121",
+        "baseFret": 1
+      },
+      {
+        "frets": "431114",
+        "fingers": "321114",
+        "baseFret": 6
+      }
+    ]
+  },
+  {
+    "id": "112c2c18fe91f33a01d998fd07523114d2957d7fa2dab147ffec5778d13ac79a",
+    "name": "C# minor",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x4212x",
+        "fingers": "042130",
+        "baseFret": 1
+      },
+      {
+        "frets": "4211x4",
+        "fingers": "321104",
+        "baseFret": 6
+      }
+    ]
+  },
+  {
     "id": "1585dc14ea100395e3709327328a99f571cc05b6adf6a2fe0d01700d5a5f515f",
     "name": "C# dim",
     "root": "C#",
@@ -640,6 +708,35 @@
         "frets": "x13233",
         "fingers": "013244",
         "baseFret": 7
+      }
+    ]
+  },
+  {
+    "id": "50d1efe32ef1c57b6b65df5da20ca4156c8b855ef4bb986ee9a0c33af81bc276",
+    "name": "D major",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0232",
+        "fingers": "000132",
+        "baseFret": 1
+      }
+    ]
+  },
+  {
+    "id": "af269bb7131c24dca35f13c18d75fb7eb62d90db298955d43cd153dae2a7512c",
+    "name": "D minor",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0231",
+        "fingers": "000231",
+        "baseFret": 1
+      },
+      {
+        "frets": "x3221x",
+        "fingers": "042310",
+        "baseFret": 6
       }
     ]
   },
@@ -1004,6 +1101,40 @@
     ]
   },
   {
+    "id": "a73bc462b5d3753af006db4d8ed42e7bc109ccd78b55cccef7c7a508757b19f0",
+    "name": "Eb major",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1343",
+        "fingers": "001243",
+        "baseFret": 1
+      },
+      {
+        "frets": "x43121",
+        "fingers": "043121",
+        "baseFret": 3
+      }
+    ]
+  },
+  {
+    "id": "93c45cb79bc0bf4964ad3e7404d54083b3a8f9bba19c234c8b399f93294eb692",
+    "name": "Eb minor",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx4342",
+        "fingers": "003241",
+        "baseFret": 1
+      }
+    ]
+  },
+  {
     "id": "5e5e219be69760f129edac1c09257d6971228e78efcac5880e8037819c4ec2f5",
     "name": "Eb dim",
     "root": "Eb",
@@ -1318,6 +1449,45 @@
       {
         "frets": "x13233",
         "fingers": "013244",
+        "baseFret": 9
+      }
+    ]
+  },
+  {
+    "id": "5fd4db9b0d426011d2ab64b297de182db8ade44d9eba4853b6141ae3744885a4",
+    "name": "E major",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022100",
+        "fingers": "023100",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx1343",
+        "fingers": "001243",
+        "baseFret": 2
+      }
+    ]
+  },
+  {
+    "id": "1641ec2355030a8a8f092207f8f861619747f96cb20019ca09afe8289aa88928",
+    "name": "E minor",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022000",
+        "fingers": "023000",
+        "baseFret": 1
+      },
+      {
+        "frets": "011342",
+        "fingers": "011342",
+        "baseFret": 2
+      },
+      {
+        "frets": "4211xx",
+        "fingers": "431200",
         "baseFret": 9
       }
     ]
@@ -1714,6 +1884,35 @@
     ]
   },
   {
+    "id": "d031e218066d2680e9b28d0aed141ed34b8a0ad98c37c524e9ad7c8a8557bb73",
+    "name": "F major",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx3211",
+        "fingers": "-1-13211",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx1343",
+        "fingers": "001243",
+        "baseFret": 3
+      }
+    ]
+  },
+  {
+    "id": "d70845783fea00a337c7401574dd068487a590aded7d5bff79c9b0c2661d6ed1",
+    "name": "F minor",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 3
+      }
+    ]
+  },
+  {
     "id": "bcdbd8757e1f9016877b3c2a8eddbd6ff72a0e709a2d8db17a826b4cd8b342e1",
     "name": "F dim",
     "root": "F",
@@ -2011,6 +2210,24 @@
     ]
   },
   {
+    "id": "0eb35af9b45db37451bf3527e26b26f865776edf2e9a2297b1ea01a5a2501579",
+    "name": "F# major",
+    "root": "F#",
+    "positions": []
+  },
+  {
+    "id": "b69ccb3f54e4518e38e7b2b2564a340d7c94d8419d69371b6dc37e8a58dd8bca",
+    "name": "F# minor",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx3231",
+        "fingers": "003241",
+        "baseFret": 5
+      }
+    ]
+  },
+  {
     "id": "77b6ca4f134df7cf6e78d26933c407a3fe0a7866bf7896daa8d62423686704c5",
     "name": "F# dim",
     "root": "F#",
@@ -2291,6 +2508,45 @@
         "frets": "xx2413",
         "fingers": "002413",
         "baseFret": 10
+      }
+    ]
+  },
+  {
+    "id": "c0f139bd17ded126e4542dac16ab190c166677b885d9670a8ae2eaf8a08551ec",
+    "name": "G major",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "320003",
+        "fingers": "210003",
+        "baseFret": 1
+      },
+      {
+        "frets": "320003",
+        "fingers": "320004",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx1343",
+        "fingers": "001243",
+        "baseFret": 5
+      }
+    ]
+  },
+  {
+    "id": "ae8bdd498e4e572c310dd157f096998eb91522040c574e56bfe4b1b8e61e0863",
+    "name": "G minor",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "310033",
+        "fingers": "210034",
+        "baseFret": 1
+      },
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 5
       }
     ]
   },
@@ -2590,6 +2846,29 @@
     ]
   },
   {
+    "id": "0c68e28e1e427cf651631a7dad46724f4b86eaf0bc2df414ea77989c7dc21c3b",
+    "name": "Ab major",
+    "root": "Ab",
+    "positions": []
+  },
+  {
+    "id": "f2d14c8e40285b3da2705bd29d9d50b1007c3d714ca68b93913ab172b6e370cb",
+    "name": "Ab minor",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 6
+      },
+      {
+        "frets": "xx3231",
+        "fingers": "003241",
+        "baseFret": 7
+      }
+    ]
+  },
+  {
     "id": "de1c4f8341613124598b6dfaba42436ef8d5d07fc701926b25575ea0ff354438",
     "name": "Ab dim",
     "root": "Ab",
@@ -2843,6 +3122,40 @@
         "frets": "x31333",
         "fingers": "021344",
         "baseFret": 9
+      }
+    ]
+  },
+  {
+    "id": "6e71b17899f31529ac150e25e7244c99a15bdf3094c611f7dfa3ffb8cd7b3707",
+    "name": "A major",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02220",
+        "fingers": "001230",
+        "baseFret": 1
+      },
+      {
+        "frets": "x01343",
+        "fingers": "001243",
+        "baseFret": 7
+      }
+    ]
+  },
+  {
+    "id": "c76d73664513e43e04100d760c62d897624c951e9523379cfb402d6b05762c03",
+    "name": "A minor",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02210",
+        "fingers": "002310",
+        "baseFret": 1
+      },
+      {
+        "frets": "x01342",
+        "fingers": "001342",
+        "baseFret": 7
       }
     ]
   },
@@ -3198,6 +3511,24 @@
     ]
   },
   {
+    "id": "9af3a43ac6532098bc803f585fc7e3222e986b28954ea0acc50b23758d11f5bb",
+    "name": "Bb major",
+    "root": "Bb",
+    "positions": []
+  },
+  {
+    "id": "58b1428148fb6be76d6586f6e89d4a93c88adfa1feb5c0a2dfa651e3dd336a38",
+    "name": "Bb minor",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 8
+      }
+    ]
+  },
+  {
     "id": "954cebda8c23d7917ea17b5de78a10129a3082c7866a1fcfbbdb94e62d2799f3",
     "name": "Bb dim",
     "root": "Bb",
@@ -3486,6 +3817,29 @@
         "frets": "x3133x",
         "fingers": "021340",
         "baseFret": 11
+      }
+    ]
+  },
+  {
+    "id": "9055916396a38a2ceaf40809bf215e63692d1c9b0091d1e5e3eb7bff27831cc1",
+    "name": "B major",
+    "root": "B",
+    "positions": []
+  },
+  {
+    "id": "2c06042425935ecd1e55145a0c7ccb6b13c58285d486bcdea7fb6a8110a17493",
+    "name": "B minor",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 9
+      },
+      {
+        "frets": "xx3231",
+        "fingers": "003241",
+        "baseFret": 10
       }
     ]
   },
