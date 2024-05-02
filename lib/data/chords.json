@@ -255,12 +255,6 @@
     ]
   },
   {
-    "id": "8e26f15bdebfb0911fef9aa1f26204027aac08bacdd07126f70a539c85bfc7ce",
-    "name": "C 7sus4",
-    "root": "C",
-    "positions": []
-  },
-  {
     "id": "e23de160caec433770ec25f0236b0466ba564bb89d6aa3e72a9a9c6bf9c6fdf5",
     "name": "C aug",
     "root": "C",
@@ -869,12 +863,6 @@
     ]
   },
   {
-    "id": "b36add1cb7d44fcde642726873368feef887cff365cbaf20c67ff20796f8a2b5",
-    "name": "C m11",
-    "root": "C",
-    "positions": []
-  },
-  {
     "id": "26d62620d8e162347384701bab1bb2f2a4701f468f5a3cce34e6fb0b5cf92e69",
     "name": "C mmaj7",
     "root": "C",
@@ -1056,18 +1044,6 @@
     ]
   },
   {
-    "id": "9a05669c1ead9c4f6587f26d7f4a80fc31880fc3a336afa6faef8c1dfd25c00f",
-    "name": "C# sus",
-    "root": "C#",
-    "positions": []
-  },
-  {
-    "id": "2c9dff530b8c2d5d5db18899ce776c5ca20a06cc92d8b7496d84d6609b8ef340",
-    "name": "C# sus2",
-    "root": "C#",
-    "positions": []
-  },
-  {
     "id": "d96b9c9dc1a52ec11276b5bc2c465de309fa63768f2ad9c3c1b476e029218f10",
     "name": "C# sus4",
     "root": "C#",
@@ -1113,12 +1089,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "471e8131048b01201c6b6a985ede183f4d49aacd900cfdd846adf32a9cd525fd",
-    "name": "C# aug",
-    "root": "C#",
-    "positions": []
   },
   {
     "id": "69cf0840126bbb351a62fe5dfad0784318a2ec367240f6b62427e8dd091c07f6",
@@ -2187,12 +2157,6 @@
     ]
   },
   {
-    "id": "eb1cea1c09db4c3b5ccef75d6069b292ec0e8b78b9de7fc12144a486c066cc8f",
-    "name": "D maj7",
-    "root": "D",
-    "positions": []
-  },
-  {
     "id": "69bff689f4104b492a6b4dbff2df8f63306681b0dea9c5274ba7ea1d81a225fc",
     "name": "D maj9",
     "root": "D",
@@ -2540,12 +2504,6 @@
     ]
   },
   {
-    "id": "2febdee128c979f7c545b16f83a324dc7c63cb2355440e446fc0d3de2d18f7a6",
-    "name": "D m11",
-    "root": "D",
-    "positions": []
-  },
-  {
     "id": "ea7f76616a71b6758013f402fdc447af6dcd3fbb84d68e0fa4c477b42f64fb41",
     "name": "D mmaj7",
     "root": "D",
@@ -2741,12 +2699,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "4b3f95cde090cdfbc80a8ee3c5a8757ac524123bd8104bdd39ecb1affff97bd8",
-    "name": "Eb sus2",
-    "root": "Eb",
-    "positions": []
   },
   {
     "id": "f4b8ef21b4b89cf2850db17edb363464fa5ce709da9c43b4df789468847c81ae",
@@ -2986,12 +2938,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "c884692980768dcdf53512e961150e845bd9752e3f5c89ae8a70c0e4a8b52caa",
-    "name": "Eb 11",
-    "root": "Eb",
-    "positions": []
   },
   {
     "id": "5d7852238c4ffa291b4c63e75e8f6f57711a3687de0043e79c3800d65eb5b121",
@@ -3335,12 +3281,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "c37b753b6f987c4aa8a03e13343d290bc19ba169af3bebb157f1c26d7f16760f",
-    "name": "Eb m11",
-    "root": "Eb",
-    "positions": []
   },
   {
     "id": "0bbf3331b74374217764f0b83e0920ccc81ab87c05a3d30f44090b76ce4cbeb5",
@@ -4644,12 +4584,6 @@
     ]
   },
   {
-    "id": "f13d7829cdd73887f79b78fd3425ea5d770487627fb1357dda49fa7c7d29bb8a",
-    "name": "F sus2",
-    "root": "F",
-    "positions": []
-  },
-  {
     "id": "52a998793972f33bc109f92dca3ac7bf6394aedfd3f09c6a84150ad38f8f3b56",
     "name": "F sus4",
     "root": "F",
@@ -4666,12 +4600,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "65d2ddedd0b2c107ec8f36e68874a6912af1d47d966127a514ebc00193148b9b",
-    "name": "F 7sus4",
-    "root": "F",
-    "positions": []
   },
   {
     "id": "1100555d89b4584787bb061a311c1f176dc7b5c17775661f37b67b13c4269b26",
@@ -4812,12 +4740,6 @@
     ]
   },
   {
-    "id": "f2916fad310e70c44bbfc3b13488bedea7717a7034242217b983c99d9909e19c",
-    "name": "F 7",
-    "root": "F",
-    "positions": []
-  },
-  {
     "id": "2ea01789caf517b935ba0863cdb6b4c8114878d25d008e5a1b4fe9af73fb57d1",
     "name": "F 9",
     "root": "F",
@@ -4859,12 +4781,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "a62dee32e4650542701b535856e5972c0789e2f49ba1b18292c0e5b5d97ebbc6",
-    "name": "F 11",
-    "root": "F",
-    "positions": []
   },
   {
     "id": "87ed4bb2b713e60538cd7d0364336e12d5e8cdb0871a6e2f53027d269b47408f",
@@ -5216,12 +5132,6 @@
     ]
   },
   {
-    "id": "7ab66e21dadd8711b53303a48bd4f17d1bdf7fcfdfbaa5f248e41f9c2fde6c04",
-    "name": "F m11",
-    "root": "F",
-    "positions": []
-  },
-  {
     "id": "3977c25542016ec4db114d20c1753dfd48ed0a5d5a8c7b8a2bf1bd50553a691e",
     "name": "F mmaj7",
     "root": "F",
@@ -5249,12 +5159,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "0eb35af9b45db37451bf3527e26b26f865776edf2e9a2297b1ea01a5a2501579",
-    "name": "F# major",
-    "root": "F#",
-    "positions": []
   },
   {
     "id": "b69ccb3f54e4518e38e7b2b2564a340d7c94d8419d69371b6dc37e8a58dd8bca",
@@ -5377,12 +5281,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "2040e30a5eea30972ecb83e903c885eb704aa168fcd9d10f0742cbfb4e43f5cb",
-    "name": "F# sus4",
-    "root": "F#",
-    "positions": []
   },
   {
     "id": "8de551e183e5d313148941acf5960763ea0b7864c26b97db4b0df583ab1cb65d",
@@ -5603,12 +5501,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "d782bb6980a828ef38e2d25b5e194cc1b109e94d555b323a7ee2c4d5fa7ff6bd",
-    "name": "F# maj7",
-    "root": "F#",
-    "positions": []
   },
   {
     "id": "775109974f84c10a654d819b75541ae9ad4aac030fdb51d139c02abb6a691556",
@@ -5909,12 +5801,6 @@
     ]
   },
   {
-    "id": "f529df560ac5cf05e2972e3c9ff8d4f58f0bffcee18a15d38a3e63a0d96c62b8",
-    "name": "F# mmaj7",
-    "root": "F#",
-    "positions": []
-  },
-  {
     "id": "c0f139bd17ded126e4542dac16ab190c166677b885d9670a8ae2eaf8a08551ec",
     "name": "G major",
     "root": "G",
@@ -6140,12 +6026,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "abd87223ae915aadd6355354c2e89d59baee9c1da50262054f4cae0e99296008",
-    "name": "G 7sus4",
-    "root": "G",
-    "positions": []
   },
   {
     "id": "2471bd00e2c3bec94d7fab13c598685377ba4d8616460de4cdcf641929a626d8",
@@ -6706,12 +6586,6 @@
     ]
   },
   {
-    "id": "0c68e28e1e427cf651631a7dad46724f4b86eaf0bc2df414ea77989c7dc21c3b",
-    "name": "Ab major",
-    "root": "Ab",
-    "positions": []
-  },
-  {
     "id": "f2d14c8e40285b3da2705bd29d9d50b1007c3d714ca68b93913ab172b6e370cb",
     "name": "Ab minor",
     "root": "Ab",
@@ -6856,18 +6730,6 @@
     ]
   },
   {
-    "id": "738391e60a3614a20e5108a753b27d99ce8fe0f97ca989790c9d1e3a1199e165",
-    "name": "Ab sus4",
-    "root": "Ab",
-    "positions": []
-  },
-  {
-    "id": "a4f3d0510d7df97969848140760e5454b11b49f867f87a2cc5fe1484df8b456a",
-    "name": "Ab 7sus4",
-    "root": "Ab",
-    "positions": []
-  },
-  {
     "id": "6d83c8ee3a7d99a559a9a96fae78dbc570e51cfa6c089246e7b72050098585aa",
     "name": "Ab aug",
     "root": "Ab",
@@ -6968,12 +6830,6 @@
     ]
   },
   {
-    "id": "57aa699b973a56db0aca719bc008c9e890dfe20df1f9a3fa32328ecdf92f1dda",
-    "name": "Ab 7",
-    "root": "Ab",
-    "positions": []
-  },
-  {
     "id": "7c83ae95b6c9a0466ee9b9dde584eb49173fb33e408048eda112af1dc3b5f812",
     "name": "Ab 9",
     "root": "Ab",
@@ -7003,12 +6859,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "1ddb596277fddd68ea3eab0ae39e33954cf5fae9791a2ed7d7c3c258b5122a41",
-    "name": "Ab 11",
-    "root": "Ab",
-    "positions": []
   },
   {
     "id": "abf0d40323a929fcc22a08e763d139464b1fe3edd9d73657d2738942a133d770",
@@ -7084,12 +6934,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "e9670e3855858c1595ba135f943f67ecd64f578009be0bf7f192fc8c948f860b",
-    "name": "Ab maj13",
-    "root": "Ab",
-    "positions": []
   },
   {
     "id": "4c89df3975da67655b930f7f5d312de71707d38095a7e8a4d7324e8f279bae66",
@@ -7253,18 +7097,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "d40095dd1756c134f3a9ea70048d6c984af11114672f5c7130abf0f35cae994a",
-    "name": "Ab m11",
-    "root": "Ab",
-    "positions": []
-  },
-  {
-    "id": "4d50a4e88e36b282d48d682d611f9a3845cec3897f3f3ed6ac2c116593c95eca",
-    "name": "Ab mmaj7",
-    "root": "Ab",
-    "positions": []
   },
   {
     "id": "6e71b17899f31529ac150e25e7244c99a15bdf3094c611f7dfa3ffb8cd7b3707",
@@ -8234,12 +8066,6 @@
     ]
   },
   {
-    "id": "9af3a43ac6532098bc803f585fc7e3222e986b28954ea0acc50b23758d11f5bb",
-    "name": "Bb major",
-    "root": "Bb",
-    "positions": []
-  },
-  {
     "id": "58b1428148fb6be76d6586f6e89d4a93c88adfa1feb5c0a2dfa651e3dd336a38",
     "name": "Bb minor",
     "root": "Bb",
@@ -8347,24 +8173,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "354170727286805cbcfdf32ecad7af72e2e7ba5ec81a1d7c5b2dbc044b87ba11",
-    "name": "Bb sus",
-    "root": "Bb",
-    "positions": []
-  },
-  {
-    "id": "b83f6ccb6e738100e98894a99d4867aa8333e5e77756ae3d53f1edecdb3d0691",
-    "name": "Bb sus2",
-    "root": "Bb",
-    "positions": []
-  },
-  {
-    "id": "ab4ca579eba97c58ff35c5af951d09ba91c90679021533d957ea082c18570b3f",
-    "name": "Bb sus4",
-    "root": "Bb",
-    "positions": []
   },
   {
     "id": "20146366873096586e89b19c8fd08849bc933697d02b3f0bc1b8e4ebf1bb7a5f",
@@ -8572,12 +8380,6 @@
     ]
   },
   {
-    "id": "bfecfb83834ae1949200d6893b2593d412da1d52de901ed201f7c7ae0903d1e7",
-    "name": "Bb 11",
-    "root": "Bb",
-    "positions": []
-  },
-  {
     "id": "9ea51edb30622413f60784d1dc4d24b8848b8f9cd6c5efb0b57ddb90d98e3d88",
     "name": "Bb 13",
     "root": "Bb",
@@ -8622,12 +8424,6 @@
     ]
   },
   {
-    "id": "ec86e2f1d969cc5ef05aed4ad782b0bb421362e0e334e7281cd557175b924029",
-    "name": "Bb maj7",
-    "root": "Bb",
-    "positions": []
-  },
-  {
     "id": "7bd79c68c8f26710eaaf5e9e7269abd9e8ee37ccde435b506a1d9cfb0cfbb1db",
     "name": "Bb maj9",
     "root": "Bb",
@@ -8664,12 +8460,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "e63f9bfb7c9992f6be4cacc6bdfd9bcdd10dac038167d64b69383d98b74c28e5",
-    "name": "Bb maj13",
-    "root": "Bb",
-    "positions": []
   },
   {
     "id": "8c9dc3cefbf44a0c23fb0245914fb881e9ee8265ba14ab6f66d04ab880b3ae6e",
@@ -8841,24 +8631,6 @@
     ]
   },
   {
-    "id": "98519ceaa02abd1613fef2211588135a414579688cc0ac351362a6a3440301f2",
-    "name": "Bb m11",
-    "root": "Bb",
-    "positions": []
-  },
-  {
-    "id": "3c2a9d039ca646b3736303c6fc6d6a4be42318b468d914a3f6efd96d9b06cb91",
-    "name": "Bb mmaj7",
-    "root": "Bb",
-    "positions": []
-  },
-  {
-    "id": "9055916396a38a2ceaf40809bf215e63692d1c9b0091d1e5e3eb7bff27831cc1",
-    "name": "B major",
-    "root": "B",
-    "positions": []
-  },
-  {
     "id": "2c06042425935ecd1e55145a0c7ccb6b13c58285d486bcdea7fb6a8110a17493",
     "name": "B minor",
     "root": "B",
@@ -9002,12 +8774,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "4a21932ac91b543804498a77005d08cc9eb1bdf39fc446071661911225a2a3fc",
-    "name": "B sus4",
-    "root": "B",
-    "positions": []
   },
   {
     "id": "3caa93fa011f829445ab610a064a38bd2a8bde41ec096fdb7ae0fe2f7d095bf2",
@@ -9251,12 +9017,6 @@
     ]
   },
   {
-    "id": "6cee3ad728c0f495917510ced5beaf86c5d5af82d65132b4fe26fa2897f179fc",
-    "name": "B maj7",
-    "root": "B",
-    "positions": []
-  },
-  {
     "id": "07f865403ef1938209e2473b7d39bf619117329ddd58133b9835a8565021545e",
     "name": "B maj9",
     "root": "B",
@@ -9316,12 +9076,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "524ae59ea1abb2dae9858b1678db7835e5a3443f12081c77283c5ba373575e72",
-    "name": "B maj13",
-    "root": "B",
-    "positions": []
   },
   {
     "id": "cb07168fe09be80dc8e7790e0afaafd427a5edec3d992012760d80662561803b",

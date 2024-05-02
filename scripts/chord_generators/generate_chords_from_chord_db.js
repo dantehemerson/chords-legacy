@@ -92,13 +92,13 @@ async function main() {
         positions: chordData.positions.filter(position => position.capo !== true).map(position => {
           return {
             frets: position.frets.map(fret => fret === -1 ? 'x' : fret.toString(16)).join(''),
-            fingers: position.fingers.join(''),
+            fingers: position.fingers.map(finger => finger == -1 ? '0' : finger).join(''),
             baseFret: position.baseFret,
             midi: position.midi,
           }
         })
       }
-    }).filter(chord => chord !== null);
+    }).filter(chord => chord !== null && chord.positions.length > 0);
 
 
 
