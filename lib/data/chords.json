@@ -1,129 +1,9290 @@
 [
   {
-    "id": "05b15f1c-1efb-455d-aa71-13a400e65eff",
+    "id": "95cd4b1ef209d5fa9eec8b4cd92a729585395bbf97c8c99e0c749fe3d39f088e",
     "name": "C major",
     "root": "C",
-    "tuning": "EADGBE",
-    "notes": [
+    "positions": [
       {
-        "fret": null,
-        "finger": null
+        "frets": "x32010",
+        "fingers": "032010",
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          55,
+          60,
+          64
+        ]
       },
       {
-        "fret": 3,
-        "finger": 3
-      },
-      {
-        "fret": 2,
-        "finger": 2
-      },
-      {
-        "fret": 0,
-        "finger": null
-      },
-      {
-        "fret": 1,
-        "finger": 1
-      },
-      {
-        "fret": 0,
-        "finger": null
+        "frets": "xx1114",
+        "fingers": "001114",
+        "baseFret": 5,
+        "midi": [
+          55,
+          60,
+          64,
+          72
+        ]
       }
     ]
   },
   {
-    "id": "e3d3f198-583b-4e34-8a48-0728a37424fd",
-    "name": "E major",
-    "root": "E",
-    "tuning": "EADGBE",
-    "notes": [
+    "id": "2c1be8d3f11e0e918bdc1cc05b328ee33b5f911d9421b07551996a6b3f782d7d",
+    "name": "C minor",
+    "root": "C",
+    "positions": [
       {
-        "fret": 0,
-        "finger": null
+        "frets": "x31013",
+        "fingers": "032014",
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          55,
+          60,
+          67
+        ]
       },
       {
-        "fret": 2,
-        "finger": 2
-      },
-      {
-        "fret": 2,
-        "finger": 3
-      },
-      {
-        "fret": 1,
-        "finger": 1
-      },
-      {
-        "fret": 0,
-        "finger": null
-      },
-      {
-        "fret": 0,
-        "finger": null
+        "frets": "4211xx",
+        "fingers": "421100",
+        "baseFret": 5,
+        "midi": [
+          48,
+          51,
+          55,
+          60
+        ]
       }
     ]
   },
   {
-    "id": "3b9e2a69-623d-42fb-bbbd-3281b2e0b215",
+    "id": "4523ad3eadb6e874c52a8d5821c9038fc6a455705ed2d5322881702473361070",
+    "name": "C dim",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          60,
+          66
+        ]
+      },
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 3,
+        "midi": [
+          48,
+          54,
+          60,
+          63
+        ]
+      },
+      {
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 6,
+        "midi": [
+          48,
+          51,
+          63,
+          66
+        ]
+      },
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 10,
+        "midi": [
+          60,
+          66,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8beec9736bfcd79e9ffbee6dd179eba35104d6f0c27865b0ed0fd44a1fd6f959",
+    "name": "C dim7",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "xx1212",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          51,
+          57,
+          60,
+          66
+        ]
+      },
+      {
+        "frets": "2x121x",
+        "fingers": "201310",
+        "baseFret": 7,
+        "midi": [
+          48,
+          57,
+          63,
+          66
+        ]
+      },
+      {
+        "frets": "xx1212",
+        "fingers": "001314",
+        "baseFret": 10,
+        "midi": [
+          60,
+          66,
+          69,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aae82caddcaaf380bd800b1b417d53513c0eff85119ee8932ab45e198fce2f66",
+    "name": "C sus",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x33011",
+        "fingers": "034011",
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "x33013",
+        "fingers": "023014",
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          60,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0d6617aa3cb33e6588f276d4f5df5fd5a3fee5cae5b6ee81efcf9dda95f5e4c5",
+    "name": "C sus2",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x30013",
+        "fingers": "030014",
+        "baseFret": 1,
+        "midi": [
+          48,
+          50,
+          55,
+          60,
+          67
+        ]
+      },
+      {
+        "frets": "x30033",
+        "fingers": "010023",
+        "baseFret": 1,
+        "midi": [
+          48,
+          50,
+          55,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "2x0122",
+        "fingers": "200134",
+        "baseFret": 7,
+        "midi": [
+          48,
+          50,
+          62,
+          67,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5fe6e45bbdaeba993ef8da383d253e9678b5609338d67ca5838a086c8e9aed1c",
+    "name": "C sus4",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x33011",
+        "fingers": "034011",
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "33x013",
+        "fingers": "230014",
+        "baseFret": 6,
+        "midi": [
+          48,
+          53,
+          55,
+          65,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e23de160caec433770ec25f0236b0466ba564bb89d6aa3e72a9a9c6bf9c6fdf5",
+    "name": "C aug",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x3211x",
+        "fingers": "032110",
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          56,
+          60
+        ]
+      },
+      {
+        "frets": "x1433x",
+        "fingers": "014230",
+        "baseFret": 3,
+        "midi": [
+          48,
+          56,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "43211x",
+        "fingers": "432110",
+        "baseFret": 5,
+        "midi": [
+          48,
+          52,
+          56,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "xx3221",
+        "fingers": "004231",
+        "baseFret": 8,
+        "midi": [
+          60,
+          64,
+          68,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0e5f5c34706074cf3e4ce8addd1f67743feed2544f30c4f2f093784676421378",
+    "name": "C 5",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 8,
+        "midi": [
+          48,
+          55
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 3,
+        "midi": [
+          48,
+          55
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 8,
+        "midi": [
+          48,
+          55,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0fe05611ff70fc19d86e5d453bd5477790bd1a837c78657f635ab7d82e28f374",
+    "name": "C 6",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x32210",
+        "fingers": "042310",
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          57,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "x13333",
+        "fingers": "013334",
+        "baseFret": 3,
+        "midi": [
+          48,
+          55,
+          60,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "2x132x",
+        "fingers": "201430",
+        "baseFret": 7,
+        "midi": [
+          48,
+          57,
+          64,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bb8891e8fbed6ade9e6239197aef85c86227abc197ddf7452e46bcb16e9a9970",
+    "name": "C 69",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x10033",
+        "fingers": "010034",
+        "baseFret": 3,
+        "midi": [
+          48,
+          50,
+          55,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "x22122",
+        "fingers": "022134",
+        "baseFret": 9,
+        "midi": [
+          55,
+          60,
+          64,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3317aca7a6b3bad81c327bf205050f4ab80eb4908d323ba91e62892d97de8e05",
+    "name": "C 7",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x32310",
+        "fingers": "032410",
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          58,
+          60,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0730187077d2ddb8b9ad7c34d3a1a53431efdec4ce332f332bb3103b9261feda",
+    "name": "C 9",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "032030",
+        "fingers": "023040",
+        "baseFret": 1,
+        "midi": [
+          40,
+          48,
+          52,
+          55,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "332333",
+        "fingers": "221334",
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          52,
+          58,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "xx2132",
+        "fingers": "002143",
+        "baseFret": 9,
+        "midi": [
+          60,
+          64,
+          70,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a6b6f70b930ddc719b6eeb931378dca1c55471052724c1f7b611b54f37641d08",
+    "name": "C 11",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "320011",
+        "fingers": "320011",
+        "baseFret": 6,
+        "midi": [
+          48,
+          52,
+          50,
+          55,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bf1f8e0a14d8f924120547706d791be59fad3c33c77acf4858514a2d108b8378",
+    "name": "C 13",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x21244",
+        "fingers": "021344",
+        "baseFret": 2,
+        "midi": [
+          48,
+          52,
+          58,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "322231",
+        "fingers": "322241",
+        "baseFret": 6,
+        "midi": [
+          48,
+          52,
+          57,
+          62,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cee350fbaf22384040c8cc9fdbf51a2b3b975c4c7459672a623ae5ef4de714f9",
+    "name": "C maj7",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "332000",
+        "fingers": "231000",
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          52,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "xx1333",
+        "fingers": "001333",
+        "baseFret": 10,
+        "midi": [
+          60,
+          67,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6dfc10fa8782e95cd1126b684ec90386928f4694c42ff4e34e6eb14fff750718",
+    "name": "C maj9",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x30000",
+        "fingers": "030000",
+        "baseFret": 1,
+        "midi": [
+          48,
+          50,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "33243x",
+        "fingers": "221430",
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          52,
+          59,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cd95badf4ba018e1d25882770a874eea87bcfb16da5e33da4cfcc6ee462b6917",
+    "name": "C maj11",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x32001",
+        "fingers": "032001",
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          55,
+          59,
+          65
+        ]
+      },
+      {
+        "frets": "x33000",
+        "fingers": "011000",
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "324010",
+        "fingers": "324010",
+        "baseFret": 6,
+        "midi": [
+          48,
+          52,
+          59,
+          55,
+          65,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8b13ec9839ac08304d83291a837a38f3cd96f378f4d2c821029eb7472c5d59c9",
+    "name": "C maj13",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x32201",
+        "fingers": "042301",
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          57,
+          59,
+          65
+        ]
+      },
+      {
+        "frets": "x11233",
+        "fingers": "011234",
+        "baseFret": 3,
+        "midi": [
+          48,
+          53,
+          59,
+          64,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f52bdbc4d3a661673bb455a2f002986ba42688486f29a612c1ce0b07541bdbef",
+    "name": "C m6",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x13x23",
+        "fingers": "013024",
+        "baseFret": 3,
+        "midi": [
+          48,
+          55,
+          63,
+          69
+        ]
+      },
+      {
+        "frets": "2x1222",
+        "fingers": "201334",
+        "baseFret": 7,
+        "midi": [
+          48,
+          57,
+          63,
+          67,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f9c6e385100d59583db6585e009724309d5261b02d881210275f719367cca3db",
+    "name": "C m7",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 8,
+        "midi": [
+          48,
+          58,
+          63,
+          67
+        ]
+      },
+      {
+        "frets": "x3134x",
+        "fingers": "021340",
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          58,
+          63
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 4,
+        "midi": [
+          55,
+          60,
+          63,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f1e0d3f42d6e378f3d1570f0f0bcae4f6677c63c4abb9775f9d74cce2b1997c5",
+    "name": "C m7b5",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x3434x",
+        "fingers": "013240",
+        "baseFret": 1,
+        "midi": [
+          48,
+          54,
+          58,
+          63
+        ]
+      },
+      {
+        "frets": "xx1222",
+        "fingers": "001333",
+        "baseFret": 10,
+        "midi": [
+          60,
+          66,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be3f4c2865dd83978ebb2b2cbe0723910a710fa0a0a9e3f548cb6eacfb89da56",
+    "name": "C m9",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          58,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "x30343",
+        "fingers": "010243",
+        "baseFret": 1,
+        "midi": [
+          48,
+          50,
+          58,
+          63,
+          67
+        ]
+      },
+      {
+        "frets": "x13233",
+        "fingers": "013244",
+        "baseFret": 6,
+        "midi": [
+          51,
+          58,
+          62,
+          67,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e6eeb9a4ca2557e15e5c5cc0e66290503fd5c1c88d32785946cc76bbe85ded78",
+    "name": "C m69",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x31233",
+        "fingers": "031244",
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          57,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "x10023",
+        "fingers": "010024",
+        "baseFret": 3,
+        "midi": [
+          48,
+          50,
+          55,
+          63,
+          69
+        ]
+      },
+      {
+        "frets": "3122xx",
+        "fingers": "412300",
+        "baseFret": 6,
+        "midi": [
+          48,
+          51,
+          57,
+          62
+        ]
+      },
+      {
+        "frets": "x33133",
+        "fingers": "022134",
+        "baseFret": 8,
+        "midi": [
+          55,
+          60,
+          63,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "26d62620d8e162347384701bab1bb2f2a4701f468f5a3cce34e6fb0b5cf92e69",
+    "name": "C mmaj7",
+    "root": "C",
+    "positions": [
+      {
+        "frets": "x3100x",
+        "fingers": "031000",
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          55,
+          59
+        ]
+      },
+      {
+        "frets": "xx1332",
+        "fingers": "001342",
+        "baseFret": 10,
+        "midi": [
+          60,
+          67,
+          71,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f57f9332620f8b398806f7aaabc60e78711c008fed1f3580eb8db53b107b2266",
+    "name": "C# major",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x43121",
+        "fingers": "043121",
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          56,
+          61,
+          65
+        ]
+      },
+      {
+        "frets": "431114",
+        "fingers": "321114",
+        "baseFret": 6,
+        "midi": [
+          49,
+          53,
+          56,
+          61,
+          65,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "112c2c18fe91f33a01d998fd07523114d2957d7fa2dab147ffec5778d13ac79a",
+    "name": "C# minor",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x4212x",
+        "fingers": "042130",
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          56,
+          61
+        ]
+      },
+      {
+        "frets": "4211x4",
+        "fingers": "321104",
+        "baseFret": 6,
+        "midi": [
+          49,
+          52,
+          56,
+          61,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1585dc14ea100395e3709327328a99f571cc05b6adf6a2fe0d01700d5a5f515f",
+    "name": "C# dim",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x42x23",
+        "fingers": "041023",
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          61,
+          67
+        ]
+      },
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 4,
+        "midi": [
+          49,
+          55,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 7,
+        "midi": [
+          49,
+          52,
+          64,
+          67
+        ]
+      },
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 11,
+        "midi": [
+          61,
+          67,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "675cd842b2326e8c323ebfcb87bf0570e48441287ec455f10b348cc6c74b0a7c",
+    "name": "C# dim7",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "xx2323",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          52,
+          58,
+          61,
+          67
+        ]
+      },
+      {
+        "frets": "2x121x",
+        "fingers": "201310",
+        "baseFret": 8,
+        "midi": [
+          49,
+          58,
+          64,
+          67
+        ]
+      },
+      {
+        "frets": "xx1212",
+        "fingers": "001324",
+        "baseFret": 11,
+        "midi": [
+          61,
+          67,
+          70,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d96b9c9dc1a52ec11276b5bc2c465de309fa63768f2ad9c3c1b476e029218f10",
+    "name": "C# sus4",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x4412x",
+        "fingers": "034120",
+        "baseFret": 1,
+        "midi": [
+          49,
+          54,
+          56,
+          61
+        ]
+      },
+      {
+        "frets": "4x1124",
+        "fingers": "230014",
+        "baseFret": 6,
+        "midi": [
+          49,
+          56,
+          61,
+          66,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "96c5a4f5309ca4cd22b824864ba97e18a911cbffa1254acbaffb4eecbc357575",
+    "name": "C# 7sus4",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "xxx122",
+        "fingers": "000123",
+        "baseFret": 6,
+        "midi": [
+          61,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "69cf0840126bbb351a62fe5dfad0784318a2ec367240f6b62427e8dd091c07f6",
+    "name": "C# 5",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 9,
+        "midi": [
+          49,
+          56
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 4,
+        "midi": [
+          49,
+          56
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 9,
+        "midi": [
+          49,
+          56,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "id": "db41f0c5547f70eb534850d07f15061408b37a4ac5433b07a4653dad84955c43",
+    "name": "C# 6",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x4332x",
+        "fingers": "042310",
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          58,
+          61
+        ]
+      },
+      {
+        "frets": "x13333",
+        "fingers": "013333",
+        "baseFret": 4,
+        "midi": [
+          49,
+          56,
+          61,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a86f4c301eb76252a7dfc67fb6bef37a88a2dbb4eb4652a78fa507b555e09c0a",
+    "name": "C# 69",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "xx2122",
+        "fingers": "002134",
+        "baseFret": 10,
+        "midi": [
+          61,
+          65,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a5c5caeb4948d7184c47761aa1e40a8c0b019ba3dd9617b623fd7642e9790e6c",
+    "name": "C# 7",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x4342x",
+        "fingers": "032410",
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          59,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5e25a212b892d3310ac9c8b6df83c2eed2ba08e2bff590993ea98cce6ec98429",
+    "name": "C# 9",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "443444",
+        "fingers": "221334",
+        "baseFret": 1,
+        "midi": [
+          44,
+          49,
+          53,
+          59,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "2121xx",
+        "fingers": "314200",
+        "baseFret": 8,
+        "midi": [
+          49,
+          53,
+          59,
+          63
+        ]
+      },
+      {
+        "frets": "xx2132",
+        "fingers": "002143",
+        "baseFret": 10,
+        "midi": [
+          61,
+          65,
+          71,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f18a3d9965120d2c077e7c9928ed67eaf976bc8b9c13cc92a88817e51919abfa",
+    "name": "C# 11",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x43004",
+        "fingers": "021003",
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          55,
+          59,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "81a8236910fbfd5deb75f967bf3eb8bba9e3bacfec1d810e2572901ffd110386",
+    "name": "C# 13",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x43302",
+        "fingers": "042301",
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          58,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "322231",
+        "fingers": "322241",
+        "baseFret": 7,
+        "midi": [
+          49,
+          53,
+          58,
+          63,
+          68,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "322b0bb854697de9f18b1db108944678bd694eac16237d89c087d7d7f18813e3",
+    "name": "C# maj7",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "xxx113",
+        "fingers": "000113",
+        "baseFret": 6,
+        "midi": [
+          61,
+          65,
+          72
+        ]
+      },
+      {
+        "frets": "1x221x",
+        "fingers": "103420",
+        "baseFret": 9,
+        "midi": [
+          49,
+          60,
+          65,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff9b1affe64a717064dcabf14062387f3924fa9ae4ca58aa63a8d7664e9a261c",
+    "name": "C# maj9",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x2132x",
+        "fingers": "021430",
+        "baseFret": 3,
+        "midi": [
+          49,
+          53,
+          60,
+          63
+        ]
+      },
+      {
+        "frets": "xx2142",
+        "fingers": "002143",
+        "baseFret": 10,
+        "midi": [
+          61,
+          65,
+          72,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d4d1276e154a8bc20af8c4dd91a41160b76e26c368179fa44dd4aaa181e68f2b",
+    "name": "C# maj11",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "32xx12",
+        "fingers": "420013",
+        "baseFret": 7,
+        "midi": [
+          49,
+          53,
+          66,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "375a691d58df37aa20c02bd13d78051afe8d7ce391092476f37e6dd25ec606f8",
+    "name": "C# maj13",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x41311",
+        "fingers": "042301",
+        "baseFret": 1,
+        "midi": [
+          49,
+          51,
+          58,
+          60,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f862032c2ab5517f05335c9efc4a8325df70f18df91a2fa6eb210c72a4bb8002",
+    "name": "C# m6",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "xx2212",
+        "fingers": "002314",
+        "baseFret": 5,
+        "midi": [
+          56,
+          61,
+          64,
+          70
+        ]
+      },
+      {
+        "frets": "2x122x",
+        "fingers": "201340",
+        "baseFret": 8,
+        "midi": [
+          49,
+          58,
+          64,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a7b9c7ca1be17020276034d68bd9a1fd0ccc0403f59db8d05c98111ac2fdb185",
+    "name": "C# m7",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 9,
+        "midi": [
+          49,
+          59,
+          64,
+          68
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 5,
+        "midi": [
+          56,
+          61,
+          64,
+          71
+        ]
+      },
+      {
+        "frets": "xx1322",
+        "fingers": "001423",
+        "baseFret": 11,
+        "midi": [
+          61,
+          68,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9838a2abffe3c0abfa29136e55cd0445d9dec0944ff9b0c80e9bb03c1059c580",
+    "name": "C# m7b5",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 4,
+        "midi": [
+          49,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "2x221x",
+        "fingers": "203410",
+        "baseFret": 8,
+        "midi": [
+          49,
+          59,
+          64,
+          67
+        ]
+      },
+      {
+        "frets": "xx1222",
+        "fingers": "001222",
+        "baseFret": 11,
+        "midi": [
+          61,
+          67,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "22d7b8f937f4710dc76788bb00da21e45a51fe7ae56028f3f6706cd69a2c64ea",
+    "name": "C# m9",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x42444",
+        "fingers": "021344",
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          59,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "x22213",
+        "fingers": "022314",
+        "baseFret": 5,
+        "midi": [
+          51,
+          56,
+          61,
+          64,
+          71
+        ]
+      },
+      {
+        "frets": "x13233",
+        "fingers": "013244",
+        "baseFret": 7,
+        "midi": [
+          52,
+          59,
+          63,
+          68,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1beca5abb77fa361b5562f63d35495cf369d8ffa12697e4e79a81b52c1853e7d",
+    "name": "C# m69",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x41320",
+        "fingers": "041320",
+        "baseFret": 1,
+        "midi": [
+          49,
+          51,
+          58,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x4234x",
+        "fingers": "031240",
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          58,
+          63
+        ]
+      },
+      {
+        "frets": "3122x0",
+        "fingers": "412300",
+        "baseFret": 7,
+        "midi": [
+          49,
+          52,
+          58,
+          63,
+          64
+        ]
+      },
+      {
+        "frets": "x33133",
+        "fingers": "022134",
+        "baseFret": 9,
+        "midi": [
+          56,
+          61,
+          64,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0759366a0d741146ad462375ec63cc82c1db8df42228f5c38d96b54e2819b91c",
+    "name": "C# m11",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "xx1122",
+        "fingers": "001123",
+        "baseFret": 11,
+        "midi": [
+          61,
+          66,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b121fc7d8d478580dc02b2dca5457da3e21f9c9d4e15ba22eb936b36864168ea",
+    "name": "C# mmaj7",
+    "root": "C#",
+    "positions": [
+      {
+        "frets": "x4211x",
+        "fingers": "042110",
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          56,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "id": "50d1efe32ef1c57b6b65df5da20ca4156c8b855ef4bb986ee9a0c33af81bc276",
     "name": "D major",
     "root": "D",
-    "tuning": "EADGBE",
-    "notes": [
+    "positions": [
       {
-        "fret": null,
-        "finger": null
-      },
-      {
-        "fret": null,
-        "finger": null
-      },
-      {
-        "fret": 0,
-        "finger": null
-      },
-      {
-        "fret": 2,
-        "finger": 1
-      },
-      {
-        "fret": 3,
-        "finger": 3
-      },
-      {
-        "fret": 2,
-        "finger": 2
+        "frets": "xx0232",
+        "fingers": "000132",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          66
+        ]
       }
     ]
   },
   {
-    "id": "bfa4893a-7aae-4db3-b175-33ab10d750f4",
+    "id": "af269bb7131c24dca35f13c18d75fb7eb62d90db298955d43cd153dae2a7512c",
+    "name": "D minor",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0231",
+        "fingers": "000231",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          65
+        ]
+      },
+      {
+        "frets": "x3221x",
+        "fingers": "042310",
+        "baseFret": 6,
+        "midi": [
+          53,
+          57,
+          62,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6721895347f07ff4f1e3da8ab5b426f9ce8258ea937360a859e72b9aae972254",
+    "name": "D dim",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx01x1",
+        "fingers": "000102",
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          65
+        ]
+      },
+      {
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 3,
+        "midi": [
+          50,
+          53,
+          62,
+          68
+        ]
+      },
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 5,
+        "midi": [
+          50,
+          56,
+          62,
+          65
+        ]
+      },
+      {
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 8,
+        "midi": [
+          50,
+          53,
+          65,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ae875444515e23de1cb9cbdb5ecd33896f8265bdd97ffab9522fde014bd69852",
+    "name": "D dim7",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0101",
+        "fingers": "000203",
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          59,
+          65
+        ]
+      },
+      {
+        "frets": "x20431",
+        "fingers": "020431",
+        "baseFret": 7,
+        "midi": [
+          53,
+          50,
+          65,
+          68,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baf718d63b3bbd42be7e15d54178c1a7f163313d1600270217f88811c4a3f569",
+    "name": "D sus",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0233",
+        "fingers": "000122",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "xx0341",
+        "fingers": "000341",
+        "baseFret": 5,
+        "midi": [
+          50,
+          62,
+          67,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "87e8a75432e1b153f3b4bf27095927312c70ae83e81b3e6d4fefaf8eeed7f244",
+    "name": "D sus2",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0230",
+        "fingers": "000230",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "xx1124",
+        "fingers": "001124",
+        "baseFret": 2,
+        "midi": [
+          52,
+          57,
+          62,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "981ac62c1597cee99ce9feab28b96f2663c27bc2bb6889fe980b82c9d3b54b52",
+    "name": "D sus4",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0233",
+        "fingers": "000123",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "x30013",
+        "fingers": "030014",
+        "baseFret": 3,
+        "midi": [
+          50,
+          50,
+          55,
+          62,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1261be1f9d1b0d8db8d21c26dbf2eadab4945dc94e5f7d9a0ecfe93630b05cbd",
+    "name": "D 7sus4",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0213",
+        "fingers": "000214",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          60,
+          67
+        ]
+      },
+      {
+        "frets": "x3331x",
+        "fingers": "023410",
+        "baseFret": 3,
+        "midi": [
+          50,
+          55,
+          60,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4d264bf9e091dd85a0fdcfb8d325ceeb0620c705bb1a433c8a47ffb005b621d7",
+    "name": "D aug",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0332",
+        "fingers": "000231",
+        "baseFret": 1,
+        "midi": [
+          50,
+          58,
+          62,
+          66
+        ]
+      },
+      {
+        "frets": "x3211x",
+        "fingers": "032110",
+        "baseFret": 3,
+        "midi": [
+          50,
+          54,
+          58,
+          62
+        ]
+      },
+      {
+        "frets": "43211x",
+        "fingers": "432110",
+        "baseFret": 7,
+        "midi": [
+          50,
+          54,
+          58,
+          62,
+          66
+        ]
+      },
+      {
+        "frets": "1x322x",
+        "fingers": "104230",
+        "baseFret": 10,
+        "midi": [
+          50,
+          62,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5cf7496b3c089eec85d16dc0dfd1871e8a412cfc81bb277471ed8f966eba6c0d",
+    "name": "D 5",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 10,
+        "midi": [
+          50,
+          57
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 5,
+        "midi": [
+          50,
+          57
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 10,
+        "midi": [
+          50,
+          57,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2ba320d612aed9a909c87cbec09c627dd8df6345c60befb1f4dad0ec8e672d7",
+    "name": "D 6",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0202",
+        "fingers": "000203",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "x3221x",
+        "fingers": "042310",
+        "baseFret": 3,
+        "midi": [
+          50,
+          54,
+          59,
+          62
+        ]
+      },
+      {
+        "frets": "x13333",
+        "fingers": "013334",
+        "baseFret": 5,
+        "midi": [
+          50,
+          57,
+          62,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b02ac68cfc9b97b386eb58de35ff10856196b845199f4a3f035c0695b20ff26e",
+    "name": "D 69",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "x43100",
+        "fingers": "043100",
+        "baseFret": 2,
+        "midi": [
+          50,
+          54,
+          57,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "x21122",
+        "fingers": "021134",
+        "baseFret": 4,
+        "midi": [
+          50,
+          54,
+          59,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "x22122",
+        "fingers": "022134",
+        "baseFret": 11,
+        "midi": [
+          57,
+          62,
+          66,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5e69e1ef89397921f8fecae63c2e0888ba90fca228610189e14844248d0bfb32",
+    "name": "D 7",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0212",
+        "fingers": "000213",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          60,
+          66
+        ]
+      },
+      {
+        "frets": "x3231x",
+        "fingers": "032410",
+        "baseFret": 3,
+        "midi": [
+          50,
+          54,
+          60,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "id": "62542be99b7a834d7bb587e6c731f5b1b560ba77b557d2ff21a7229e1699f680",
+    "name": "D 9",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "221222",
+        "fingers": "221334",
+        "baseFret": 4,
+        "midi": [
+          45,
+          50,
+          54,
+          60,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "x10112",
+        "fingers": "010234",
+        "baseFret": 7,
+        "midi": [
+          52,
+          50,
+          62,
+          66,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c8ea67bec50d1627118b8cf5414e651d7651aa2e4e73f19c73d895b7b11d6f12",
+    "name": "D 11",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0012",
+        "fingers": "000012",
+        "baseFret": 1,
+        "midi": [
+          50,
+          55,
+          60,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "93374089ab1807ee4461a276b4cf50869b1d5df34ff2417a7e2988f5eafb0ab4",
+    "name": "D 13",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0412",
+        "fingers": "000412",
+        "baseFret": 1,
+        "midi": [
+          50,
+          59,
+          60,
+          66
+        ]
+      },
+      {
+        "frets": "320201",
+        "fingers": "420301",
+        "baseFret": 8,
+        "midi": [
+          50,
+          54,
+          50,
+          64,
+          59,
+          72
+        ]
+      },
+      {
+        "frets": "1x123x",
+        "fingers": "102340",
+        "baseFret": 10,
+        "midi": [
+          50,
+          60,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "69bff689f4104b492a6b4dbff2df8f63306681b0dea9c5274ba7ea1d81a225fc",
+    "name": "D maj9",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "x2131x",
+        "fingers": "021430",
+        "baseFret": 4,
+        "midi": [
+          50,
+          54,
+          61,
+          63
+        ]
+      },
+      {
+        "frets": "x30313",
+        "fingers": "020314",
+        "baseFret": 7,
+        "midi": [
+          54,
+          50,
+          64,
+          66,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2f20877770e5798a4cc1586ede06d1dfe0f48f21bd0dfbb323250cb3daa307da",
+    "name": "D maj11",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0022",
+        "fingers": "000011",
+        "baseFret": 1,
+        "midi": [
+          50,
+          55,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x30123",
+        "fingers": "030124",
+        "baseFret": 7,
+        "midi": [
+          54,
+          50,
+          62,
+          67,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bd5f31784fcdd62fc07d58eee1ff50e0c9f34d856bf218ab742f97395ea021d8",
+    "name": "D maj13",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0422",
+        "fingers": "000311",
+        "baseFret": 1,
+        "midi": [
+          50,
+          59,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x43310",
+        "fingers": "042310",
+        "baseFret": 2,
+        "midi": [
+          50,
+          54,
+          59,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x11233",
+        "fingers": "011234",
+        "baseFret": 5,
+        "midi": [
+          50,
+          55,
+          61,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "60031dcd084c3882706ac15a2ffe84a96046929c663086d5107804bb186eaa6f",
+    "name": "D m6",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0201",
+        "fingers": "000201",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          59,
+          65
+        ]
+      },
+      {
+        "frets": "x13x23",
+        "fingers": "013024",
+        "baseFret": 5,
+        "midi": [
+          50,
+          57,
+          65,
+          71
+        ]
+      },
+      {
+        "frets": "2x1222",
+        "fingers": "201333",
+        "baseFret": 9,
+        "midi": [
+          50,
+          59,
+          65,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1c2dc45fdfa3bf1edf2160c0a580e6c4a1b058ef81ce2b2985fd115477e1e528",
+    "name": "D m7",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 10,
+        "midi": [
+          50,
+          60,
+          65,
+          69
+        ]
+      },
+      {
+        "frets": "xx0211",
+        "fingers": "000312",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "x13121",
+        "fingers": "013121",
+        "baseFret": 5,
+        "midi": [
+          50,
+          57,
+          60,
+          65,
+          69
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 6,
+        "midi": [
+          57,
+          62,
+          65,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fb883d3b50cb6cc984ae8f5c08d4a32fcf95712450804bf3da4a501608c9999f",
+    "name": "D m7b5",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0111",
+        "fingers": "000111",
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "x31312",
+        "fingers": "031412",
+        "baseFret": 3,
+        "midi": [
+          50,
+          53,
+          60,
+          62,
+          68
+        ]
+      },
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 5,
+        "midi": [
+          50,
+          56,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "x10321",
+        "fingers": "010432",
+        "baseFret": 8,
+        "midi": [
+          53,
+          50,
+          65,
+          68,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6b53d93c302a405a70570f1c5b3f8c854385b4f5a5d1f3ffa303b4e24a2be186",
+    "name": "D m9",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "100210",
+        "fingers": "100320",
+        "baseFret": 1,
+        "midi": [
+          41,
+          45,
+          50,
+          57,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 3,
+        "midi": [
+          50,
+          53,
+          60,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "x13120",
+        "fingers": "014230",
+        "baseFret": 5,
+        "midi": [
+          50,
+          57,
+          60,
+          65,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0be12ead17c9b724236688979b5a9e79eabcd4a9cab50b33ac099cae2f8baee0",
+    "name": "D m69",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "x42100",
+        "fingers": "042100",
+        "baseFret": 2,
+        "midi": [
+          50,
+          53,
+          57,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "x31230",
+        "fingers": "031240",
+        "baseFret": 3,
+        "midi": [
+          50,
+          53,
+          59,
+          64,
+          64
+        ]
+      },
+      {
+        "frets": "x20212",
+        "fingers": "020314",
+        "baseFret": 6,
+        "midi": [
+          52,
+          50,
+          62,
+          65,
+          71
+        ]
+      },
+      {
+        "frets": "x33133",
+        "fingers": "022134",
+        "baseFret": 10,
+        "midi": [
+          57,
+          62,
+          65,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ea7f76616a71b6758013f402fdc447af6dcd3fbb84d68e0fa4c477b42f64fb41",
+    "name": "D mmaj7",
+    "root": "D",
+    "positions": [
+      {
+        "frets": "xx0221",
+        "fingers": "000231",
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          61,
+          65
+        ]
+      },
+      {
+        "frets": "x42110",
+        "fingers": "042110",
+        "baseFret": 2,
+        "midi": [
+          50,
+          53,
+          57,
+          61,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a73bc462b5d3753af006db4d8ed42e7bc109ccd78b55cccef7c7a508757b19f0",
+    "name": "Eb major",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1343",
+        "fingers": "001243",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          63,
+          67
+        ]
+      },
+      {
+        "frets": "x43121",
+        "fingers": "043121",
+        "baseFret": 3,
+        "midi": [
+          51,
+          55,
+          58,
+          63,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "93c45cb79bc0bf4964ad3e7404d54083b3a8f9bba19c234c8b399f93294eb692",
+    "name": "Eb minor",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          63,
+          66
+        ]
+      },
+      {
+        "frets": "xx4342",
+        "fingers": "003241",
+        "baseFret": 1,
+        "midi": [
+          54,
+          58,
+          63,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5e5e219be69760f129edac1c09257d6971228e78efcac5880e8037819c4ec2f5",
+    "name": "Eb dim",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 1,
+        "midi": [
+          51,
+          57,
+          66
+        ]
+      },
+      {
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 4,
+        "midi": [
+          51,
+          54,
+          63,
+          69
+        ]
+      },
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 6,
+        "midi": [
+          51,
+          57,
+          63,
+          66
+        ]
+      },
+      {
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 9,
+        "midi": [
+          51,
+          54,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "50a27b50e4b686967998ef6a58f7ccd019ec47ae227545ea06faf5501badf328",
+    "name": "Eb dim7",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1212",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          51,
+          57,
+          60,
+          66
+        ]
+      },
+      {
+        "frets": "xx1212",
+        "fingers": "001324",
+        "baseFret": 7,
+        "midi": [
+          57,
+          63,
+          66,
+          72
+        ]
+      },
+      {
+        "frets": "2x121x",
+        "fingers": "201310",
+        "baseFret": 10,
+        "midi": [
+          51,
+          60,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "80c09c4e1cf9eb36d727d8e23a372210a494708541d441fd8e801f23b39c73e2",
+    "name": "Eb sus",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001344",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f4b8ef21b4b89cf2850db17edb363464fa5ce709da9c43b4df789468847c81ae",
+    "name": "Eb sus4",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001234",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "xx112x",
+        "fingers": "001120",
+        "baseFret": 8,
+        "midi": [
+          58,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c1781aaead3bb8281098e8d8a3c91f76f50163dfaeff883b96572ec69c628bec",
+    "name": "Eb 7sus4",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1324",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          61,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d4ef62364606cf962effa4f03441f237be8bb97cafa1d153c08157236a9f543c",
+    "name": "Eb aug",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx3221",
+        "fingers": "004231",
+        "baseFret": 3,
+        "midi": [
+          55,
+          59,
+          63,
+          67
+        ]
+      },
+      {
+        "frets": "1x322x",
+        "fingers": "104230",
+        "baseFret": 11,
+        "midi": [
+          51,
+          63,
+          67,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8c5eb48aad91601f0ff2067389d9375afa191a8ab5378b1dc2c90a279a46c975",
+    "name": "Eb 5",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 11,
+        "midi": [
+          51,
+          58
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 6,
+        "midi": [
+          51,
+          58
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 11,
+        "midi": [
+          51,
+          58,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9d29b91029d419b58544e5cbb56418542505419431ead63151f986b2e35e3631",
+    "name": "Eb 6",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1313",
+        "fingers": "001314",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          60,
+          67
+        ]
+      },
+      {
+        "frets": "x3221x",
+        "fingers": "042310",
+        "baseFret": 4,
+        "midi": [
+          51,
+          55,
+          60,
+          63
+        ]
+      },
+      {
+        "frets": "x13333",
+        "fingers": "013333",
+        "baseFret": 6,
+        "midi": [
+          51,
+          58,
+          63,
+          67,
+          72
+        ]
+      },
+      {
+        "frets": "2x132x",
+        "fingers": "201430",
+        "baseFret": 10,
+        "midi": [
+          51,
+          60,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "805e9f6ed3596159f11cfcbd28436d0c79ecc14b544a42c6497f606866a67fdd",
+    "name": "Eb 69",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1011",
+        "fingers": "002034",
+        "baseFret": 1,
+        "midi": [
+          51,
+          55,
+          60,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e910cfa37139550bf757f6016684ce208a74fce5e0b98155fda6cbf518c63590",
+    "name": "Eb 7",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1323",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          61,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9564eaaf423382a7bc9ed505a9bc22690ab279c000ad8fcbb721aaa8a03bfe94",
+    "name": "Eb 9",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1021",
+        "fingers": "001032",
+        "baseFret": 1,
+        "midi": [
+          51,
+          55,
+          61,
+          65
+        ]
+      },
+      {
+        "frets": "x21222",
+        "fingers": "021334",
+        "baseFret": 5,
+        "midi": [
+          51,
+          55,
+          61,
+          65,
+          70
+        ]
+      },
+      {
+        "frets": "2121xx",
+        "fingers": "314200",
+        "baseFret": 10,
+        "midi": [
+          51,
+          55,
+          61,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5d7852238c4ffa291b4c63e75e8f6f57711a3687de0043e79c3800d65eb5b121",
+    "name": "Eb 13",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "x21244",
+        "fingers": "021344",
+        "baseFret": 5,
+        "midi": [
+          51,
+          55,
+          61,
+          67,
+          72
+        ]
+      },
+      {
+        "frets": "322011",
+        "fingers": "423011",
+        "baseFret": 9,
+        "midi": [
+          51,
+          55,
+          60,
+          55,
+          68,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20ee8cdc878cbd09efb8220fb17f60e4107cc5ebe34a2230f4d77d091b6a0df5",
+    "name": "Eb maj7",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "x43111",
+        "fingers": "043111",
+        "baseFret": 3,
+        "midi": [
+          51,
+          55,
+          58,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "xx1113",
+        "fingers": "001114",
+        "baseFret": 8,
+        "midi": [
+          58,
+          63,
+          67,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3f027726377f109be7eec322e6d45050037156d0455d4268eb37f9fa27518169",
+    "name": "Eb maj9",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "x41111",
+        "fingers": "041111",
+        "baseFret": 3,
+        "midi": [
+          51,
+          53,
+          58,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "x2132x",
+        "fingers": "021430",
+        "baseFret": 5,
+        "midi": [
+          51,
+          55,
+          62,
+          65
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 11,
+        "midi": [
+          62,
+          67,
+          70,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7fa90962093c4ce16e61c3102a52d711491f8dcc4f9b4bf0c48c46ef4658630f",
+    "name": "Eb maj11",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1133",
+        "fingers": "001134",
+        "baseFret": 1,
+        "midi": [
+          51,
+          56,
+          62,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53006e107f94976e0ec813bb3f03f85f37a029dcbe7dcff1cae796d54d095e97",
+    "name": "Eb maj13",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "x3103x",
+        "fingers": "031040",
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          55,
+          62
+        ]
+      },
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 3,
+        "midi": [
+          51,
+          55,
+          60,
+          62,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "da3b940af49e3409454010e747a50fdca9ea9273c47e63dea66aa8ee3f230d35",
+    "name": "Eb m6",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx2212",
+        "fingers": "002314",
+        "baseFret": 7,
+        "midi": [
+          58,
+          63,
+          66,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "24f60c0513530ada22e96a77942b55a6785cc827e56f4ee3f6fc9ab25645d0be",
+    "name": "Eb m7",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 11,
+        "midi": [
+          51,
+          61,
+          66,
+          70
+        ]
+      },
+      {
+        "frets": "xx1322",
+        "fingers": "001423",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 7,
+        "midi": [
+          58,
+          63,
+          66,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aec3986efebf07eef7fd34dfe909e0df23a33f215e8e31b93e0d023da498e98b",
+    "name": "Eb m7b5",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1222",
+        "fingers": "001222",
+        "baseFret": 1,
+        "midi": [
+          51,
+          57,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 6,
+        "midi": [
+          51,
+          57,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "xx1213",
+        "fingers": "001214",
+        "baseFret": 7,
+        "midi": [
+          57,
+          63,
+          66,
+          73
+        ]
+      },
+      {
+        "frets": "2x221x",
+        "fingers": "203410",
+        "baseFret": 10,
+        "midi": [
+          51,
+          61,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3b6b6c37202c721b7659e5b33947436cbf9c224117f2fcb23dbdf51f873c57ff",
+    "name": "Eb m9",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 4,
+        "midi": [
+          51,
+          54,
+          61,
+          65,
+          70
+        ]
+      },
+      {
+        "frets": "xx2413",
+        "fingers": "002413",
+        "baseFret": 7,
+        "midi": [
+          58,
+          65,
+          66,
+          73
+        ]
+      },
+      {
+        "frets": "x13233",
+        "fingers": "013244",
+        "baseFret": 9,
+        "midi": [
+          54,
+          61,
+          65,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "732006ebebeef85d071f9879615934637a76622072353ad4c7f8ae3eba3489fb",
+    "name": "Eb m69",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "2x1311",
+        "fingers": "201311",
+        "baseFret": 1,
+        "midi": [
+          42,
+          51,
+          58,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "x3123x",
+        "fingers": "031240",
+        "baseFret": 4,
+        "midi": [
+          51,
+          54,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "xx3133",
+        "fingers": "002134",
+        "baseFret": 11,
+        "midi": [
+          63,
+          66,
+          72,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0bbf3331b74374217764f0b83e0920ccc81ab87c05a3d30f44090b76ce4cbeb5",
+    "name": "Eb mmaj7",
+    "root": "Eb",
+    "positions": [
+      {
+        "frets": "xx1332",
+        "fingers": "001342",
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          62,
+          66
+        ]
+      },
+      {
+        "frets": "x4211x",
+        "fingers": "043120",
+        "baseFret": 3,
+        "midi": [
+          51,
+          54,
+          58,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5fd4db9b0d426011d2ab64b297de182db8ade44d9eba4853b6141ae3744885a4",
+    "name": "E major",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022100",
+        "fingers": "023100",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          56,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "xx1343",
+        "fingers": "001243",
+        "baseFret": 2,
+        "midi": [
+          52,
+          59,
+          64,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1641ec2355030a8a8f092207f8f861619747f96cb20019ca09afe8289aa88928",
+    "name": "E minor",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022000",
+        "fingers": "023000",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "011342",
+        "fingers": "011342",
+        "baseFret": 2,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          64,
+          67
+        ]
+      },
+      {
+        "frets": "4211xx",
+        "fingers": "431200",
+        "baseFret": 9,
+        "midi": [
+          52,
+          55,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "33c25fa54d1d52a70f267e5ea033815044a1f19944dd5727014cc248e6fbb2ba",
+    "name": "E dim",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "xx23x3",
+        "fingers": "001203",
+        "baseFret": 1,
+        "midi": [
+          52,
+          58,
+          67
+        ]
+      },
+      {
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 5,
+        "midi": [
+          52,
+          55,
+          64,
+          70
+        ]
+      },
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 7,
+        "midi": [
+          52,
+          58,
+          64,
+          67
+        ]
+      },
+      {
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 10,
+        "midi": [
+          52,
+          55,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d42c3a5d9aef2ca1dadaa56088a980ccd17089031073bbb811e79b3d5c42e318",
+    "name": "E dim7",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "012020",
+        "fingers": "012030",
+        "baseFret": 1,
+        "midi": [
+          40,
+          46,
+          52,
+          55,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "xx2323",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          52,
+          58,
+          61,
+          67
+        ]
+      },
+      {
+        "frets": "x2313x",
+        "fingers": "023140",
+        "baseFret": 6,
+        "midi": [
+          52,
+          58,
+          61,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "160778b2390cf107b32f539d31c46d3e4999031edf865a364c9a3006e0f4b67d",
+    "name": "E sus",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "002200",
+        "fingers": "001200",
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          52,
+          57,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "002400",
+        "fingers": "001300",
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          52,
+          59,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "022200",
+        "fingers": "012300",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          57,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "xx2200",
+        "fingers": "001200",
+        "baseFret": 1,
+        "midi": [
+          52,
+          57,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f6cc39acf4695c77130b1e971b28b530cef713d4d5922a809f3535e4ddda710f",
+    "name": "E sus2",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "011100",
+        "fingers": "012300",
+        "baseFret": 9,
+        "midi": [
+          40,
+          54,
+          59,
+          64,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "44b106322d75ca7097466ab09fee4009d2cea64fd60c29159f4831b95c980e55",
+    "name": "E sus4",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022200",
+        "fingers": "023400",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          57,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "011344",
+        "fingers": "011234",
+        "baseFret": 2,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "xx1120",
+        "fingers": "001120",
+        "baseFret": 9,
+        "midi": [
+          59,
+          64,
+          69,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3c5f3cee9e2460de24923c4f4fc5d8add4be11fb323c908e4964916ae0b6c0c8",
+    "name": "E 7sus4",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "020200",
+        "fingers": "020300",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          57,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f5515bb9e5c94779d0d64ae57be0c92f1a41f277f2d74ef36f2ce39d79c8bc90",
+    "name": "E aug",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "032110",
+        "fingers": "043120",
+        "baseFret": 1,
+        "midi": [
+          40,
+          48,
+          52,
+          56,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "x1433x",
+        "fingers": "432110",
+        "baseFret": 7,
+        "midi": [
+          52,
+          60,
+          64,
+          68
+        ]
+      },
+      {
+        "frets": "432110",
+        "fingers": "432110",
+        "baseFret": 9,
+        "midi": [
+          52,
+          56,
+          60,
+          64,
+          68,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dcb1bd28616ad805f4bb23d10d6cd221a9c00cc2bbb853bc1c3d64669908fac5",
+    "name": "E 5",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 12,
+        "midi": [
+          52,
+          59
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 7,
+        "midi": [
+          52,
+          59
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 12,
+        "midi": [
+          52,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "022xxx",
+        "fingers": "023000",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2825a8aa7f1e6fd44c51cda10180c20bc0af582c64c6611aa5006d301fe16f17",
+    "name": "E 6",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022120",
+        "fingers": "023140",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          56,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x3221x",
+        "fingers": "042310",
+        "baseFret": 5,
+        "midi": [
+          52,
+          56,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x13333",
+        "fingers": "013333",
+        "baseFret": 7,
+        "midi": [
+          52,
+          59,
+          64,
+          68,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "983536697b243e6622dfb918ce9e271f0ae732aa5de64496e8b961a1927850eb",
+    "name": "E 69",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022122",
+        "fingers": "022134",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          56,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "011122",
+        "fingers": "011134",
+        "baseFret": 11,
+        "midi": [
+          40,
+          56,
+          61,
+          66,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3e1662b5ae919695d9a260223dd958d4db1b39c0bfa777a31493c48200ec9804",
+    "name": "E 7",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "020100",
+        "fingers": "020100",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          56,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "x3231x",
+        "fingers": "032410",
+        "baseFret": 5,
+        "midi": [
+          52,
+          56,
+          62,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19f442bfbb6e263069f8c2b1273d763522aecc67138e8beedfa402838304e73c",
+    "name": "E 9",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "020102",
+        "fingers": "020103",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          56,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "4x2432",
+        "fingers": "301421",
+        "baseFret": 1,
+        "midi": [
+          44,
+          52,
+          59,
+          62,
+          66
+        ]
+      },
+      {
+        "frets": "221222",
+        "fingers": "221334",
+        "baseFret": 6,
+        "midi": [
+          47,
+          52,
+          56,
+          62,
+          66,
+          71
+        ]
+      },
+      {
+        "frets": "011112",
+        "fingers": "011112",
+        "baseFret": 9,
+        "midi": [
+          40,
+          54,
+          59,
+          64,
+          68,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b4c4a62b1e3e4b3c27b8aebd2887704ed0f20d1102fa6217fb147c120c975aa7",
+    "name": "E 11",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "000100",
+        "fingers": "000100",
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          50,
+          56,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "004434",
+        "fingers": "002314",
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          54,
+          59,
+          62,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51a05e2ea008882a7a0583ce7f5dd628b1e61f03cf7d1dae43cfecb983e4373c",
+    "name": "E 13",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "020120",
+        "fingers": "020130",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          56,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "000122",
+        "fingers": "000123",
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          50,
+          56,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "012210",
+        "fingers": "013420",
+        "baseFret": 5,
+        "midi": [
+          40,
+          50,
+          56,
+          61,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e60fecb9278a9c3733c2e415602b60e64ea92ae18d91807c33d6a96a3db1a764",
+    "name": "E maj7",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "021100",
+        "fingers": "031200",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          51,
+          56,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "xx2444",
+        "fingers": "001333",
+        "baseFret": 1,
+        "midi": [
+          52,
+          59,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2604bdfc0efe6a52d702861f4b1c58cab1a59d6d660a7376c383bffc94ee1bc4",
+    "name": "E maj9",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "021102",
+        "fingers": "031204",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          51,
+          56,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "x2132x",
+        "fingers": "021430",
+        "baseFret": 6,
+        "midi": [
+          52,
+          56,
+          63,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6e766de73b189180ac61d5ab9cb96c4e364f8d96f269594692b6a3408e0b65b5",
+    "name": "E maj11",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "001100",
+        "fingers": "001200",
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          51,
+          56,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "003112",
+        "fingers": "003112",
+        "baseFret": 4,
+        "midi": [
+          40,
+          45,
+          56,
+          59,
+          63,
+          69
+        ]
+      },
+      {
+        "frets": "031123",
+        "fingers": "031124",
+        "baseFret": 9,
+        "midi": [
+          40,
+          56,
+          59,
+          64,
+          69,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a5d78f35101cbea97dac6be0328f32fed5ac79900b28ebb7c44512a47dff9dcc",
+    "name": "E maj13",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "021122",
+        "fingers": "021134",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          51,
+          56,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 4,
+        "midi": [
+          52,
+          56,
+          61,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1d50a4fa8f16e2a94651a11dbd11d876f9a846eaa1dd1b4d1f9b79ba0e0dcbd4",
+    "name": "E m6",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022020",
+        "fingers": "012030",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "022423",
+        "fingers": "011312",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          61,
+          67
+        ]
+      },
+      {
+        "frets": "xx2212",
+        "fingers": "002314",
+        "baseFret": 8,
+        "midi": [
+          59,
+          64,
+          67,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7eb52012b64de0345fcd7165b90adda19889f2d8ac10a95bc68064d545d3b4ac",
+    "name": "E m7",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "0x000x",
+        "fingers": "203330",
+        "baseFret": 1,
+        "midi": [
+          40,
+          50,
+          55,
+          59
+        ]
+      },
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 12,
+        "midi": [
+          52,
+          62,
+          67,
+          71
+        ]
+      },
+      {
+        "frets": "022030",
+        "fingers": "023040",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "020000",
+        "fingers": "020000",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "022433",
+        "fingers": "011423",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 8,
+        "midi": [
+          59,
+          64,
+          67,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5979cc3679114bd5899bebee31afd84238d6587eb07871fcee139b7b9195a4fc",
+    "name": "E m7b5",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "012333",
+        "fingers": "012333",
+        "baseFret": 1,
+        "midi": [
+          40,
+          46,
+          52,
+          58,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 7,
+        "midi": [
+          52,
+          58,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "2x221x",
+        "fingers": "203410",
+        "baseFret": 11,
+        "midi": [
+          52,
+          62,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5bf05a4c2ed2dac03ce269d6ccab977616595fd61e50670601c094442c9ef000",
+    "name": "E m9",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "020002",
+        "fingers": "020004",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          55,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "022032",
+        "fingers": "012043",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          62,
+          66
+        ]
+      },
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 5,
+        "midi": [
+          52,
+          55,
+          62,
+          66,
+          71
+        ]
+      },
+      {
+        "frets": "013231",
+        "fingers": "013241",
+        "baseFret": 10,
+        "midi": [
+          40,
+          55,
+          62,
+          66,
+          71,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51162b38db37420e998aa451d7f26e5b5fbe32b8f1f305e6c058659f3338db25",
+    "name": "E m69",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "022022",
+        "fingers": "011023",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "3x2422",
+        "fingers": "201311",
+        "baseFret": 1,
+        "midi": [
+          43,
+          52,
+          59,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x31233",
+        "fingers": "031244",
+        "baseFret": 5,
+        "midi": [
+          52,
+          55,
+          61,
+          66,
+          71
+        ]
+      },
+      {
+        "frets": "012230",
+        "fingers": "012340",
+        "baseFret": 10,
+        "midi": [
+          40,
+          55,
+          61,
+          66,
+          71,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c9c12907291151039e14d535c7f334df113f32c2ec0e59ecb3f9cb4bd47e1e6e",
+    "name": "E m11",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "000002",
+        "fingers": "000001",
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          50,
+          55,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "003210",
+        "fingers": "003210",
+        "baseFret": 3,
+        "midi": [
+          40,
+          45,
+          55,
+          59,
+          62,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d7040f5832a5833f70b30813bea884ac2b8c63f9ec2619d28239e4ac30d26685",
+    "name": "E mmaj7",
+    "root": "E",
+    "positions": [
+      {
+        "frets": "021000",
+        "fingers": "021000",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          51,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "022443",
+        "fingers": "011342",
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          63,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d031e218066d2680e9b28d0aed141ed34b8a0ad98c37c524e9ad7c8a8557bb73",
     "name": "F major",
     "root": "F",
-    "tuning": "EADGBE",
-    "notes": [
+    "positions": [
       {
-        "fret": 1,
-        "finger": 1
+        "frets": "xx3211",
+        "fingers": "003211",
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          60,
+          65
+        ]
       },
       {
-        "fret": 3,
-        "finger": 3
+        "frets": "xx1343",
+        "fingers": "001243",
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          65,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d70845783fea00a337c7401574dd068487a590aded7d5bff79c9b0c2661d6ed1",
+    "name": "F minor",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          65,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bcdbd8757e1f9016877b3c2a8eddbd6ff72a0e709a2d8db17a826b4cd8b342e1",
+    "name": "F dim",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx34x4",
+        "fingers": "001203",
+        "baseFret": 1,
+        "midi": [
+          53,
+          59,
+          68
+        ]
       },
       {
-        "fret": 3,
-        "finger": 4
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 6,
+        "midi": [
+          53,
+          56,
+          65,
+          71
+        ]
       },
       {
-        "fret": 2,
-        "finger": 2
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 8,
+        "midi": [
+          53,
+          59,
+          65,
+          68
+        ]
       },
       {
-        "fret": 1,
-        "finger": 1
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 11,
+        "midi": [
+          53,
+          56,
+          68,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "769690dafe59b0129d9ecf2dbb3f120ef7856e446e2f06e76b9970b8022358eb",
+    "name": "F dim7",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "1x0101",
+        "fingers": "100203",
+        "baseFret": 1,
+        "midi": [
+          41,
+          50,
+          56,
+          59,
+          65
+        ]
       },
       {
-        "fret": 1,
-        "finger": 1
+        "frets": "2x121x",
+        "fingers": "301420",
+        "baseFret": 12,
+        "midi": [
+          53,
+          62,
+          68,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "38955cb0fa69e931956eb4b054b91f49c038e3a40519d76c24257df9ac95341f",
+    "name": "F sus",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001344",
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "52a998793972f33bc109f92dca3ac7bf6394aedfd3f09c6a84150ad38f8f3b56",
+    "name": "F sus4",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001234",
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1100555d89b4584787bb061a311c1f176dc7b5c17775661f37b67b13c4269b26",
+    "name": "F aug",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx3221",
+        "fingers": "004231",
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          61,
+          65
+        ]
+      },
+      {
+        "frets": "x1x332",
+        "fingers": "010342",
+        "baseFret": 8,
+        "midi": [
+          53,
+          65,
+          69,
+          73
+        ]
+      },
+      {
+        "frets": "43211x",
+        "fingers": "432110",
+        "baseFret": 10,
+        "midi": [
+          53,
+          57,
+          61,
+          65,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b9f6aabd2f7ac42bc67865367d9cae410ac2c94798a83624303a7b04cad12348",
+    "name": "F 5",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 1,
+        "midi": [
+          41,
+          48
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 8,
+        "midi": [
+          53,
+          60
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 1,
+        "midi": [
+          41,
+          48,
+          53
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2d675579510a71c520761fe2dc48878ba107ca66ed3e7770cc161273ecdc95da",
+    "name": "F 6",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "x3221x",
+        "fingers": "042310",
+        "baseFret": 6,
+        "midi": [
+          53,
+          57,
+          62,
+          65
+        ]
+      },
+      {
+        "frets": "113333",
+        "fingers": "113333",
+        "baseFret": 8,
+        "midi": [
+          48,
+          53,
+          60,
+          65,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bf7fca7d174260c3586ea1e7e4b6964dd827718e2569bf6f9908e6f1511f2054",
+    "name": "F 69",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "100011",
+        "fingers": "100023",
+        "baseFret": 1,
+        "midi": [
+          41,
+          45,
+          50,
+          55,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "xx3233",
+        "fingers": "002134",
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          62,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2ea01789caf517b935ba0863cdb6b4c8114878d25d008e5a1b4fe9af73fb57d1",
+    "name": "F 9",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx3243",
+        "fingers": "002143",
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          63,
+          67
+        ]
+      },
+      {
+        "frets": "221222",
+        "fingers": "221334",
+        "baseFret": 7,
+        "midi": [
+          48,
+          53,
+          57,
+          63,
+          67,
+          72
+        ]
+      },
+      {
+        "frets": "x11112",
+        "fingers": "011112",
+        "baseFret": 10,
+        "midi": [
+          55,
+          60,
+          65,
+          69,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "87ed4bb2b713e60538cd7d0364336e12d5e8cdb0871a6e2f53027d269b47408f",
+    "name": "F 13",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "x21244",
+        "fingers": "021344",
+        "baseFret": 7,
+        "midi": [
+          53,
+          57,
+          63,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ea47348e1ae72db2a9fe4f5ee33308a4b0debb024d67421e107e6a4e2c29430a",
+    "name": "F maj7",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx3210",
+        "fingers": "003210",
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          60,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d367fd0d8b8de24ccf873aa7040683ab7487c8d5f79b3e4b3944b9ba4185f537",
+    "name": "F maj9",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "102010",
+        "fingers": "103020",
+        "baseFret": 1,
+        "midi": [
+          41,
+          45,
+          52,
+          55,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 1,
+        "midi": [
+          52,
+          57,
+          60,
+          67
+        ]
+      },
+      {
+        "frets": "x2132x",
+        "fingers": "021430",
+        "baseFret": 7,
+        "midi": [
+          53,
+          57,
+          64,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6c6772ba833ea5cde6dc254d02719c80cd130637fada8b5933b3d393c5ce8090",
+    "name": "F maj11",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "324010",
+        "fingers": "324010",
+        "baseFret": 11,
+        "midi": [
+          53,
+          57,
+          64,
+          55,
+          70,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "da879040b54cf2e701592aac07f63b7eb279679b7c37c8802ccce59cf2b3ddca",
+    "name": "F maj13",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "100010",
+        "fingers": "100020",
+        "baseFret": 1,
+        "midi": [
+          41,
+          45,
+          50,
+          55,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "xx3230",
+        "fingers": "002130",
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 5,
+        "midi": [
+          53,
+          57,
+          62,
+          64,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3c2c55559b57975c02a4509243daa150b2db65a85367db4e5500bf535eed949d",
+    "name": "F m6",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "1x0111",
+        "fingers": "100234",
+        "baseFret": 1,
+        "midi": [
+          41,
+          50,
+          56,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "xx2212",
+        "fingers": "002314",
+        "baseFret": 9,
+        "midi": [
+          60,
+          65,
+          68,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6edd494ae0ee5d36f67386424586d97747775a7c130ad538acee0f9aee2fd204",
+    "name": "F m7",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 1,
+        "midi": [
+          41,
+          51,
+          56,
+          60
+        ]
+      },
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 13,
+        "midi": [
+          53,
+          63,
+          68,
+          72
+        ]
+      },
+      {
+        "frets": "xx1322",
+        "fingers": "001423",
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 9,
+        "midi": [
+          60,
+          65,
+          68,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "70691a0ac3acf56c93884b1bfbe8baa4fdd651acd8a21e17089dfcbc9d4d1e1b",
+    "name": "F m7b5",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "1x110x",
+        "fingers": "102300",
+        "baseFret": 1,
+        "midi": [
+          41,
+          51,
+          56,
+          59
+        ]
+      },
+      {
+        "frets": "xx3444",
+        "fingers": "001222",
+        "baseFret": 1,
+        "midi": [
+          53,
+          59,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 8,
+        "midi": [
+          53,
+          59,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "31330x",
+        "fingers": "213400",
+        "baseFret": 11,
+        "midi": [
+          53,
+          56,
+          63,
+          68,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7b891d5dda04372b9713c9664174ea9326e7be72abdd52deaa23d365c5d39bae",
+    "name": "F m9",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "x33044",
+        "fingers": "012034",
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 6,
+        "midi": [
+          53,
+          56,
+          63,
+          67,
+          72
+        ]
+      },
+      {
+        "frets": "313033",
+        "fingers": "213044",
+        "baseFret": 11,
+        "midi": [
+          53,
+          56,
+          63,
+          55,
+          72,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "id": "969c69a2b53cd09577c92146721d59834bb96b75c8f4bec6bcbbc97168842476",
+    "name": "F m69",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "x3123x",
+        "fingers": "031240",
+        "baseFret": 6,
+        "midi": [
+          53,
+          56,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "31203x",
+        "fingers": "312040",
+        "baseFret": 11,
+        "midi": [
+          53,
+          56,
+          62,
+          55,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3977c25542016ec4db114d20c1753dfd48ed0a5d5a8c7b8a2bf1bd50553a691e",
+    "name": "F mmaj7",
+    "root": "F",
+    "positions": [
+      {
+        "frets": "xx1332",
+        "fingers": "001342",
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          64,
+          68
+        ]
+      },
+      {
+        "frets": "xx4221",
+        "fingers": "004231",
+        "baseFret": 12,
+        "midi": [
+          65,
+          68,
+          72,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b69ccb3f54e4518e38e7b2b2564a340d7c94d8419d69371b6dc37e8a58dd8bca",
+    "name": "F# minor",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx3231",
+        "fingers": "003241",
+        "baseFret": 5,
+        "midi": [
+          57,
+          61,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77b6ca4f134df7cf6e78d26933c407a3fe0a7866bf7896daa8d62423686704c5",
+    "name": "F# dim",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "20x21x",
+        "fingers": "200310",
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          57,
+          60
+        ]
+      },
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 4,
+        "midi": [
+          54,
+          60,
+          69
+        ]
+      },
+      {
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 7,
+        "midi": [
+          54,
+          57,
+          66,
+          72
+        ]
+      },
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 9,
+        "midi": [
+          54,
+          60,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2a50e7210a4d5fe29cda4428ed390809f5782ae430945781a84a1691df8d5f9d",
+    "name": "F# dim7",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx1212",
+        "fingers": "001324",
+        "baseFret": 4,
+        "midi": [
+          54,
+          60,
+          63,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8848902c663183e783b5e8d4bf4cdd4f6c03021a9742ae3d63f7a89217ffc274",
+    "name": "F# sus",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001344",
+        "baseFret": 4,
+        "midi": [
+          54,
+          61,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "98635d1c5e89835dcf917550b18d210d9b624d1addc428abb176e35fe9e67822",
+    "name": "F# sus2",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "2xx122",
+        "fingers": "200134",
+        "baseFret": 1,
+        "midi": [
+          42,
+          56,
+          61,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8de551e183e5d313148941acf5960763ea0b7864c26b97db4b0df583ab1cb65d",
+    "name": "F# 7sus4",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx1324",
+        "fingers": "001324",
+        "baseFret": 4,
+        "midi": [
+          54,
+          61,
+          64,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d8f0033918cd171a3fae2f79bd03b8675ba5830d7e615dedba612143296eecbe",
+    "name": "F# aug",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx4332",
+        "fingers": "004231",
+        "baseFret": 1,
+        "midi": [
+          54,
+          58,
+          62,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9d7801b6691110af3b93de13d1ae95d170e48c9b6fcf222ab7121ffb4b392f50",
+    "name": "F# 5",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "24xxxx",
+        "fingers": "130000",
+        "baseFret": 1,
+        "midi": [
+          42,
+          49
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 9,
+        "midi": [
+          54,
+          61
+        ]
+      },
+      {
+        "frets": "244xxx",
+        "fingers": "134000",
+        "baseFret": 1,
+        "midi": [
+          42,
+          49,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cd21b48e39e35ad78c7dfcf1574389120ab00ee9b7929697d0f3b75e6b4d0e3f",
+    "name": "F# 6",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "2x132x",
+        "fingers": "201430",
+        "baseFret": 1,
+        "midi": [
+          42,
+          51,
+          58,
+          61
+        ]
+      },
+      {
+        "frets": "x13333",
+        "fingers": "013333",
+        "baseFret": 9,
+        "midi": [
+          54,
+          61,
+          66,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f4b3747652d28e10c69bc6b3b146bacbf65a86a2e2d93a5890e6e1d631bd8f45",
+    "name": "F# 69",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx4344",
+        "fingers": "002134",
+        "baseFret": 1,
+        "midi": [
+          54,
+          58,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0c389257598ea0f7ee27b5503d35cad006f164177418b46b8552a31ff65ecbd8",
+    "name": "F# 7",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "x3231x",
+        "fingers": "032410",
+        "baseFret": 7,
+        "midi": [
+          54,
+          58,
+          64,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "083ceb6b6d4267fe65ede9eb8b741a7a71db855622d0fdb8889c12e3da654898",
+    "name": "F# 9",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx2132",
+        "fingers": "002143",
+        "baseFret": 3,
+        "midi": [
+          54,
+          58,
+          64,
+          68
+        ]
+      },
+      {
+        "frets": "221222",
+        "fingers": "221334",
+        "baseFret": 8,
+        "midi": [
+          49,
+          54,
+          58,
+          64,
+          68,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cbdcee9ae57922d1417c73ef130bab64b576f7723efc50e58ab2ad66913852e1",
+    "name": "F# 11",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "212100",
+        "fingers": "314200",
+        "baseFret": 1,
+        "midi": [
+          42,
+          46,
+          52,
+          56,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e28aa1f298233e4079e2d3f2d7f97bf711c72a00dc14779425381488eae67956",
+    "name": "F# 13",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "221300",
+        "fingers": "231400",
+        "baseFret": 1,
+        "midi": [
+          42,
+          47,
+          51,
+          58,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "x32210",
+        "fingers": "042310",
+        "baseFret": 7,
+        "midi": [
+          54,
+          58,
+          63,
+          66,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "775109974f84c10a654d819b75541ae9ad4aac030fdb51d139c02abb6a691556",
+    "name": "F# maj9",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "xx2142",
+        "fingers": "002143",
+        "baseFret": 3,
+        "midi": [
+          54,
+          58,
+          65,
+          68
+        ]
+      },
+      {
+        "frets": "22132x",
+        "fingers": "221430",
+        "baseFret": 8,
+        "midi": [
+          49,
+          54,
+          58,
+          65,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d0410bb4e688f41692bb8e75c8419851d4adf91b9d9f0ac90b75f95fffd3638e",
+    "name": "F# maj11",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "x21302",
+        "fingers": "021403",
+        "baseFret": 8,
+        "midi": [
+          54,
+          58,
+          65,
+          59,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2b6b82440bed62e783320e7914fd9ef51f160480273a5f153644bc9695ed3c81",
+    "name": "F# maj13",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 6,
+        "midi": [
+          54,
+          58,
+          63,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c82bb8919bd7372af75b432686a05b8ac658c2fb1ac7525443438737815fa7b6",
+    "name": "F# m6",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "2x1222",
+        "fingers": "201334",
+        "baseFret": 1,
+        "midi": [
+          42,
+          51,
+          57,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x2413x",
+        "fingers": "024130",
+        "baseFret": 8,
+        "midi": [
+          54,
+          61,
+          63,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7827cd9a29bd2fad127af188e9f638f5355ed3978648a7f887c839188f943339",
+    "name": "F# m7",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "2x222x",
+        "fingers": "203330",
+        "baseFret": 1,
+        "midi": [
+          42,
+          52,
+          57,
+          61
+        ]
+      },
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 14,
+        "midi": [
+          54,
+          64,
+          69,
+          73
+        ]
+      },
+      {
+        "frets": "xx1322",
+        "fingers": "001423",
+        "baseFret": 4,
+        "midi": [
+          54,
+          61,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 10,
+        "midi": [
+          61,
+          66,
+          69,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e14f99a6df56c200edb4788f401aa90bee98347fbdad42260980a1d6ce85149c",
+    "name": "F# m7b5",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "202210",
+        "fingers": "203410",
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          52,
+          57,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "xx1222",
+        "fingers": "001222",
+        "baseFret": 4,
+        "midi": [
+          54,
+          60,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 9,
+        "midi": [
+          54,
+          60,
+          64,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "48ac28b1c6ed8a4a3ec010b3a16a4a4d29bfc7e2bd5cd5b1fe5701db62474e25",
+    "name": "F# m9",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "202120",
+        "fingers": "203140",
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          52,
+          56,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 7,
+        "midi": [
+          54,
+          57,
+          64,
+          68,
+          73
+        ]
+      },
+      {
+        "frets": "xx2413",
+        "fingers": "002413",
+        "baseFret": 10,
+        "midi": [
+          61,
+          68,
+          69,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "69823fed825c637161f8337a34725e1fd7edd221fa59bff9d75b41eb7b630e41",
+    "name": "F# m69",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "201122",
+        "fingers": "201134",
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          51,
+          56,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "244244",
+        "fingers": "122134",
+        "baseFret": 1,
+        "midi": [
+          42,
+          49,
+          54,
+          57,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "x3123x",
+        "fingers": "031240",
+        "baseFret": 7,
+        "midi": [
+          54,
+          57,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b75a5b86a66a10f284c6acad67e2e5922973037171f44ba5ebb4e5a4ade9755e",
+    "name": "F# m11",
+    "root": "F#",
+    "positions": [
+      {
+        "frets": "202100",
+        "fingers": "203100",
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          52,
+          56,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c0f139bd17ded126e4542dac16ab190c166677b885d9670a8ae2eaf8a08551ec",
+    "name": "G major",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "320003",
+        "fingers": "210003",
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          67
+        ]
+      },
+      {
+        "frets": "320003",
+        "fingers": "320004",
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          67
+        ]
+      },
+      {
+        "frets": "xx1343",
+        "fingers": "001243",
+        "baseFret": 5,
+        "midi": [
+          55,
+          62,
+          67,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ae8bdd498e4e572c310dd157f096998eb91522040c574e56bfe4b1b8e61e0863",
+    "name": "G minor",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "310033",
+        "fingers": "210034",
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          50,
+          55,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 5,
+        "midi": [
+          55,
+          62,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c9de7d6befd6c3bcedd4c2ee0b7bac6e750274a0f94b688aedb251718c7b4ce7",
+    "name": "G dim",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          58,
+          61
+        ]
+      },
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 5,
+        "midi": [
+          55,
+          61,
+          70
+        ]
+      },
+      {
+        "frets": "x31x12",
+        "fingers": "012430",
+        "baseFret": 8,
+        "midi": [
+          55,
+          58,
+          67,
+          73
+        ]
+      },
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 10,
+        "midi": [
+          55,
+          61,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "43cf735ec6d6ec7479a7cabc9a45477b4108cfd08e7d5496f7a0cccd4887bd41",
+    "name": "G dim7",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "31x320",
+        "fingers": "310420",
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          58,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "3x2320",
+        "fingers": "301420",
+        "baseFret": 1,
+        "midi": [
+          43,
+          52,
+          58,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "xx1212",
+        "fingers": "001324",
+        "baseFret": 5,
+        "midi": [
+          55,
+          61,
+          64,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6899f7e01405b2d13298ce864da5c2101f546e9e9ea46819fbfc3fc2ddb31e71",
+    "name": "G sus",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "330013",
+        "fingers": "230014",
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          50,
+          55,
+          60,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "91a953c944f6dae42a2b21d4a72115e255e636fae7b67baa325296e4190853bc",
+    "name": "G sus2",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "300033",
+        "fingers": "100023",
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          55,
+          62,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4aac4e76ff5e3b5123c42bd62a9e5508efe46667a17dac2da39ce008fcf1ab39",
+    "name": "G sus4",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "330013",
+        "fingers": "230014",
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          50,
+          55,
+          60,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2471bd00e2c3bec94d7fab13c598685377ba4d8616460de4cdcf641929a626d8",
+    "name": "G aug",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "32100x",
+        "fingers": "321000",
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          51,
+          55,
+          59
+        ]
+      },
+      {
+        "frets": "1x322x",
+        "fingers": "104230",
+        "baseFret": 3,
+        "midi": [
+          43,
+          55,
+          59,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5a4b0a4d9be9354666dcdb57bed76d12f5f18b0d74379d2b32e69172e3e9ea07",
+    "name": "G 5",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 3,
+        "midi": [
+          43,
+          50
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 10,
+        "midi": [
+          55,
+          62
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 3,
+        "midi": [
+          43,
+          50,
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9fd6072199cff659e448514d7b86f4e3f359b3d823a59a6cb0c0e90331c0147e",
+    "name": "G 6",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "320000",
+        "fingers": "210000",
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "3x243x",
+        "fingers": "201430",
+        "baseFret": 1,
+        "midi": [
+          43,
+          52,
+          59,
+          62
+        ]
+      },
+      {
+        "frets": "x13333",
+        "fingers": "013334",
+        "baseFret": 10,
+        "midi": [
+          55,
+          62,
+          67,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8a49491bb91f956f693503b08d6fef4d187a2cbeb2dd33b74fa80e6130238d8b",
+    "name": "G 69",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "300000",
+        "fingers": "100000",
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          55,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c72332f2bab230695667cbee0a080d64c9b6432c8074dfd5c57980d75bf40b9b",
+    "name": "G 7",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "320001",
+        "fingers": "320001",
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "73fbff44ced7dcd9efdb4985e36366aab9d1b151f80bac206ba44dd47a76892a",
+    "name": "G 9",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "300001",
+        "fingers": "300001",
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          55,
+          59,
+          65
+        ]
+      },
+      {
+        "frets": "221222",
+        "fingers": "221334",
+        "baseFret": 9,
+        "midi": [
+          50,
+          55,
+          59,
+          65,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "99fbefec122c827877af0c291d03c74eaab2c9101f6612bb2c5933a65a63e545",
+    "name": "G 11",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "320011",
+        "fingers": "320011",
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          60,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ddde8eb0f94f5f71d0c6015f4af533f113d8fe2be2009eeaf469bff0d5bac8c7",
+    "name": "G 13",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "302001",
+        "fingers": "302001",
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          52,
+          55,
+          59,
+          65
+        ]
+      },
+      {
+        "frets": "x21224",
+        "fingers": "021334",
+        "baseFret": 9,
+        "midi": [
+          55,
+          59,
+          65,
+          69,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "61ebeed0738f1244f393182ce89d4c14eb5ead37464e37a1dc33f241b3c98788",
+    "name": "G maj7",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "320002",
+        "fingers": "320001",
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d0ee36c170b112e469d43c7a398a361a7d97062895839afb9be767a2aabcddb8",
+    "name": "G maj9",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "300002",
+        "fingers": "200001",
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          55,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 3,
+        "midi": [
+          54,
+          59,
+          62,
+          69
+        ]
+      },
+      {
+        "frets": "x2132x",
+        "fingers": "021430",
+        "baseFret": 9,
+        "midi": [
+          55,
+          59,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "694b8b3d9fca131565fd07fb43d815336ec2f3cb48c108752527817aced30110",
+    "name": "G maj11",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "320012",
+        "fingers": "420013",
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          60,
+          66
+        ]
+      },
+      {
+        "frets": "xx3012",
+        "fingers": "003012",
+        "baseFret": 7,
+        "midi": [
+          59,
+          55,
+          66,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3a6952f76a9eb5f80b11051b401fbe723eda61e7ac585440b8f423a5d9fabfa7",
+    "name": "G maj13",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "x43311",
+        "fingers": "042311",
+        "baseFret": 7,
+        "midi": [
+          55,
+          59,
+          64,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b83f8f02b68b1ccbd34d4b5e1c8c3f4b79c026fa6364bd5fb5528c8df53c9ca0",
+    "name": "G m6",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "3x2333",
+        "fingers": "201344",
+        "baseFret": 1,
+        "midi": [
+          43,
+          52,
+          58,
+          62,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3555a6464aa7f1232187a7dc297ee4b77a4529caf228480d51bce1d121c987ae",
+    "name": "G m7",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "3x333x",
+        "fingers": "203330",
+        "baseFret": 1,
+        "midi": [
+          43,
+          53,
+          58,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ce00af7acd40a2797089f4406c3b6e6a4ad29c5ddd55c348d8a216a4e8f193a4",
+    "name": "G m7b5",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "3xx321",
+        "fingers": "300421",
+        "baseFret": 1,
+        "midi": [
+          43,
+          58,
+          61,
+          65
+        ]
+      },
+      {
+        "frets": "3x332x",
+        "fingers": "203410",
+        "baseFret": 1,
+        "midi": [
+          43,
+          53,
+          58,
+          61
+        ]
+      },
+      {
+        "frets": "xx1222",
+        "fingers": "001222",
+        "baseFret": 5,
+        "midi": [
+          55,
+          61,
+          65,
+          70
+        ]
+      },
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 10,
+        "midi": [
+          55,
+          61,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a90f47987718ad073877ed5c946dd188b262ce5dac517798bf83a78fc59c8619",
+    "name": "G m9",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "300331",
+        "fingers": "200341",
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          58,
+          62,
+          65
+        ]
+      },
+      {
+        "frets": "xx2011",
+        "fingers": "002011",
+        "baseFret": 6,
+        "midi": [
+          57,
+          55,
+          65,
+          70
+        ]
+      },
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 8,
+        "midi": [
+          55,
+          58,
+          65,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b7667fa97136390af9d02e62b5afee7174099983c8d6a4d83e2c84e694e9684f",
+    "name": "G m69",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "310230",
+        "fingers": "310240",
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          50,
+          57,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "x33133",
+        "fingers": "022134",
+        "baseFret": 3,
+        "midi": [
+          50,
+          55,
+          58,
+          64,
+          69
+        ]
+      },
+      {
+        "frets": "x31233",
+        "fingers": "031244",
+        "baseFret": 8,
+        "midi": [
+          55,
+          58,
+          64,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "caebb9485c5fb853c1bf2e874fcf226586f8f99644c96970f9e54c3b809cf6c8",
+    "name": "G m11",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "3x331x",
+        "fingers": "203410",
+        "baseFret": 1,
+        "midi": [
+          43,
+          53,
+          58,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8e719a7578777689d25f0eea5d8ef2176cccb9dd9a1e240a45f8c45017630c52",
+    "name": "G mmaj7",
+    "root": "G",
+    "positions": [
+      {
+        "frets": "310032",
+        "fingers": "310042",
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          50,
+          55,
+          62,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f2d14c8e40285b3da2705bd29d9d50b1007c3d714ca68b93913ab172b6e370cb",
+    "name": "Ab minor",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 6,
+        "midi": [
+          56,
+          63,
+          68,
+          71
+        ]
+      },
+      {
+        "frets": "xx3231",
+        "fingers": "003241",
+        "baseFret": 7,
+        "midi": [
+          59,
+          63,
+          68,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "de1c4f8341613124598b6dfaba42436ef8d5d07fc701926b25575ea0ff354438",
+    "name": "Ab dim",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "42x43x",
+        "fingers": "310420",
+        "baseFret": 1,
+        "midi": [
+          44,
+          47,
+          59,
+          62
+        ]
+      },
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 6,
+        "midi": [
+          56,
+          62,
+          71
+        ]
+      },
+      {
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 9,
+        "midi": [
+          56,
+          59,
+          68,
+          74
+        ]
+      },
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 11,
+        "midi": [
+          56,
+          62,
+          68,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ea370563c7e4ac85641d20232b7923587f468cee6ce94949df6a35f43d72104",
+    "name": "Ab dim7",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "xx0101",
+        "fingers": "000102",
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          59,
+          65
+        ]
+      },
+      {
+        "frets": "xx1212",
+        "fingers": "001324",
+        "baseFret": 6,
+        "midi": [
+          56,
+          62,
+          65,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8d4e2d4ebe59bb66e95c6fefbeff8232ac858cf4a7de5264336b8b3ec34660fb",
+    "name": "Ab sus",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "xx1344",
+        "fingers": "001344",
+        "baseFret": 6,
+        "midi": [
+          56,
+          63,
+          68,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fa4244922d58e4fef13b4ee03d44a63308833c2bb5daff608c2ec58144c76baf",
+    "name": "Ab sus2",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "4xx344",
+        "fingers": "200134",
+        "baseFret": 1,
+        "midi": [
+          44,
+          58,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6d83c8ee3a7d99a559a9a96fae78dbc570e51cfa6c089246e7b72050098585aa",
+    "name": "Ab aug",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "1x322x",
+        "fingers": "104230",
+        "baseFret": 4,
+        "midi": [
+          44,
+          56,
+          60,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1e33b62bdc41fc8e090dc771100a4ff9bf6f9e801f92a027c5c75d962b9a2209",
+    "name": "Ab 5",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 4,
+        "midi": [
+          44,
+          51
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 11,
+        "midi": [
+          56,
+          63
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 4,
+        "midi": [
+          44,
+          51,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eab60976be252bafc36a1ec9cb996893b36605386e3db9ffe2b1db2d9a53ae67",
+    "name": "Ab 6",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "2x132x",
+        "fingers": "201430",
+        "baseFret": 3,
+        "midi": [
+          44,
+          53,
+          60,
+          63
+        ]
+      },
+      {
+        "frets": "x3221x",
+        "fingers": "042310",
+        "baseFret": 9,
+        "midi": [
+          56,
+          60,
+          65,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9d0befb423850a6171cb716bdd366bc31fb925845bebe1687b1acf58e4088446",
+    "name": "Ab 69",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "xx2122",
+        "fingers": "002134",
+        "baseFret": 5,
+        "midi": [
+          56,
+          60,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7c83ae95b6c9a0466ee9b9dde584eb49173fb33e408048eda112af1dc3b5f812",
+    "name": "Ab 9",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "xx2132",
+        "fingers": "002143",
+        "baseFret": 5,
+        "midi": [
+          56,
+          60,
+          66,
+          70
+        ]
+      },
+      {
+        "frets": "221222",
+        "fingers": "221334",
+        "baseFret": 10,
+        "midi": [
+          51,
+          56,
+          60,
+          66,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "abf0d40323a929fcc22a08e763d139464b1fe3edd9d73657d2738942a133d770",
+    "name": "Ab 13",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "x21244",
+        "fingers": "021344",
+        "baseFret": 10,
+        "midi": [
+          56,
+          60,
+          66,
+          72,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5528f2f2846651185452ad0bbba32db1bcd8883d76b4992d7c1b2a93a735dc7d",
+    "name": "Ab maj7",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "x3241x",
+        "fingers": "032410",
+        "baseFret": 9,
+        "midi": [
+          56,
+          60,
+          67,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8312f661a517cc06ddf07edac78026bb1fd14acfaf984296f3c8b70de1b16449",
+    "name": "Ab maj9",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "22132x",
+        "fingers": "221430",
+        "baseFret": 10,
+        "midi": [
+          51,
+          56,
+          60,
+          67,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4ad46a4501f6bc3a4247f2ee23a6df2faaec5d6885d810ba294a05bfec557a95",
+    "name": "Ab maj11",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "43102x",
+        "fingers": "431020",
+        "baseFret": 1,
+        "midi": [
+          44,
+          48,
+          51,
+          55,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4c89df3975da67655b930f7f5d312de71707d38095a7e8a4d7324e8f279bae66",
+    "name": "Ab m6",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "4x344x",
+        "fingers": "201340",
+        "baseFret": 1,
+        "midi": [
+          44,
+          53,
+          59,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fe193f6ddd291948fefaed405541ebfc8eb722880c6a8fbf34396b6c4ce57556",
+    "name": "Ab m7",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "4x444x",
+        "fingers": "203330",
+        "baseFret": 1,
+        "midi": [
+          44,
+          54,
+          59,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2379924453938068b35652fd8fe128d569aa48c2a5a501c424864d55b1f2505",
+    "name": "Ab m7b5",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "xx0102",
+        "fingers": "000103",
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "4x443x",
+        "fingers": "203410",
+        "baseFret": 1,
+        "midi": [
+          44,
+          54,
+          59,
+          62
+        ]
+      },
+      {
+        "frets": "xx1222",
+        "fingers": "001222",
+        "baseFret": 6,
+        "midi": [
+          56,
+          62,
+          66,
+          71
+        ]
+      },
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 11,
+        "midi": [
+          56,
+          62,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5fbab0f6d297b79871c5de98df0b878171bd306f293fdbd20fb87fe7588cf4b5",
+    "name": "Ab m9",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "411102",
+        "fingers": "411203",
+        "baseFret": 1,
+        "midi": [
+          44,
+          46,
+          51,
+          56,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "132231",
+        "fingers": "132241",
+        "baseFret": 7,
+        "midi": [
+          47,
+          54,
+          58,
+          63,
+          68,
+          71
+        ]
+      },
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 9,
+        "midi": [
+          56,
+          59,
+          66,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dc4919836c6c4daca207c20768de9f3ecc472aaa84c41670d8e14e312b55f41a",
+    "name": "Ab m69",
+    "root": "Ab",
+    "positions": [
+      {
+        "frets": "2x1224",
+        "fingers": "201334",
+        "baseFret": 3,
+        "midi": [
+          44,
+          53,
+          59,
+          63,
+          70
+        ]
+      },
+      {
+        "frets": "x31233",
+        "fingers": "031244",
+        "baseFret": 9,
+        "midi": [
+          56,
+          59,
+          65,
+          70,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6e71b17899f31529ac150e25e7244c99a15bdf3094c611f7dfa3ffb8cd7b3707",
+    "name": "A major",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02220",
+        "fingers": "001230",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x01343",
+        "fingers": "001243",
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          69,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c76d73664513e43e04100d760c62d897624c951e9523379cfb402d6b05762c03",
+    "name": "A minor",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02210",
+        "fingers": "002310",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "x01342",
+        "fingers": "001342",
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          69,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7ef64494313729dbe55ae4024c42419a4d7a28d6df88f00ef20283e34846805d",
+    "name": "A dim",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x0121x",
+        "fingers": "001320",
+        "baseFret": 1,
+        "midi": [
+          45,
+          51,
+          57,
+          60
+        ]
+      },
+      {
+        "frets": "31x21x",
+        "fingers": "310420",
+        "baseFret": 3,
+        "midi": [
+          45,
+          48,
+          59,
+          62
+        ]
+      },
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 7,
+        "midi": [
+          57,
+          63,
+          72
+        ]
+      },
+      {
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 10,
+        "midi": [
+          57,
+          60,
+          69,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e8082bd54f52eb883ce642d0dc0d4fdbd29ee62fa4bf4f7d5a69e6f2294639c8",
+    "name": "A dim7",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x01212",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          45,
+          51,
+          57,
+          60,
+          66
+        ]
+      },
+      {
+        "frets": "x01212",
+        "fingers": "001324",
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          63,
+          66,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9d8a4d49c4b698ae89c0e957be99d90ea13d73733104760e27724b282d14dd5c",
+    "name": "A sus",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x00230",
+        "fingers": "000120",
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          57,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "x02230",
+        "fingers": "001230",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "x01124",
+        "fingers": "001124",
+        "baseFret": 2,
+        "midi": [
+          45,
+          52,
+          57,
+          62,
+          69
+        ]
+      },
+      {
+        "frets": "x03311",
+        "fingers": "003411",
+        "baseFret": 5,
+        "midi": [
+          45,
+          57,
+          62,
+          64,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "82546c9f8c696bf8c8263188855e0c60e2d9444b0f7ed2850655cc68acf5d02c",
+    "name": "A sus2",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02200",
+        "fingers": "002300",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "x02400",
+        "fingers": "001400",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          59,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "x01100",
+        "fingers": "001200",
+        "baseFret": 9,
+        "midi": [
+          45,
+          59,
+          64,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d31a8af04e89a2f8d2af1b5d5e91202cbd7b591597eee48e5e5198f592cfb1e5",
+    "name": "A sus4",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02230",
+        "fingers": "001230",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "x00x30",
+        "fingers": "000010",
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          62,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d41289114f65e85bbfa5e115a4c19b2ab4857804effdf557dbb1f63db7cd37c2",
+    "name": "A 7sus4",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02030",
+        "fingers": "002030",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          55,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "x01324",
+        "fingers": "001324",
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          67,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "938524a8b2fee71ef2f171449c59d9fba1083d9aa78cae9244384bd1e3eef882",
+    "name": "A aug",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x03221",
+        "fingers": "004231",
+        "baseFret": 1,
+        "midi": [
+          45,
+          53,
+          57,
+          61,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "91b931530fc781051f43b4b5d23353375063fc8f91378f5a656e34de589028de",
+    "name": "A 5",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 5,
+        "midi": [
+          45,
+          52
+        ]
+      },
+      {
+        "frets": "x02xxx",
+        "fingers": "001000",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 5,
+        "midi": [
+          45,
+          52,
+          57
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d9872246f93c629d352a53cb9335e1bf208b4ef1243e7a60aa732cb9a10e4afe",
+    "name": "A 6",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02222",
+        "fingers": "001111",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "2x132x",
+        "fingers": "201430",
+        "baseFret": 4,
+        "midi": [
+          45,
+          54,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x3221x",
+        "fingers": "042310",
+        "baseFret": 10,
+        "midi": [
+          57,
+          61,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f4053acf5c4044968ffad2a12c8fa5c1a992903e4002ea5e8e2e04fe82d5b6e4",
+    "name": "A 69",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x04422",
+        "fingers": "003411",
+        "baseFret": 1,
+        "midi": [
+          45,
+          54,
+          59,
+          61,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bdd816173146d7761023bdff22af8311354b43c9b6a9fa66874e2aedb3c94c50",
+    "name": "A 7",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02020",
+        "fingers": "002030",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          55,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x01323",
+        "fingers": "001324",
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          67,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cc83b0a8c1fc1263349b73dca0bf65f6e543c53ea6ce5e1772bf970e22f18dd5",
+    "name": "A 9",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "431000",
+        "fingers": "431000",
+        "baseFret": 2,
+        "midi": [
+          45,
+          49,
+          52,
+          55,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "x02423",
+        "fingers": "001312",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          59,
+          61,
+          67
+        ]
+      },
+      {
+        "frets": "x21222",
+        "fingers": "021333",
+        "baseFret": 11,
+        "midi": [
+          57,
+          61,
+          67,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "911a2605a49a5bd8db82e88f12d3b5eb6d1d5e43591eda65bb19cba915a18431",
+    "name": "A 11",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x00020",
+        "fingers": "000020",
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          55,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "320001",
+        "fingers": "320001",
+        "baseFret": 3,
+        "midi": [
+          45,
+          49,
+          50,
+          55,
+          59,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5a9ce77f230be97d9ef57ece23665f8a324731e57a4c737e51acfe387c2b1e9a",
+    "name": "A 13",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02022",
+        "fingers": "001023",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          55,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "322010",
+        "fingers": "423010",
+        "baseFret": 3,
+        "midi": [
+          45,
+          49,
+          54,
+          55,
+          62,
+          64
+        ]
+      },
+      {
+        "frets": "x21244",
+        "fingers": "021344",
+        "baseFret": 11,
+        "midi": [
+          57,
+          61,
+          67,
+          73,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f8dd69745db538f643f95a84ff9645e750682a6b0a11809ce5fc5151d13f8744",
+    "name": "A maj7",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02120",
+        "fingers": "002130",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          56,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x01333",
+        "fingers": "001333",
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          68,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "347a48980219f014b948c34dbf13e6e39ada413775a407f1b2bc57bf286b7bf3",
+    "name": "A maj9",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02424",
+        "fingers": "001314",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          59,
+          61,
+          68
+        ]
+      },
+      {
+        "frets": "213120",
+        "fingers": "214130",
+        "baseFret": 4,
+        "midi": [
+          45,
+          49,
+          56,
+          59,
+          64,
+          64
+        ]
+      },
+      {
+        "frets": "x02213",
+        "fingers": "002314",
+        "baseFret": 5,
+        "midi": [
+          45,
+          56,
+          61,
+          64,
+          71
+        ]
+      },
+      {
+        "frets": "22132x",
+        "fingers": "221430",
+        "baseFret": 11,
+        "midi": [
+          52,
+          57,
+          61,
+          68,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51a855d3043e6488aa2b849f902faf74def95adb12d77155242b937d893673d8",
+    "name": "A maj11",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x00120",
+        "fingers": "000120",
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          56,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "x00224",
+        "fingers": "000114",
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          57,
+          61,
+          68
+        ]
+      },
+      {
+        "frets": "112213",
+        "fingers": "112314",
+        "baseFret": 5,
+        "midi": [
+          45,
+          50,
+          56,
+          61,
+          64,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "30d9b86434a920e2122e675bfcab1f36ccf4c92627a74033217922d8afc4b338",
+    "name": "A maj13",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02122",
+        "fingers": "002134",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          56,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x01122",
+        "fingers": "001134",
+        "baseFret": 6,
+        "midi": [
+          45,
+          56,
+          61,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0d14729b55691b32540a2e1372defc5b8ef56934038016b46a5a34890446bb3c",
+    "name": "A m6",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02212",
+        "fingers": "002314",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          60,
+          66
+        ]
+      },
+      {
+        "frets": "2x1222",
+        "fingers": "201334",
+        "baseFret": 4,
+        "midi": [
+          45,
+          54,
+          60,
+          64,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dafb73638d63845352f4866c3ab2fcb7909bafbe750b715586db2bb84c2d6a51",
+    "name": "A m7",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02010",
+        "fingers": "002010",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          55,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "x02213",
+        "fingers": "002314",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          60,
+          67
+        ]
+      },
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 5,
+        "midi": [
+          45,
+          55,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "x01111",
+        "fingers": "001111",
+        "baseFret": 5,
+        "midi": [
+          45,
+          55,
+          60,
+          64,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "219846c3b8cdd587a63aa0edf73a25e51be51501c207c21a1e0011f910facfb6",
+    "name": "A m7b5",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x0101x",
+        "fingers": "002030",
+        "baseFret": 1,
+        "midi": [
+          45,
+          51,
+          55,
+          60
+        ]
+      },
+      {
+        "frets": "2x221x",
+        "fingers": "203410",
+        "baseFret": 4,
+        "midi": [
+          45,
+          55,
+          60,
+          63
+        ]
+      },
+      {
+        "frets": "xx1222",
+        "fingers": "001222",
+        "baseFret": 7,
+        "midi": [
+          57,
+          63,
+          67,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2a4752ad9a3a5cd9ecff8590c41b439db2d8c2d28de1d1d7f61e11f86bf3ac46",
+    "name": "A m9",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02413",
+        "fingers": "002413",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          59,
+          60,
+          67
+        ]
+      },
+      {
+        "frets": "102010",
+        "fingers": "103020",
+        "baseFret": 8,
+        "midi": [
+          48,
+          45,
+          59,
+          55,
+          67,
+          64
+        ]
+      },
+      {
+        "frets": "x31333",
+        "fingers": "021344",
+        "baseFret": 10,
+        "midi": [
+          57,
+          60,
+          67,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9ba11095c25a787ad3a26493b3c3b8267a44b900da2608e1f71551e22b09d9e4",
+    "name": "A m69",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x01200",
+        "fingers": "002400",
+        "baseFret": 4,
+        "midi": [
+          45,
+          54,
+          60,
+          59,
+          64
+        ]
+      },
+      {
+        "frets": "x31233",
+        "fingers": "031244",
+        "baseFret": 10,
+        "midi": [
+          57,
+          60,
+          66,
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "db36c97a4351a7f937a200734788ff833e437a6f2469e2a597f275211445e1f9",
+    "name": "A m11",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x00010",
+        "fingers": "000010",
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          55,
+          60,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "944f504e47d48158f0de89f6dde8bd41b27007f4dabf6732a42a597d994c95dd",
+    "name": "A mmaj7",
+    "root": "A",
+    "positions": [
+      {
+        "frets": "x02110",
+        "fingers": "003120",
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          56,
+          60,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "58b1428148fb6be76d6586f6e89d4a93c88adfa1feb5c0a2dfa651e3dd336a38",
+    "name": "Bb minor",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 8,
+        "midi": [
+          58,
+          65,
+          70,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "954cebda8c23d7917ea17b5de78a10129a3082c7866a1fcfbbdb94e62d2799f3",
+    "name": "Bb dim",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x1232x",
+        "fingers": "012430",
+        "baseFret": 1,
+        "midi": [
+          46,
+          52,
+          58,
+          61
+        ]
+      },
+      {
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 4,
+        "midi": [
+          46,
+          49,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 8,
+        "midi": [
+          58,
+          64,
+          73
+        ]
+      },
+      {
+        "frets": "x31x12",
+        "fingers": "041023",
+        "baseFret": 11,
+        "midi": [
+          58,
+          61,
+          70,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "id": "139320ba18b1a587bb6cc2808c3f7e76077acd8448489b0552bc4ceab7bf833d",
+    "name": "Bb dim7",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x12020",
+        "fingers": "012030",
+        "baseFret": 1,
+        "midi": [
+          46,
+          52,
+          55,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "xx2323",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          52,
+          58,
+          61,
+          67
+        ]
+      },
+      {
+        "frets": "xx1212",
+        "fingers": "001324",
+        "baseFret": 8,
+        "midi": [
+          58,
+          64,
+          67,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20146366873096586e89b19c8fd08849bc933697d02b3f0bc1b8e4ebf1bb7a5f",
+    "name": "Bb 7sus4",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "xx1324",
+        "fingers": "001324",
+        "baseFret": 8,
+        "midi": [
+          58,
+          65,
+          68,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a98fe6a0e9d3a2b4053e515acacb3720bbf53392e08b898f73d3965a0cd39886",
+    "name": "Bb aug",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x1433x",
+        "fingers": "014230",
+        "baseFret": 1,
+        "midi": [
+          46,
+          54,
+          58,
+          62
+        ]
+      },
+      {
+        "frets": "xx3221",
+        "fingers": "004231",
+        "baseFret": 6,
+        "midi": [
+          58,
+          62,
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63a02e8dcda7dfaf64f7a63344b182fc5e928c4b2c4cb1098c6f5ce9a7232dc0",
+    "name": "Bb 5",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 6,
+        "midi": [
+          46,
+          53
+        ]
+      },
+      {
+        "frets": "x13xxx",
+        "fingers": "013000",
+        "baseFret": 1,
+        "midi": [
+          46,
+          53
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 6,
+        "midi": [
+          46,
+          53,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2cc5bc0e2ccd2fdb3b0b9fe50ba729f357919a1b8bc296f0ae65370d3aa1c6bd",
+    "name": "Bb 6",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x13333",
+        "fingers": "013333",
+        "baseFret": 1,
+        "midi": [
+          46,
+          53,
+          58,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "210022",
+        "fingers": "210034",
+        "baseFret": 5,
+        "midi": [
+          46,
+          50,
+          50,
+          55,
+          65,
+          70
+        ]
+      },
+      {
+        "frets": "x4221x",
+        "fingers": "042310",
+        "baseFret": 10,
+        "midi": [
+          58,
+          61,
+          66,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4b80cc4fbf04caa5146af3cc897955f083cc6c3719c50d0be969ebb75423358d",
+    "name": "Bb 69",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x10011",
+        "fingers": "010023",
+        "baseFret": 1,
+        "midi": [
+          46,
+          50,
+          55,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "x22122",
+        "fingers": "022134",
+        "baseFret": 7,
+        "midi": [
+          53,
+          58,
+          62,
+          67,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12613d75357ac05d783e5c8118c7039b9f9011b2611f53ead5df85fe17c4ae14",
+    "name": "Bb 7",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x3231x",
+        "fingers": "032410",
+        "baseFret": 11,
+        "midi": [
+          58,
+          62,
+          68,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "99a60b303c954a65fe1e48e87950908efc7acdd070b23036dfd68ae89854f3b7",
+    "name": "Bb 9",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x10111",
+        "fingers": "010234",
+        "baseFret": 1,
+        "midi": [
+          46,
+          50,
+          56,
+          60,
+          65
+        ]
+      },
+      {
+        "frets": "x21222",
+        "fingers": "021333",
+        "baseFret": 12,
+        "midi": [
+          58,
+          62,
+          68,
+          72,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9ea51edb30622413f60784d1dc4d24b8848b8f9cd6c5efb0b57ddb90d98e3d88",
+    "name": "Bb 13",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x10133",
+        "fingers": "010244",
+        "baseFret": 1,
+        "midi": [
+          46,
+          50,
+          56,
+          62,
+          67
+        ]
+      },
+      {
+        "frets": "320011",
+        "fingers": "320011",
+        "baseFret": 4,
+        "midi": [
+          46,
+          50,
+          50,
+          55,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "x21244",
+        "fingers": "021344",
+        "baseFret": 12,
+        "midi": [
+          58,
+          62,
+          68,
+          74,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7bd79c68c8f26710eaaf5e9e7269abd9e8ee37ccde435b506a1d9cfb0cfbb1db",
+    "name": "Bb maj9",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "11021x",
+        "fingers": "110320",
+        "baseFret": 1,
+        "midi": [
+          41,
+          46,
+          50,
+          57,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "id": "09077ff687a2e41ded4b2d7ba70a66bf8e55455b0d82d5d9689332997dc81a15",
+    "name": "Bb maj11",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "3x0212",
+        "fingers": "400213",
+        "baseFret": 4,
+        "midi": [
+          46,
+          50,
+          60,
+          63,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8c9dc3cefbf44a0c23fb0245914fb881e9ee8265ba14ab6f66d04ab880b3ae6e",
+    "name": "Bb m6",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x13x23",
+        "fingers": "013024",
+        "baseFret": 1,
+        "midi": [
+          46,
+          53,
+          61,
+          67
+        ]
+      },
+      {
+        "frets": "x2314x",
+        "fingers": "023140",
+        "baseFret": 3,
+        "midi": [
+          49,
+          55,
+          58,
+          65
+        ]
+      },
+      {
+        "frets": "2x1222",
+        "fingers": "201334",
+        "baseFret": 5,
+        "midi": [
+          46,
+          55,
+          61,
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c76d3c9ace552bbd705e7f6c21dba02f17f7e7047781eb2823f50343489e3f93",
+    "name": "Bb m7",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 5,
+        "midi": [
+          45,
+          55,
+          60,
+          64
+        ]
+      },
+      {
+        "frets": "xx3324",
+        "fingers": "002314",
+        "baseFret": 1,
+        "midi": [
+          53,
+          58,
+          61,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "43720f7a27a9e3ddfaf089c59ebb5e8f459d9bc19d64c2fb4600f55bbb8ad122",
+    "name": "Bb m7b5",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "x1212x",
+        "fingers": "013240",
+        "baseFret": 1,
+        "midi": [
+          46,
+          52,
+          56,
+          61
+        ]
+      },
+      {
+        "frets": "2x221x",
+        "fingers": "203410",
+        "baseFret": 5,
+        "midi": [
+          46,
+          56,
+          61,
+          64
+        ]
+      },
+      {
+        "frets": "xx1222",
+        "fingers": "001222",
+        "baseFret": 8,
+        "midi": [
+          58,
+          64,
+          68,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f25b9be1507e0406a854e80ee0521fb974eb178f55cd73753805fde071806938",
+    "name": "Bb m9",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "xx2413",
+        "fingers": "002413",
+        "baseFret": 2,
+        "midi": [
+          53,
+          60,
+          61,
+          68
+        ]
+      },
+      {
+        "frets": "x3133x",
+        "fingers": "021340",
+        "baseFret": 11,
+        "midi": [
+          58,
+          61,
+          68,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "555453484f4e3c529b437b313fa126eaf38c1f9311b63aba25b9a600dee055bb",
+    "name": "Bb m69",
+    "root": "Bb",
+    "positions": [
+      {
+        "frets": "2x1224",
+        "fingers": "201334",
+        "baseFret": 5,
+        "midi": [
+          46,
+          55,
+          61,
+          65,
+          72
+        ]
+      },
+      {
+        "frets": "x3123x",
+        "fingers": "031240",
+        "baseFret": 11,
+        "midi": [
+          58,
+          61,
+          67,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2c06042425935ecd1e55145a0c7ccb6b13c58285d486bcdea7fb6a8110a17493",
+    "name": "B minor",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "xx1342",
+        "fingers": "001342",
+        "baseFret": 9,
+        "midi": [
+          59,
+          66,
+          71,
+          74
+        ]
+      },
+      {
+        "frets": "xx3231",
+        "fingers": "003241",
+        "baseFret": 10,
+        "midi": [
+          62,
+          66,
+          71,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bbaf0d2de308cb6e3951ec2882bde5aa5741ca564f366c2ccd6480d56c40caf7",
+    "name": "B dim",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x20x01",
+        "fingers": "030002",
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          59,
+          65
+        ]
+      },
+      {
+        "frets": "x2343x",
+        "fingers": "012430",
+        "baseFret": 1,
+        "midi": [
+          47,
+          53,
+          59,
+          62
+        ]
+      },
+      {
+        "frets": "31x32x",
+        "fingers": "310420",
+        "baseFret": 5,
+        "midi": [
+          47,
+          50,
+          62,
+          65
+        ]
+      },
+      {
+        "frets": "xx12x2",
+        "fingers": "001203",
+        "baseFret": 9,
+        "midi": [
+          59,
+          65,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be674202144ca28e3f14d0fb1b541750824d937c50a30e12de517cfd28849347",
+    "name": "B dim7",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "xx3434",
+        "fingers": "001324",
+        "baseFret": 1,
+        "midi": [
+          53,
+          59,
+          62,
+          68
+        ]
+      },
+      {
+        "frets": "2x121x",
+        "fingers": "301420",
+        "baseFret": 6,
+        "midi": [
+          47,
+          56,
+          62,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c08b7f1ccd5c564bc01836cf1cb45cbe60d136a5676c78e3d72a49318d948ee4",
+    "name": "B sus",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x24400",
+        "fingers": "013400",
+        "baseFret": 1,
+        "midi": [
+          47,
+          54,
+          59,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7a3d658effb991751fd63da8deaff06f30ddf9640d14834c30e7643d96bc723f",
+    "name": "B sus2",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "2xx122",
+        "fingers": "200134",
+        "baseFret": 6,
+        "midi": [
+          47,
+          61,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3caa93fa011f829445ab610a064a38bd2a8bde41ec096fdb7ae0fe2f7d095bf2",
+    "name": "B 7sus4",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x22200",
+        "fingers": "012300",
+        "baseFret": 1,
+        "midi": [
+          47,
+          52,
+          57,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dd9591a7692fcfc3f9480fa78357caf53deaed54a4f47450e1d88ff541742e68",
+    "name": "B aug",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x2100x",
+        "fingers": "021000",
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          55,
+          59
+        ]
+      },
+      {
+        "frets": "xx3221",
+        "fingers": "004231",
+        "baseFret": 3,
+        "midi": [
+          55,
+          59,
+          63,
+          67
+        ]
+      },
+      {
+        "frets": "1x322x",
+        "fingers": "104230",
+        "baseFret": 7,
+        "midi": [
+          47,
+          59,
+          63,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "id": "985ee91ee730909f62167349711731700fe5f7437779630df12771680e11fd5e",
+    "name": "B 5",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "13xxxx",
+        "fingers": "130000",
+        "baseFret": 7,
+        "midi": [
+          47,
+          54
+        ]
+      },
+      {
+        "frets": "x24xxx",
+        "fingers": "013000",
+        "baseFret": 1,
+        "midi": [
+          47,
+          54
+        ]
+      },
+      {
+        "frets": "133xxx",
+        "fingers": "134000",
+        "baseFret": 7,
+        "midi": [
+          47,
+          54,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4f181da839af77d6adb00f53385f726a9e64680b649a3aacbd0b165de9accef7",
+    "name": "B 6",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x2110x",
+        "fingers": "031200",
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          56,
+          59
+        ]
+      },
+      {
+        "frets": "x24444",
+        "fingers": "013333",
+        "baseFret": 1,
+        "midi": [
+          47,
+          54,
+          59,
+          63,
+          68
+        ]
+      },
+      {
+        "frets": "1x323x",
+        "fingers": "103240",
+        "baseFret": 7,
+        "midi": [
+          47,
+          59,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ab1f0459114bc68f1d28e46aae025d6e28eaa779e345470a9f122512165d9d8d",
+    "name": "B 69",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x22122",
+        "fingers": "022134",
+        "baseFret": 8,
+        "midi": [
+          54,
+          59,
+          63,
+          68,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be0a6972e1a00170467107d47ead5116b40d9aea2079ed05016e6b53a9c880d4",
+    "name": "B 7",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x21202",
+        "fingers": "021304",
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          57,
+          59,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cff29b435738a898bb6c24d50e0b7451a4ff4e15e981c29365bc627b7b60f074",
+    "name": "B 9",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x21222",
+        "fingers": "021334",
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          57,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "xx2132",
+        "fingers": "002143",
+        "baseFret": 8,
+        "midi": [
+          59,
+          63,
+          69,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0e55ac2acd1f260bdd5253efe0dc83b437711d0b66caf7d06a3dec43a55199e6",
+    "name": "B 11",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x21200",
+        "fingers": "021300",
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          57,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff8c60c3485562c4935849112bf795b5ebd135f97ca6c49d71b9a12e1d5b99cc",
+    "name": "B 13",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x21244",
+        "fingers": "021344",
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          57,
+          63,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": "07f865403ef1938209e2473b7d39bf619117329ddd58133b9835a8565021545e",
+    "name": "B maj9",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "22132x",
+        "fingers": "221430",
+        "baseFret": 1,
+        "midi": [
+          42,
+          47,
+          51,
+          58,
+          61
+        ]
+      },
+      {
+        "frets": "21312x",
+        "fingers": "214130",
+        "baseFret": 6,
+        "midi": [
+          47,
+          51,
+          58,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "xx2142",
+        "fingers": "002143",
+        "baseFret": 8,
+        "midi": [
+          59,
+          63,
+          70,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0c2e7fc09b6b0b4bf66f32ab8ae18be85ad7ecdd1a7c38e8eb00668888637228",
+    "name": "B maj11",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x21300",
+        "fingers": "021300",
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          58,
+          59,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb07168fe09be80dc8e7790e0afaafd427a5edec3d992012760d80662561803b",
+    "name": "B m6",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "220102",
+        "fingers": "230104",
+        "baseFret": 1,
+        "midi": [
+          42,
+          47,
+          50,
+          56,
+          59,
+          66
+        ]
+      },
+      {
+        "frets": "xx4434",
+        "fingers": "002314",
+        "baseFret": 1,
+        "midi": [
+          54,
+          59,
+          62,
+          68
+        ]
+      },
+      {
+        "frets": "2x122x",
+        "fingers": "201340",
+        "baseFret": 6,
+        "midi": [
+          47,
+          56,
+          62,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6687e5216123cddef4127cbfacaf872926d153f00259faea171e3df491b3a788",
+    "name": "B m7",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "1x111x",
+        "fingers": "203330",
+        "baseFret": 7,
+        "midi": [
+          47,
+          57,
+          62,
+          66
+        ]
+      },
+      {
+        "frets": "xx2213",
+        "fingers": "002314",
+        "baseFret": 3,
+        "midi": [
+          54,
+          59,
+          62,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9a80d9c8192caff99330ab36e85f1c9552a7d7cd3b7416796e91dbc730b4fe06",
+    "name": "B m7b5",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x2323x",
+        "fingers": "013240",
+        "baseFret": 1,
+        "midi": [
+          47,
+          53,
+          57,
+          62
+        ]
+      },
+      {
+        "frets": "2x221x",
+        "fingers": "203410",
+        "baseFret": 6,
+        "midi": [
+          47,
+          57,
+          62,
+          65
+        ]
+      },
+      {
+        "frets": "xx1222",
+        "fingers": "001222",
+        "baseFret": 9,
+        "midi": [
+          59,
+          65,
+          69,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dcafef416ade3aa2653ee5fd220fbf9d998a46b9a03099f20d9f9a0db0ee49c6",
+    "name": "B m9",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x20222",
+        "fingers": "010234",
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          57,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x22213",
+        "fingers": "023314",
+        "baseFret": 3,
+        "midi": [
+          49,
+          54,
+          59,
+          62,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d945115d9bed0d4e542d218c09b7c354f9c4e760d3adc1b3ae2169724ca75cad",
+    "name": "B m69",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x20122",
+        "fingers": "020134",
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          56,
+          61,
+          66
+        ]
+      },
+      {
+        "frets": "x12233",
+        "fingers": "012233",
+        "baseFret": 5,
+        "midi": [
+          50,
+          56,
+          61,
+          66,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e7f47da429cb13f0dda935d83ba21dcf0d8c673ef6ee61fa2c1268281efe16c1",
+    "name": "B m11",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x20220",
+        "fingers": "010230",
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          57,
+          61,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9671d8cb2c7b713488331fcf7ea6389874dd108daa812203d38c100301b303db",
+    "name": "B mmaj7",
+    "root": "B",
+    "positions": [
+      {
+        "frets": "x20302",
+        "fingers": "010302",
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          58,
+          59,
+          66
+        ]
       }
     ]
   }

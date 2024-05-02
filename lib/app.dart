@@ -9,9 +9,7 @@ import 'package:test_drive/models/chord_model.dart';
 class App extends StatelessWidget {
   final Future<List<ChordModel>> chordsFuture;
 
-  App({Key? key})
-      : chordsFuture = loadChords(),
-        super(key: key);
+  App({super.key}) : chordsFuture = loadChords();
 
   static Future<List<ChordModel>> loadChords() async {
     try {
