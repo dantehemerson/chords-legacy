@@ -94,6 +94,7 @@ async function main() {
             frets: position.frets.map(fret => fret === -1 ? 'x' : fret.toString(16)).join(''),
             fingers: position.fingers.join(''),
             baseFret: position.baseFret,
+            midi: position.midi,
           }
         })
       }
@@ -101,9 +102,9 @@ async function main() {
 
 
 
-  console.log({
-    chord: Chord.fromString('B7(b5)')
-  })
+  // console.log({
+  //   chord: Chord.fromString('B7(b5)')
+  // })
 
   const chordsInfo = {
     total: dataChords.length,

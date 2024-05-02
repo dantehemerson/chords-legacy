@@ -7,12 +7,25 @@
       {
         "frets": "x32010",
         "fingers": "032010",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          55,
+          60,
+          64
+        ]
       },
       {
         "frets": "xx1114",
         "fingers": "001114",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          55,
+          60,
+          64,
+          72
+        ]
       }
     ]
   },
@@ -24,12 +37,25 @@
       {
         "frets": "x31013",
         "fingers": "032014",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          55,
+          60,
+          67
+        ]
       },
       {
         "frets": "4211xx",
         "fingers": "421100",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          48,
+          51,
+          55,
+          60
+        ]
       }
     ]
   },
@@ -41,22 +67,45 @@
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          60,
+          66
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          48,
+          54,
+          60,
+          63
+        ]
       },
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          48,
+          51,
+          63,
+          66
+        ]
       },
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          60,
+          66,
+          75
+        ]
       }
     ]
   },
@@ -68,17 +117,35 @@
       {
         "frets": "xx1212",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          57,
+          60,
+          66
+        ]
       },
       {
         "frets": "2x121x",
         "fingers": "201310",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          48,
+          57,
+          63,
+          66
+        ]
       },
       {
         "frets": "xx1212",
         "fingers": "001314",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          60,
+          66,
+          69,
+          75
+        ]
       }
     ]
   },
@@ -90,12 +157,26 @@
       {
         "frets": "x33011",
         "fingers": "034011",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          60,
+          65
+        ]
       },
       {
         "frets": "x33013",
         "fingers": "023014",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          60,
+          67
+        ]
       }
     ]
   },
@@ -107,17 +188,38 @@
       {
         "frets": "x30013",
         "fingers": "030014",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          50,
+          55,
+          60,
+          67
+        ]
       },
       {
         "frets": "x30033",
         "fingers": "010023",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          50,
+          55,
+          62,
+          67
+        ]
       },
       {
         "frets": "2x0122",
         "fingers": "200134",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          48,
+          50,
+          62,
+          67,
+          72
+        ]
       }
     ]
   },
@@ -129,12 +231,26 @@
       {
         "frets": "x33011",
         "fingers": "034011",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          60,
+          65
+        ]
       },
       {
         "frets": "33x013",
         "fingers": "230014",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          48,
+          53,
+          55,
+          65,
+          72
+        ]
       }
     ]
   },
@@ -152,22 +268,47 @@
       {
         "frets": "x3211x",
         "fingers": "032110",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          56,
+          60
+        ]
       },
       {
         "frets": "x1433x",
         "fingers": "014230",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          48,
+          56,
+          60,
+          64
+        ]
       },
       {
         "frets": "43211x",
         "fingers": "432110",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          48,
+          52,
+          56,
+          60,
+          64
+        ]
       },
       {
         "frets": "xx3221",
         "fingers": "004231",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          60,
+          64,
+          68,
+          72
+        ]
       }
     ]
   },
@@ -179,17 +320,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          48,
+          55
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          48,
+          55
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          48,
+          55,
+          60
+        ]
       }
     ]
   },
@@ -201,17 +355,37 @@
       {
         "frets": "x32210",
         "fingers": "042310",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          57,
+          60,
+          64
+        ]
       },
       {
         "frets": "x13333",
         "fingers": "013334",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          48,
+          55,
+          60,
+          64,
+          69
+        ]
       },
       {
         "frets": "2x132x",
         "fingers": "201430",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          48,
+          57,
+          64,
+          67
+        ]
       }
     ]
   },
@@ -223,12 +397,26 @@
       {
         "frets": "x10033",
         "fingers": "010034",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          48,
+          50,
+          55,
+          64,
+          69
+        ]
       },
       {
         "frets": "x22122",
         "fingers": "022134",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          55,
+          60,
+          64,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -240,7 +428,14 @@
       {
         "frets": "x32310",
         "fingers": "032410",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          58,
+          60,
+          64
+        ]
       }
     ]
   },
@@ -252,17 +447,39 @@
       {
         "frets": "032030",
         "fingers": "023040",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          48,
+          52,
+          55,
+          62,
+          64
+        ]
       },
       {
         "frets": "332333",
         "fingers": "221334",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          52,
+          58,
+          62,
+          67
+        ]
       },
       {
         "frets": "xx2132",
         "fingers": "002143",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          60,
+          64,
+          70,
+          74
+        ]
       }
     ]
   },
@@ -274,7 +491,15 @@
       {
         "frets": "320011",
         "fingers": "320011",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          48,
+          52,
+          50,
+          55,
+          65,
+          70
+        ]
       }
     ]
   },
@@ -286,12 +511,27 @@
       {
         "frets": "x21244",
         "fingers": "021344",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          48,
+          52,
+          58,
+          64,
+          69
+        ]
       },
       {
         "frets": "322231",
         "fingers": "322241",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          48,
+          52,
+          57,
+          62,
+          67,
+          70
+        ]
       }
     ]
   },
@@ -303,12 +543,26 @@
       {
         "frets": "332000",
         "fingers": "231000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          52,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "xx1333",
         "fingers": "001333",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          60,
+          67,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -320,12 +574,26 @@
       {
         "frets": "x30000",
         "fingers": "030000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          50,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "33243x",
         "fingers": "221430",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          52,
+          59,
+          62
+        ]
       }
     ]
   },
@@ -337,17 +605,39 @@
       {
         "frets": "x32001",
         "fingers": "032001",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          55,
+          59,
+          65
+        ]
       },
       {
         "frets": "x33000",
         "fingers": "011000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "324010",
         "fingers": "324010",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          48,
+          52,
+          59,
+          55,
+          65,
+          64
+        ]
       }
     ]
   },
@@ -359,12 +649,26 @@
       {
         "frets": "x32201",
         "fingers": "042301",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          52,
+          57,
+          59,
+          65
+        ]
       },
       {
         "frets": "x11233",
         "fingers": "011234",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          48,
+          53,
+          59,
+          64,
+          69
+        ]
       }
     ]
   },
@@ -376,12 +680,25 @@
       {
         "frets": "x13x23",
         "fingers": "013024",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          48,
+          55,
+          63,
+          69
+        ]
       },
       {
         "frets": "2x1222",
         "fingers": "201334",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          48,
+          57,
+          63,
+          67,
+          72
+        ]
       }
     ]
   },
@@ -393,17 +710,35 @@
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          48,
+          58,
+          63,
+          67
+        ]
       },
       {
         "frets": "x3134x",
         "fingers": "021340",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          58,
+          63
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          55,
+          60,
+          63,
+          70
+        ]
       }
     ]
   },
@@ -415,12 +750,24 @@
       {
         "frets": "x3434x",
         "fingers": "013240",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          54,
+          58,
+          63
+        ]
       },
       {
         "frets": "xx1222",
         "fingers": "001333",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          60,
+          66,
+          70,
+          75
+        ]
       }
     ]
   },
@@ -432,17 +779,38 @@
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          58,
+          62,
+          67
+        ]
       },
       {
         "frets": "x30343",
         "fingers": "010243",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          50,
+          58,
+          63,
+          67
+        ]
       },
       {
         "frets": "x13233",
         "fingers": "013244",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          51,
+          58,
+          62,
+          67,
+          72
+        ]
       }
     ]
   },
@@ -454,22 +822,49 @@
       {
         "frets": "x31233",
         "fingers": "031244",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          57,
+          62,
+          67
+        ]
       },
       {
         "frets": "x10023",
         "fingers": "010024",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          48,
+          50,
+          55,
+          63,
+          69
+        ]
       },
       {
         "frets": "3122xx",
         "fingers": "412300",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          48,
+          51,
+          57,
+          62
+        ]
       },
       {
         "frets": "x33133",
         "fingers": "022134",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          55,
+          60,
+          63,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -487,12 +882,24 @@
       {
         "frets": "x3100x",
         "fingers": "031000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          55,
+          59
+        ]
       },
       {
         "frets": "xx1332",
         "fingers": "001342",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          60,
+          67,
+          71,
+          75
+        ]
       }
     ]
   },
@@ -504,12 +911,27 @@
       {
         "frets": "x43121",
         "fingers": "043121",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          56,
+          61,
+          65
+        ]
       },
       {
         "frets": "431114",
         "fingers": "321114",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          49,
+          53,
+          56,
+          61,
+          65,
+          73
+        ]
       }
     ]
   },
@@ -521,12 +943,25 @@
       {
         "frets": "x4212x",
         "fingers": "042130",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          56,
+          61
+        ]
       },
       {
         "frets": "4211x4",
         "fingers": "321104",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          49,
+          52,
+          56,
+          61,
+          73
+        ]
       }
     ]
   },
@@ -538,22 +973,45 @@
       {
         "frets": "x42x23",
         "fingers": "041023",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          61,
+          67
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          49,
+          55,
+          61,
+          64
+        ]
       },
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          49,
+          52,
+          64,
+          67
+        ]
       },
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          61,
+          67,
+          76
+        ]
       }
     ]
   },
@@ -565,17 +1023,35 @@
       {
         "frets": "xx2323",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          52,
+          58,
+          61,
+          67
+        ]
       },
       {
         "frets": "2x121x",
         "fingers": "201310",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          49,
+          58,
+          64,
+          67
+        ]
       },
       {
         "frets": "xx1212",
         "fingers": "001324",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          61,
+          67,
+          70,
+          76
+        ]
       }
     ]
   },
@@ -599,12 +1075,25 @@
       {
         "frets": "x4412x",
         "fingers": "034120",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          54,
+          56,
+          61
+        ]
       },
       {
         "frets": "4x1124",
         "fingers": "230014",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          49,
+          56,
+          61,
+          66,
+          73
+        ]
       }
     ]
   },
@@ -616,7 +1105,12 @@
       {
         "frets": "xxx122",
         "fingers": "000123",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          61,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -634,17 +1128,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          49,
+          56
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          49,
+          56
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          49,
+          56,
+          61
+        ]
       }
     ]
   },
@@ -656,12 +1163,25 @@
       {
         "frets": "x4332x",
         "fingers": "042310",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          58,
+          61
+        ]
       },
       {
         "frets": "x13333",
         "fingers": "013333",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          49,
+          56,
+          61,
+          65,
+          70
+        ]
       }
     ]
   },
@@ -673,7 +1193,13 @@
       {
         "frets": "xx2122",
         "fingers": "002134",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          61,
+          65,
+          70,
+          75
+        ]
       }
     ]
   },
@@ -685,7 +1211,13 @@
       {
         "frets": "x4342x",
         "fingers": "032410",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          59,
+          61
+        ]
       }
     ]
   },
@@ -697,17 +1229,37 @@
       {
         "frets": "443444",
         "fingers": "221334",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          49,
+          53,
+          59,
+          63,
+          68
+        ]
       },
       {
         "frets": "2121xx",
         "fingers": "314200",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          49,
+          53,
+          59,
+          63
+        ]
       },
       {
         "frets": "xx2132",
         "fingers": "002143",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          61,
+          65,
+          71,
+          75
+        ]
       }
     ]
   },
@@ -719,7 +1271,14 @@
       {
         "frets": "x43004",
         "fingers": "021003",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          55,
+          59,
+          68
+        ]
       }
     ]
   },
@@ -731,12 +1290,27 @@
       {
         "frets": "x43302",
         "fingers": "042301",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          53,
+          58,
+          59,
+          66
+        ]
       },
       {
         "frets": "322231",
         "fingers": "322241",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          49,
+          53,
+          58,
+          63,
+          68,
+          71
+        ]
       }
     ]
   },
@@ -748,12 +1322,23 @@
       {
         "frets": "xxx113",
         "fingers": "000113",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          61,
+          65,
+          72
+        ]
       },
       {
         "frets": "1x221x",
         "fingers": "103420",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          49,
+          60,
+          65,
+          68
+        ]
       }
     ]
   },
@@ -765,12 +1350,24 @@
       {
         "frets": "x2132x",
         "fingers": "021430",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          49,
+          53,
+          60,
+          63
+        ]
       },
       {
         "frets": "xx2142",
         "fingers": "002143",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          61,
+          65,
+          72,
+          75
+        ]
       }
     ]
   },
@@ -782,7 +1379,13 @@
       {
         "frets": "32xx12",
         "fingers": "420013",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          49,
+          53,
+          66,
+          72
+        ]
       }
     ]
   },
@@ -794,7 +1397,14 @@
       {
         "frets": "x41311",
         "fingers": "042301",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          51,
+          58,
+          60,
+          65
+        ]
       }
     ]
   },
@@ -806,12 +1416,24 @@
       {
         "frets": "xx2212",
         "fingers": "002314",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          56,
+          61,
+          64,
+          70
+        ]
       },
       {
         "frets": "2x122x",
         "fingers": "201340",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          49,
+          58,
+          64,
+          68
+        ]
       }
     ]
   },
@@ -823,17 +1445,35 @@
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          49,
+          59,
+          64,
+          68
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          56,
+          61,
+          64,
+          71
+        ]
       },
       {
         "frets": "xx1322",
         "fingers": "001423",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          61,
+          68,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -845,17 +1485,35 @@
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          49,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "2x221x",
         "fingers": "203410",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          49,
+          59,
+          64,
+          67
+        ]
       },
       {
         "frets": "xx1222",
         "fingers": "001222",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          61,
+          67,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -867,17 +1525,38 @@
       {
         "frets": "x42444",
         "fingers": "021344",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          59,
+          63,
+          68
+        ]
       },
       {
         "frets": "x22213",
         "fingers": "022314",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          51,
+          56,
+          61,
+          64,
+          71
+        ]
       },
       {
         "frets": "x13233",
         "fingers": "013244",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          52,
+          59,
+          63,
+          68,
+          73
+        ]
       }
     ]
   },
@@ -889,22 +1568,49 @@
       {
         "frets": "x41320",
         "fingers": "041320",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          51,
+          58,
+          61,
+          64
+        ]
       },
       {
         "frets": "x4234x",
         "fingers": "031240",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          58,
+          63
+        ]
       },
       {
         "frets": "3122x0",
         "fingers": "412300",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          49,
+          52,
+          58,
+          63,
+          64
+        ]
       },
       {
         "frets": "x33133",
         "fingers": "022134",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          56,
+          61,
+          64,
+          70,
+          75
+        ]
       }
     ]
   },
@@ -916,7 +1622,13 @@
       {
         "frets": "xx1122",
         "fingers": "001123",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          61,
+          66,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -928,7 +1640,13 @@
       {
         "frets": "x4211x",
         "fingers": "042110",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          49,
+          52,
+          56,
+          60
+        ]
       }
     ]
   },
@@ -940,7 +1658,13 @@
       {
         "frets": "xx0232",
         "fingers": "000132",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          66
+        ]
       }
     ]
   },
@@ -952,12 +1676,24 @@
       {
         "frets": "xx0231",
         "fingers": "000231",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          65
+        ]
       },
       {
         "frets": "x3221x",
         "fingers": "042310",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          53,
+          57,
+          62,
+          65
+        ]
       }
     ]
   },
@@ -969,22 +1705,45 @@
       {
         "frets": "xx01x1",
         "fingers": "000102",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          65
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          53,
+          62,
+          68
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          56,
+          62,
+          65
+        ]
       },
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          50,
+          53,
+          65,
+          68
+        ]
       }
     ]
   },
@@ -996,12 +1755,25 @@
       {
         "frets": "xx0101",
         "fingers": "000203",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          59,
+          65
+        ]
       },
       {
         "frets": "x20431",
         "fingers": "020431",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          53,
+          50,
+          65,
+          68,
+          71
+        ]
       }
     ]
   },
@@ -1013,12 +1785,24 @@
       {
         "frets": "xx0233",
         "fingers": "000122",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          67
+        ]
       },
       {
         "frets": "xx0341",
         "fingers": "000341",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          62,
+          67,
+          69
+        ]
       }
     ]
   },
@@ -1030,12 +1814,24 @@
       {
         "frets": "xx0230",
         "fingers": "000230",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          64
+        ]
       },
       {
         "frets": "xx1124",
         "fingers": "001124",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          52,
+          57,
+          62,
+          69
+        ]
       }
     ]
   },
@@ -1047,12 +1843,25 @@
       {
         "frets": "xx0233",
         "fingers": "000123",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          62,
+          67
+        ]
       },
       {
         "frets": "x30013",
         "fingers": "030014",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          50,
+          55,
+          62,
+          69
+        ]
       }
     ]
   },
@@ -1064,12 +1873,24 @@
       {
         "frets": "xx0213",
         "fingers": "000214",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          60,
+          67
+        ]
       },
       {
         "frets": "x3331x",
         "fingers": "023410",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          55,
+          60,
+          62
+        ]
       }
     ]
   },
@@ -1081,22 +1902,47 @@
       {
         "frets": "xx0332",
         "fingers": "000231",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          58,
+          62,
+          66
+        ]
       },
       {
         "frets": "x3211x",
         "fingers": "032110",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          54,
+          58,
+          62
+        ]
       },
       {
         "frets": "43211x",
         "fingers": "432110",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          50,
+          54,
+          58,
+          62,
+          66
+        ]
       },
       {
         "frets": "1x322x",
         "fingers": "104230",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          50,
+          62,
+          66,
+          70
+        ]
       }
     ]
   },
@@ -1108,17 +1954,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          50,
+          57
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          57
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          50,
+          57,
+          62
+        ]
       }
     ]
   },
@@ -1130,17 +1989,36 @@
       {
         "frets": "xx0202",
         "fingers": "000203",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          59,
+          66
+        ]
       },
       {
         "frets": "x3221x",
         "fingers": "042310",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          54,
+          59,
+          62
+        ]
       },
       {
         "frets": "x13333",
         "fingers": "013334",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          57,
+          62,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -1152,17 +2030,38 @@
       {
         "frets": "x43100",
         "fingers": "043100",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          50,
+          54,
+          57,
+          59,
+          64
+        ]
       },
       {
         "frets": "x21122",
         "fingers": "021134",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          50,
+          54,
+          59,
+          64,
+          69
+        ]
       },
       {
         "frets": "x22122",
         "fingers": "022134",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          57,
+          62,
+          66,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -1174,12 +2073,24 @@
       {
         "frets": "xx0212",
         "fingers": "000213",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          60,
+          66
+        ]
       },
       {
         "frets": "x3231x",
         "fingers": "032410",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          54,
+          60,
+          62
+        ]
       }
     ]
   },
@@ -1191,12 +2102,27 @@
       {
         "frets": "221222",
         "fingers": "221334",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          45,
+          50,
+          54,
+          60,
+          64,
+          69
+        ]
       },
       {
         "frets": "x10112",
         "fingers": "010234",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          52,
+          50,
+          62,
+          66,
+          72
+        ]
       }
     ]
   },
@@ -1208,7 +2134,13 @@
       {
         "frets": "xx0012",
         "fingers": "000012",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          55,
+          60,
+          66
+        ]
       }
     ]
   },
@@ -1220,17 +2152,37 @@
       {
         "frets": "xx0412",
         "fingers": "000412",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          59,
+          60,
+          66
+        ]
       },
       {
         "frets": "320201",
         "fingers": "420301",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          50,
+          54,
+          50,
+          64,
+          59,
+          72
+        ]
       },
       {
         "frets": "1x123x",
         "fingers": "102340",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          50,
+          60,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -1248,12 +2200,25 @@
       {
         "frets": "x2131x",
         "fingers": "021430",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          50,
+          54,
+          61,
+          63
+        ]
       },
       {
         "frets": "x30313",
         "fingers": "020314",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          54,
+          50,
+          64,
+          66,
+          73
+        ]
       }
     ]
   },
@@ -1265,12 +2230,25 @@
       {
         "frets": "xx0022",
         "fingers": "000011",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          55,
+          61,
+          66
+        ]
       },
       {
         "frets": "x30123",
         "fingers": "030124",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          54,
+          50,
+          62,
+          67,
+          73
+        ]
       }
     ]
   },
@@ -1282,17 +2260,37 @@
       {
         "frets": "xx0422",
         "fingers": "000311",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          59,
+          61,
+          66
+        ]
       },
       {
         "frets": "x43310",
         "fingers": "042310",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          50,
+          54,
+          59,
+          61,
+          64
+        ]
       },
       {
         "frets": "x11233",
         "fingers": "011234",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          55,
+          61,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -1304,17 +2302,36 @@
       {
         "frets": "xx0201",
         "fingers": "000201",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          59,
+          65
+        ]
       },
       {
         "frets": "x13x23",
         "fingers": "013024",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          57,
+          65,
+          71
+        ]
       },
       {
         "frets": "2x1222",
         "fingers": "201333",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          50,
+          59,
+          65,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -1326,22 +2343,47 @@
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          50,
+          60,
+          65,
+          69
+        ]
       },
       {
         "frets": "xx0211",
         "fingers": "000312",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          60,
+          65
+        ]
       },
       {
         "frets": "x13121",
         "fingers": "013121",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          57,
+          60,
+          65,
+          69
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          57,
+          62,
+          65,
+          72
+        ]
       }
     ]
   },
@@ -1353,22 +2395,48 @@
       {
         "frets": "xx0111",
         "fingers": "000111",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          60,
+          65
+        ]
       },
       {
         "frets": "x31312",
         "fingers": "031412",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          53,
+          60,
+          62,
+          68
+        ]
       },
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          56,
+          60,
+          65
+        ]
       },
       {
         "frets": "x10321",
         "fingers": "010432",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          53,
+          50,
+          65,
+          68,
+          72
+        ]
       }
     ]
   },
@@ -1380,17 +2448,39 @@
       {
         "frets": "100210",
         "fingers": "100320",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          45,
+          50,
+          57,
+          60,
+          64
+        ]
       },
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          53,
+          60,
+          64,
+          69
+        ]
       },
       {
         "frets": "x13120",
         "fingers": "014230",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          57,
+          60,
+          65,
+          64
+        ]
       }
     ]
   },
@@ -1402,22 +2492,50 @@
       {
         "frets": "x42100",
         "fingers": "042100",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          50,
+          53,
+          57,
+          59,
+          64
+        ]
       },
       {
         "frets": "x31230",
         "fingers": "031240",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          53,
+          59,
+          64,
+          64
+        ]
       },
       {
         "frets": "x20212",
         "fingers": "020314",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          52,
+          50,
+          62,
+          65,
+          71
+        ]
       },
       {
         "frets": "x33133",
         "fingers": "022134",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          57,
+          62,
+          65,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -1435,12 +2553,25 @@
       {
         "frets": "xx0221",
         "fingers": "000231",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          57,
+          61,
+          65
+        ]
       },
       {
         "frets": "x42110",
         "fingers": "042110",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          50,
+          53,
+          57,
+          61,
+          64
+        ]
       }
     ]
   },
@@ -1452,12 +2583,25 @@
       {
         "frets": "xx1343",
         "fingers": "001243",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          63,
+          67
+        ]
       },
       {
         "frets": "x43121",
         "fingers": "043121",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          51,
+          55,
+          58,
+          63,
+          67
+        ]
       }
     ]
   },
@@ -1469,12 +2613,24 @@
       {
         "frets": "xx1342",
         "fingers": "001342",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          63,
+          66
+        ]
       },
       {
         "frets": "xx4342",
         "fingers": "003241",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          54,
+          58,
+          63,
+          66
+        ]
       }
     ]
   },
@@ -1486,22 +2642,45 @@
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          57,
+          66
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          51,
+          54,
+          63,
+          69
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          51,
+          57,
+          63,
+          66
+        ]
       },
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          51,
+          54,
+          66,
+          69
+        ]
       }
     ]
   },
@@ -1513,17 +2692,35 @@
       {
         "frets": "xx1212",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          57,
+          60,
+          66
+        ]
       },
       {
         "frets": "xx1212",
         "fingers": "001324",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          57,
+          63,
+          66,
+          72
+        ]
       },
       {
         "frets": "2x121x",
         "fingers": "201310",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          51,
+          60,
+          66,
+          69
+        ]
       }
     ]
   },
@@ -1535,7 +2732,13 @@
       {
         "frets": "xx1344",
         "fingers": "001344",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -1553,12 +2756,23 @@
       {
         "frets": "xx1344",
         "fingers": "001234",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          63,
+          68
+        ]
       },
       {
         "frets": "xx112x",
         "fingers": "001120",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          58,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -1570,7 +2784,13 @@
       {
         "frets": "xx1324",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          61,
+          68
+        ]
       }
     ]
   },
@@ -1582,12 +2802,24 @@
       {
         "frets": "xx3221",
         "fingers": "004231",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          55,
+          59,
+          63,
+          67
+        ]
       },
       {
         "frets": "1x322x",
         "fingers": "104230",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          51,
+          63,
+          67,
+          71
+        ]
       }
     ]
   },
@@ -1599,17 +2831,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          51,
+          58
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          51,
+          58
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          51,
+          58,
+          63
+        ]
       }
     ]
   },
@@ -1621,22 +2866,47 @@
       {
         "frets": "xx1313",
         "fingers": "001314",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          60,
+          67
+        ]
       },
       {
         "frets": "x3221x",
         "fingers": "042310",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          51,
+          55,
+          60,
+          63
+        ]
       },
       {
         "frets": "x13333",
         "fingers": "013333",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          51,
+          58,
+          63,
+          67,
+          72
+        ]
       },
       {
         "frets": "2x132x",
         "fingers": "201430",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          51,
+          60,
+          67,
+          70
+        ]
       }
     ]
   },
@@ -1648,7 +2918,13 @@
       {
         "frets": "xx1011",
         "fingers": "002034",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          55,
+          60,
+          65
+        ]
       }
     ]
   },
@@ -1660,7 +2936,13 @@
       {
         "frets": "xx1323",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          61,
+          67
+        ]
       }
     ]
   },
@@ -1672,17 +2954,36 @@
       {
         "frets": "xx1021",
         "fingers": "001032",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          55,
+          61,
+          65
+        ]
       },
       {
         "frets": "x21222",
         "fingers": "021334",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          51,
+          55,
+          61,
+          65,
+          70
+        ]
       },
       {
         "frets": "2121xx",
         "fingers": "314200",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          51,
+          55,
+          61,
+          65
+        ]
       }
     ]
   },
@@ -1700,12 +3001,27 @@
       {
         "frets": "x21244",
         "fingers": "021344",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          51,
+          55,
+          61,
+          67,
+          72
+        ]
       },
       {
         "frets": "322011",
         "fingers": "423011",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          51,
+          55,
+          60,
+          55,
+          68,
+          73
+        ]
       }
     ]
   },
@@ -1717,12 +3033,25 @@
       {
         "frets": "x43111",
         "fingers": "043111",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          51,
+          55,
+          58,
+          62,
+          67
+        ]
       },
       {
         "frets": "xx1113",
         "fingers": "001114",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          58,
+          63,
+          67,
+          74
+        ]
       }
     ]
   },
@@ -1734,17 +3063,36 @@
       {
         "frets": "x41111",
         "fingers": "041111",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          51,
+          53,
+          58,
+          62,
+          67
+        ]
       },
       {
         "frets": "x2132x",
         "fingers": "021430",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          51,
+          55,
+          62,
+          65
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          62,
+          67,
+          70,
+          77
+        ]
       }
     ]
   },
@@ -1756,7 +3104,13 @@
       {
         "frets": "xx1133",
         "fingers": "001134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          56,
+          62,
+          67
+        ]
       }
     ]
   },
@@ -1768,12 +3122,25 @@
       {
         "frets": "x3103x",
         "fingers": "031040",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          51,
+          55,
+          62
+        ]
       },
       {
         "frets": "x43311",
         "fingers": "042311",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          51,
+          55,
+          60,
+          62,
+          67
+        ]
       }
     ]
   },
@@ -1785,7 +3152,13 @@
       {
         "frets": "xx2212",
         "fingers": "002314",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          58,
+          63,
+          66,
+          72
+        ]
       }
     ]
   },
@@ -1797,17 +3170,35 @@
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          51,
+          61,
+          66,
+          70
+        ]
       },
       {
         "frets": "xx1322",
         "fingers": "001423",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          61,
+          66
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          58,
+          63,
+          66,
+          73
+        ]
       }
     ]
   },
@@ -1819,22 +3210,46 @@
       {
         "frets": "xx1222",
         "fingers": "001222",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          57,
+          61,
+          66
+        ]
       },
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          51,
+          57,
+          61,
+          66
+        ]
       },
       {
         "frets": "xx1213",
         "fingers": "001214",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          57,
+          63,
+          66,
+          73
+        ]
       },
       {
         "frets": "2x221x",
         "fingers": "203410",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          51,
+          61,
+          66,
+          69
+        ]
       }
     ]
   },
@@ -1846,17 +3261,37 @@
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          51,
+          54,
+          61,
+          65,
+          70
+        ]
       },
       {
         "frets": "xx2413",
         "fingers": "002413",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          58,
+          65,
+          66,
+          73
+        ]
       },
       {
         "frets": "x13233",
         "fingers": "013244",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          54,
+          61,
+          65,
+          70,
+          75
+        ]
       }
     ]
   },
@@ -1868,17 +3303,36 @@
       {
         "frets": "2x1311",
         "fingers": "201311",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          51,
+          58,
+          60,
+          65
+        ]
       },
       {
         "frets": "x3123x",
         "fingers": "031240",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          51,
+          54,
+          60,
+          65
+        ]
       },
       {
         "frets": "xx3133",
         "fingers": "002134",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          63,
+          66,
+          72,
+          77
+        ]
       }
     ]
   },
@@ -1896,12 +3350,24 @@
       {
         "frets": "xx1332",
         "fingers": "001342",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          51,
+          58,
+          62,
+          66
+        ]
       },
       {
         "frets": "x4211x",
         "fingers": "043120",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          51,
+          54,
+          58,
+          62
+        ]
       }
     ]
   },
@@ -1913,12 +3379,26 @@
       {
         "frets": "022100",
         "fingers": "023100",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          56,
+          59,
+          64
+        ]
       },
       {
         "frets": "xx1343",
         "fingers": "001243",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          52,
+          59,
+          64,
+          68
+        ]
       }
     ]
   },
@@ -1930,17 +3410,39 @@
       {
         "frets": "022000",
         "fingers": "023000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "011342",
         "fingers": "011342",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          64,
+          67
+        ]
       },
       {
         "frets": "4211xx",
         "fingers": "431200",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          52,
+          55,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -1952,22 +3454,45 @@
       {
         "frets": "xx23x3",
         "fingers": "001203",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          52,
+          58,
+          67
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          52,
+          55,
+          64,
+          70
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          52,
+          58,
+          64,
+          67
+        ]
       },
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          52,
+          55,
+          67,
+          70
+        ]
       }
     ]
   },
@@ -1979,17 +3504,37 @@
       {
         "frets": "012020",
         "fingers": "012030",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          46,
+          52,
+          55,
+          61,
+          64
+        ]
       },
       {
         "frets": "xx2323",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          52,
+          58,
+          61,
+          67
+        ]
       },
       {
         "frets": "x2313x",
         "fingers": "023140",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          52,
+          58,
+          61,
+          67
+        ]
       }
     ]
   },
@@ -2001,22 +3546,52 @@
       {
         "frets": "002200",
         "fingers": "001200",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          52,
+          57,
+          59,
+          64
+        ]
       },
       {
         "frets": "002400",
         "fingers": "001300",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          52,
+          59,
+          59,
+          64
+        ]
       },
       {
         "frets": "022200",
         "fingers": "012300",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          57,
+          59,
+          64
+        ]
       },
       {
         "frets": "xx2200",
         "fingers": "001200",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          52,
+          57,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -2028,7 +3603,15 @@
       {
         "frets": "011100",
         "fingers": "012300",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          40,
+          54,
+          59,
+          64,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -2040,17 +3623,39 @@
       {
         "frets": "022200",
         "fingers": "023400",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          57,
+          59,
+          64
+        ]
       },
       {
         "frets": "011344",
         "fingers": "011234",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          64,
+          69
+        ]
       },
       {
         "frets": "xx1120",
         "fingers": "001120",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          59,
+          64,
+          69,
+          64
+        ]
       }
     ]
   },
@@ -2062,7 +3667,15 @@
       {
         "frets": "020200",
         "fingers": "020300",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          57,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -2074,17 +3687,39 @@
       {
         "frets": "032110",
         "fingers": "043120",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          48,
+          52,
+          56,
+          60,
+          64
+        ]
       },
       {
         "frets": "x1433x",
         "fingers": "432110",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          52,
+          60,
+          64,
+          68
+        ]
       },
       {
         "frets": "432110",
         "fingers": "432110",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          52,
+          56,
+          60,
+          64,
+          68,
+          64
+        ]
       }
     ]
   },
@@ -2096,22 +3731,40 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 12
+        "baseFret": 12,
+        "midi": [
+          52,
+          59
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          52,
+          59
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 12
+        "baseFret": 12,
+        "midi": [
+          52,
+          59,
+          64
+        ]
       },
       {
         "frets": "022xxx",
         "fingers": "023000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52
+        ]
       }
     ]
   },
@@ -2123,17 +3776,38 @@
       {
         "frets": "022120",
         "fingers": "023140",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          56,
+          61,
+          64
+        ]
       },
       {
         "frets": "x3221x",
         "fingers": "042310",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          52,
+          56,
+          61,
+          64
+        ]
       },
       {
         "frets": "x13333",
         "fingers": "013333",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          52,
+          59,
+          64,
+          68,
+          73
+        ]
       }
     ]
   },
@@ -2145,12 +3819,28 @@
       {
         "frets": "022122",
         "fingers": "022134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          56,
+          61,
+          66
+        ]
       },
       {
         "frets": "011122",
         "fingers": "011134",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          40,
+          56,
+          61,
+          66,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -2162,12 +3852,26 @@
       {
         "frets": "020100",
         "fingers": "020100",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          56,
+          59,
+          64
+        ]
       },
       {
         "frets": "x3231x",
         "fingers": "032410",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          52,
+          56,
+          62,
+          64
+        ]
       }
     ]
   },
@@ -2179,22 +3883,53 @@
       {
         "frets": "020102",
         "fingers": "020103",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          56,
+          59,
+          66
+        ]
       },
       {
         "frets": "4x2432",
         "fingers": "301421",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          52,
+          59,
+          62,
+          66
+        ]
       },
       {
         "frets": "221222",
         "fingers": "221334",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          47,
+          52,
+          56,
+          62,
+          66,
+          71
+        ]
       },
       {
         "frets": "011112",
         "fingers": "011112",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          40,
+          54,
+          59,
+          64,
+          68,
+          74
+        ]
       }
     ]
   },
@@ -2206,12 +3941,28 @@
       {
         "frets": "000100",
         "fingers": "000100",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          50,
+          56,
+          59,
+          64
+        ]
       },
       {
         "frets": "004434",
         "fingers": "002314",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          54,
+          59,
+          62,
+          68
+        ]
       }
     ]
   },
@@ -2223,17 +3974,41 @@
       {
         "frets": "020120",
         "fingers": "020130",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          56,
+          61,
+          64
+        ]
       },
       {
         "frets": "000122",
         "fingers": "000123",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          50,
+          56,
+          61,
+          66
+        ]
       },
       {
         "frets": "012210",
         "fingers": "013420",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          40,
+          50,
+          56,
+          61,
+          64,
+          64
+        ]
       }
     ]
   },
@@ -2245,12 +4020,26 @@
       {
         "frets": "021100",
         "fingers": "031200",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          51,
+          56,
+          59,
+          64
+        ]
       },
       {
         "frets": "xx2444",
         "fingers": "001333",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          52,
+          59,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -2262,12 +4051,26 @@
       {
         "frets": "021102",
         "fingers": "031204",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          51,
+          56,
+          59,
+          66
+        ]
       },
       {
         "frets": "x2132x",
         "fingers": "021430",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          52,
+          56,
+          63,
+          66
+        ]
       }
     ]
   },
@@ -2279,17 +4082,41 @@
       {
         "frets": "001100",
         "fingers": "001200",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          51,
+          56,
+          59,
+          64
+        ]
       },
       {
         "frets": "003112",
         "fingers": "003112",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          40,
+          45,
+          56,
+          59,
+          63,
+          69
+        ]
       },
       {
         "frets": "031123",
         "fingers": "031124",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          40,
+          56,
+          59,
+          64,
+          69,
+          75
+        ]
       }
     ]
   },
@@ -2301,12 +4128,27 @@
       {
         "frets": "021122",
         "fingers": "021134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          51,
+          56,
+          61,
+          66
+        ]
       },
       {
         "frets": "x43311",
         "fingers": "042311",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          52,
+          56,
+          61,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -2318,17 +4160,39 @@
       {
         "frets": "022020",
         "fingers": "012030",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          61,
+          64
+        ]
       },
       {
         "frets": "022423",
         "fingers": "011312",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          61,
+          67
+        ]
       },
       {
         "frets": "xx2212",
         "fingers": "002314",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          59,
+          64,
+          67,
+          73
+        ]
       }
     ]
   },
@@ -2340,32 +4204,74 @@
       {
         "frets": "0x000x",
         "fingers": "203330",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          50,
+          55,
+          59
+        ]
       },
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 12
+        "baseFret": 12,
+        "midi": [
+          52,
+          62,
+          67,
+          71
+        ]
       },
       {
         "frets": "022030",
         "fingers": "023040",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          62,
+          64
+        ]
       },
       {
         "frets": "020000",
         "fingers": "020000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "022433",
         "fingers": "011423",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          62,
+          67
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          59,
+          64,
+          67,
+          74
+        ]
       }
     ]
   },
@@ -2377,17 +4283,37 @@
       {
         "frets": "012333",
         "fingers": "012333",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          46,
+          52,
+          58,
+          62,
+          67
+        ]
       },
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          52,
+          58,
+          62,
+          67
+        ]
       },
       {
         "frets": "2x221x",
         "fingers": "203410",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          52,
+          62,
+          67,
+          70
+        ]
       }
     ]
   },
@@ -2399,22 +4325,53 @@
       {
         "frets": "020002",
         "fingers": "020004",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          50,
+          55,
+          59,
+          66
+        ]
       },
       {
         "frets": "022032",
         "fingers": "012043",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          62,
+          66
+        ]
       },
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          52,
+          55,
+          62,
+          66,
+          71
+        ]
       },
       {
         "frets": "013231",
         "fingers": "013241",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          40,
+          55,
+          62,
+          66,
+          71,
+          74
+        ]
       }
     ]
   },
@@ -2426,22 +4383,52 @@
       {
         "frets": "022022",
         "fingers": "011023",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          55,
+          61,
+          66
+        ]
       },
       {
         "frets": "3x2422",
         "fingers": "201311",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          52,
+          59,
+          61,
+          66
+        ]
       },
       {
         "frets": "x31233",
         "fingers": "031244",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          52,
+          55,
+          61,
+          66,
+          71
+        ]
       },
       {
         "frets": "012230",
         "fingers": "012340",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          40,
+          55,
+          61,
+          66,
+          71,
+          64
+        ]
       }
     ]
   },
@@ -2453,12 +4440,28 @@
       {
         "frets": "000002",
         "fingers": "000001",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          45,
+          50,
+          55,
+          59,
+          66
+        ]
       },
       {
         "frets": "003210",
         "fingers": "003210",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          40,
+          45,
+          55,
+          59,
+          62,
+          64
+        ]
       }
     ]
   },
@@ -2470,12 +4473,28 @@
       {
         "frets": "021000",
         "fingers": "021000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          51,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "022443",
         "fingers": "011342",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          40,
+          47,
+          52,
+          59,
+          63,
+          67
+        ]
       }
     ]
   },
@@ -2487,12 +4506,24 @@
       {
         "frets": "xx3211",
         "fingers": "-1-13211",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          60,
+          65
+        ]
       },
       {
         "frets": "xx1343",
         "fingers": "001243",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          65,
+          69
+        ]
       }
     ]
   },
@@ -2504,7 +4535,13 @@
       {
         "frets": "xx1342",
         "fingers": "001342",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          65,
+          68
+        ]
       }
     ]
   },
@@ -2516,22 +4553,45 @@
       {
         "frets": "xx34x4",
         "fingers": "001203",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          59,
+          68
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          53,
+          56,
+          65,
+          71
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          53,
+          59,
+          65,
+          68
+        ]
       },
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          53,
+          56,
+          68,
+          71
+        ]
       }
     ]
   },
@@ -2543,12 +4603,25 @@
       {
         "frets": "1x0101",
         "fingers": "100203",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          50,
+          56,
+          59,
+          65
+        ]
       },
       {
         "frets": "2x121x",
         "fingers": "301420",
-        "baseFret": 12
+        "baseFret": 12,
+        "midi": [
+          53,
+          62,
+          68,
+          71
+        ]
       }
     ]
   },
@@ -2560,7 +4633,13 @@
       {
         "frets": "xx1344",
         "fingers": "001344",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          65,
+          70
+        ]
       }
     ]
   },
@@ -2578,7 +4657,13 @@
       {
         "frets": "xx1344",
         "fingers": "001234",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          65,
+          70
+        ]
       }
     ]
   },
@@ -2596,17 +4681,36 @@
       {
         "frets": "xx3221",
         "fingers": "004231",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          61,
+          65
+        ]
       },
       {
         "frets": "x1x332",
         "fingers": "010342",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          53,
+          65,
+          69,
+          73
+        ]
       },
       {
         "frets": "43211x",
         "fingers": "432110",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          53,
+          57,
+          61,
+          65,
+          69
+        ]
       }
     ]
   },
@@ -2618,17 +4722,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          48
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          53,
+          60
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          48,
+          53
+        ]
       }
     ]
   },
@@ -2640,12 +4757,26 @@
       {
         "frets": "x3221x",
         "fingers": "042310",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          53,
+          57,
+          62,
+          65
+        ]
       },
       {
         "frets": "113333",
         "fingers": "113333",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          48,
+          53,
+          60,
+          65,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -2657,12 +4788,26 @@
       {
         "frets": "100011",
         "fingers": "100023",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          45,
+          50,
+          55,
+          60,
+          65
+        ]
       },
       {
         "frets": "xx3233",
         "fingers": "002134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          62,
+          67
+        ]
       }
     ]
   },
@@ -2680,17 +4825,38 @@
       {
         "frets": "xx3243",
         "fingers": "002143",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          63,
+          67
+        ]
       },
       {
         "frets": "221222",
         "fingers": "221334",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          48,
+          53,
+          57,
+          63,
+          67,
+          72
+        ]
       },
       {
         "frets": "x11112",
         "fingers": "011112",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          55,
+          60,
+          65,
+          69,
+          75
+        ]
       }
     ]
   },
@@ -2708,7 +4874,14 @@
       {
         "frets": "x21244",
         "fingers": "021344",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          53,
+          57,
+          63,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -2720,7 +4893,13 @@
       {
         "frets": "xx3210",
         "fingers": "003210",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          60,
+          64
+        ]
       }
     ]
   },
@@ -2732,17 +4911,37 @@
       {
         "frets": "102010",
         "fingers": "103020",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          45,
+          52,
+          55,
+          60,
+          64
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          52,
+          57,
+          60,
+          67
+        ]
       },
       {
         "frets": "x2132x",
         "fingers": "021430",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          53,
+          57,
+          64,
+          67
+        ]
       }
     ]
   },
@@ -2754,7 +4953,15 @@
       {
         "frets": "324010",
         "fingers": "324010",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          53,
+          57,
+          64,
+          55,
+          70,
+          64
+        ]
       }
     ]
   },
@@ -2766,17 +4973,38 @@
       {
         "frets": "100010",
         "fingers": "100020",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          45,
+          50,
+          55,
+          60,
+          64
+        ]
       },
       {
         "frets": "xx3230",
         "fingers": "002130",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          57,
+          62,
+          64
+        ]
       },
       {
         "frets": "x43311",
         "fingers": "042311",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          53,
+          57,
+          62,
+          64,
+          69
+        ]
       }
     ]
   },
@@ -2788,12 +5016,25 @@
       {
         "frets": "1x0111",
         "fingers": "100234",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          50,
+          56,
+          60,
+          65
+        ]
       },
       {
         "frets": "xx2212",
         "fingers": "002314",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          60,
+          65,
+          68,
+          74
+        ]
       }
     ]
   },
@@ -2805,22 +5046,46 @@
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          51,
+          56,
+          60
+        ]
       },
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 13
+        "baseFret": 13,
+        "midi": [
+          53,
+          63,
+          68,
+          72
+        ]
       },
       {
         "frets": "xx1322",
         "fingers": "001423",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          63,
+          68
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          60,
+          65,
+          68,
+          75
+        ]
       }
     ]
   },
@@ -2832,22 +5097,47 @@
       {
         "frets": "1x110x",
         "fingers": "102300",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          51,
+          56,
+          59
+        ]
       },
       {
         "frets": "xx3444",
         "fingers": "001222",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          59,
+          63,
+          68
+        ]
       },
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          53,
+          59,
+          63,
+          68
+        ]
       },
       {
         "frets": "31330x",
         "fingers": "213400",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          53,
+          56,
+          63,
+          68,
+          59
+        ]
       }
     ]
   },
@@ -2859,17 +5149,39 @@
       {
         "frets": "x33044",
         "fingers": "012034",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          48,
+          53,
+          55,
+          63,
+          68
+        ]
       },
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          53,
+          56,
+          63,
+          67,
+          72
+        ]
       },
       {
         "frets": "313033",
         "fingers": "213044",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          53,
+          56,
+          63,
+          55,
+          72,
+          77
+        ]
       }
     ]
   },
@@ -2881,12 +5193,25 @@
       {
         "frets": "x3123x",
         "fingers": "031240",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          53,
+          56,
+          62,
+          67
+        ]
       },
       {
         "frets": "31203x",
         "fingers": "312040",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          53,
+          56,
+          62,
+          55,
+          72
+        ]
       }
     ]
   },
@@ -2904,12 +5229,24 @@
       {
         "frets": "xx1332",
         "fingers": "001342",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          53,
+          60,
+          64,
+          68
+        ]
       },
       {
         "frets": "xx4221",
         "fingers": "004231",
-        "baseFret": 12
+        "baseFret": 12,
+        "midi": [
+          65,
+          68,
+          72,
+          76
+        ]
       }
     ]
   },
@@ -2927,7 +5264,13 @@
       {
         "frets": "xx3231",
         "fingers": "003241",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          57,
+          61,
+          66,
+          69
+        ]
       }
     ]
   },
@@ -2939,22 +5282,45 @@
       {
         "frets": "20x21x",
         "fingers": "200310",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          57,
+          60
+        ]
       },
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          54,
+          60,
+          69
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          54,
+          57,
+          66,
+          72
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          54,
+          60,
+          66,
+          69
+        ]
       }
     ]
   },
@@ -2966,7 +5332,13 @@
       {
         "frets": "xx1212",
         "fingers": "001324",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          54,
+          60,
+          63,
+          69
+        ]
       }
     ]
   },
@@ -2978,7 +5350,13 @@
       {
         "frets": "xx1344",
         "fingers": "001344",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          54,
+          61,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -2990,7 +5368,13 @@
       {
         "frets": "2xx122",
         "fingers": "200134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          56,
+          61,
+          66
+        ]
       }
     ]
   },
@@ -3008,7 +5392,13 @@
       {
         "frets": "xx1324",
         "fingers": "001324",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          54,
+          61,
+          64,
+          71
+        ]
       }
     ]
   },
@@ -3020,7 +5410,13 @@
       {
         "frets": "xx4332",
         "fingers": "004231",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          54,
+          58,
+          62,
+          66
+        ]
       }
     ]
   },
@@ -3032,17 +5428,30 @@
       {
         "frets": "24xxxx",
         "fingers": "130000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          49
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          54,
+          61
+        ]
       },
       {
         "frets": "244xxx",
         "fingers": "134000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          49,
+          54
+        ]
       }
     ]
   },
@@ -3054,12 +5463,25 @@
       {
         "frets": "2x132x",
         "fingers": "201430",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          51,
+          58,
+          61
+        ]
       },
       {
         "frets": "x13333",
         "fingers": "013333",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          54,
+          61,
+          66,
+          70,
+          75
+        ]
       }
     ]
   },
@@ -3071,7 +5493,13 @@
       {
         "frets": "xx4344",
         "fingers": "002134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          54,
+          58,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -3083,7 +5511,13 @@
       {
         "frets": "x3231x",
         "fingers": "032410",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          54,
+          58,
+          64,
+          66
+        ]
       }
     ]
   },
@@ -3095,12 +5529,26 @@
       {
         "frets": "xx2132",
         "fingers": "002143",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          54,
+          58,
+          64,
+          68
+        ]
       },
       {
         "frets": "221222",
         "fingers": "221334",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          49,
+          54,
+          58,
+          64,
+          68,
+          73
+        ]
       }
     ]
   },
@@ -3112,7 +5560,15 @@
       {
         "frets": "212100",
         "fingers": "314200",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          46,
+          52,
+          56,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -3124,12 +5580,27 @@
       {
         "frets": "221300",
         "fingers": "231400",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          47,
+          51,
+          58,
+          59,
+          64
+        ]
       },
       {
         "frets": "x32210",
         "fingers": "042310",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          54,
+          58,
+          63,
+          66,
+          64
+        ]
       }
     ]
   },
@@ -3147,12 +5618,25 @@
       {
         "frets": "xx2142",
         "fingers": "002143",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          54,
+          58,
+          65,
+          68
+        ]
       },
       {
         "frets": "22132x",
         "fingers": "221430",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          49,
+          54,
+          58,
+          65,
+          68
+        ]
       }
     ]
   },
@@ -3164,7 +5648,14 @@
       {
         "frets": "x21302",
         "fingers": "021403",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          54,
+          58,
+          65,
+          59,
+          73
+        ]
       }
     ]
   },
@@ -3176,7 +5667,14 @@
       {
         "frets": "x43311",
         "fingers": "042311",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          54,
+          58,
+          63,
+          65,
+          70
+        ]
       }
     ]
   },
@@ -3188,12 +5686,25 @@
       {
         "frets": "2x1222",
         "fingers": "201334",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          51,
+          57,
+          61,
+          66
+        ]
       },
       {
         "frets": "x2413x",
         "fingers": "024130",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          54,
+          61,
+          63,
+          69
+        ]
       }
     ]
   },
@@ -3205,22 +5716,46 @@
       {
         "frets": "2x222x",
         "fingers": "203330",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          52,
+          57,
+          61
+        ]
       },
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 14
+        "baseFret": 14,
+        "midi": [
+          54,
+          64,
+          69,
+          73
+        ]
       },
       {
         "frets": "xx1322",
         "fingers": "001423",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          54,
+          61,
+          64,
+          69
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          61,
+          66,
+          69,
+          76
+        ]
       }
     ]
   },
@@ -3232,17 +5767,37 @@
       {
         "frets": "202210",
         "fingers": "203410",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          52,
+          57,
+          60,
+          64
+        ]
       },
       {
         "frets": "xx1222",
         "fingers": "001222",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          54,
+          60,
+          64,
+          69
+        ]
       },
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          54,
+          60,
+          64,
+          69
+        ]
       }
     ]
   },
@@ -3254,17 +5809,38 @@
       {
         "frets": "202120",
         "fingers": "203140",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          52,
+          56,
+          61,
+          64
+        ]
       },
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          54,
+          57,
+          64,
+          68,
+          73
+        ]
       },
       {
         "frets": "xx2413",
         "fingers": "002413",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          61,
+          68,
+          69,
+          76
+        ]
       }
     ]
   },
@@ -3276,17 +5852,39 @@
       {
         "frets": "201122",
         "fingers": "201134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          51,
+          56,
+          61,
+          66
+        ]
       },
       {
         "frets": "244244",
         "fingers": "122134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          49,
+          54,
+          57,
+          63,
+          68
+        ]
       },
       {
         "frets": "x3123x",
         "fingers": "031240",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          54,
+          57,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -3298,7 +5896,15 @@
       {
         "frets": "202100",
         "fingers": "203100",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          45,
+          52,
+          56,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -3316,17 +5922,39 @@
       {
         "frets": "320003",
         "fingers": "210003",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          67
+        ]
       },
       {
         "frets": "320003",
         "fingers": "320004",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          67
+        ]
       },
       {
         "frets": "xx1343",
         "fingers": "001243",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          55,
+          62,
+          67,
+          71
+        ]
       }
     ]
   },
@@ -3338,12 +5966,26 @@
       {
         "frets": "310033",
         "fingers": "210034",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          50,
+          55,
+          62,
+          67
+        ]
       },
       {
         "frets": "xx1342",
         "fingers": "001342",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          55,
+          62,
+          67,
+          70
+        ]
       }
     ]
   },
@@ -3355,22 +5997,45 @@
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          58,
+          61
+        ]
       },
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          55,
+          61,
+          70
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "012430",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          55,
+          58,
+          67,
+          73
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          55,
+          61,
+          67,
+          70
+        ]
       }
     ]
   },
@@ -3382,17 +6047,37 @@
       {
         "frets": "31x320",
         "fingers": "310420",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          58,
+          61,
+          64
+        ]
       },
       {
         "frets": "3x2320",
         "fingers": "301420",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          52,
+          58,
+          61,
+          64
+        ]
       },
       {
         "frets": "xx1212",
         "fingers": "001324",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          55,
+          61,
+          64,
+          70
+        ]
       }
     ]
   },
@@ -3404,7 +6089,15 @@
       {
         "frets": "330013",
         "fingers": "230014",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          50,
+          55,
+          60,
+          67
+        ]
       }
     ]
   },
@@ -3416,7 +6109,15 @@
       {
         "frets": "300033",
         "fingers": "100023",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          55,
+          62,
+          67
+        ]
       }
     ]
   },
@@ -3428,7 +6129,15 @@
       {
         "frets": "330013",
         "fingers": "230014",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          48,
+          50,
+          55,
+          60,
+          67
+        ]
       }
     ]
   },
@@ -3446,12 +6155,25 @@
       {
         "frets": "32100x",
         "fingers": "321000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          51,
+          55,
+          59
+        ]
       },
       {
         "frets": "1x322x",
         "fingers": "104230",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          43,
+          55,
+          59,
+          63
+        ]
       }
     ]
   },
@@ -3463,17 +6185,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          43,
+          50
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          55,
+          62
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          43,
+          50,
+          55
+        ]
       }
     ]
   },
@@ -3485,17 +6220,38 @@
       {
         "frets": "320000",
         "fingers": "210000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "3x243x",
         "fingers": "201430",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          52,
+          59,
+          62
+        ]
       },
       {
         "frets": "x13333",
         "fingers": "013334",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          55,
+          62,
+          67,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -3507,7 +6263,15 @@
       {
         "frets": "300000",
         "fingers": "100000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          55,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -3519,7 +6283,15 @@
       {
         "frets": "320001",
         "fingers": "320001",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          65
+        ]
       }
     ]
   },
@@ -3531,12 +6303,28 @@
       {
         "frets": "300001",
         "fingers": "300001",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          55,
+          59,
+          65
+        ]
       },
       {
         "frets": "221222",
         "fingers": "221334",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          50,
+          55,
+          59,
+          65,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -3548,7 +6336,15 @@
       {
         "frets": "320011",
         "fingers": "320011",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          60,
+          65
+        ]
       }
     ]
   },
@@ -3560,12 +6356,27 @@
       {
         "frets": "302001",
         "fingers": "302001",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          52,
+          55,
+          59,
+          65
+        ]
       },
       {
         "frets": "x21224",
         "fingers": "021334",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          55,
+          59,
+          65,
+          69,
+          76
+        ]
       }
     ]
   },
@@ -3577,7 +6388,15 @@
       {
         "frets": "320002",
         "fingers": "320001",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          66
+        ]
       }
     ]
   },
@@ -3589,17 +6408,37 @@
       {
         "frets": "300002",
         "fingers": "200001",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          55,
+          59,
+          66
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          54,
+          59,
+          62,
+          69
+        ]
       },
       {
         "frets": "x2132x",
         "fingers": "021430",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          55,
+          59,
+          66,
+          69
+        ]
       }
     ]
   },
@@ -3611,12 +6450,26 @@
       {
         "frets": "320012",
         "fingers": "420013",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          47,
+          50,
+          55,
+          60,
+          66
+        ]
       },
       {
         "frets": "xx3012",
         "fingers": "003012",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          59,
+          55,
+          66,
+          72
+        ]
       }
     ]
   },
@@ -3628,7 +6481,14 @@
       {
         "frets": "x43311",
         "fingers": "042311",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          55,
+          59,
+          64,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -3640,7 +6500,14 @@
       {
         "frets": "3x2333",
         "fingers": "201344",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          52,
+          58,
+          62,
+          67
+        ]
       }
     ]
   },
@@ -3652,7 +6519,13 @@
       {
         "frets": "3x333x",
         "fingers": "203330",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          53,
+          58,
+          62
+        ]
       }
     ]
   },
@@ -3664,22 +6537,46 @@
       {
         "frets": "3xx321",
         "fingers": "300421",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          58,
+          61,
+          65
+        ]
       },
       {
         "frets": "3x332x",
         "fingers": "203410",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          53,
+          58,
+          61
+        ]
       },
       {
         "frets": "xx1222",
         "fingers": "001222",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          55,
+          61,
+          65,
+          70
+        ]
       },
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          55,
+          61,
+          65,
+          70
+        ]
       }
     ]
   },
@@ -3691,17 +6588,38 @@
       {
         "frets": "300331",
         "fingers": "200341",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          45,
+          50,
+          58,
+          62,
+          65
+        ]
       },
       {
         "frets": "xx2011",
         "fingers": "002011",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          57,
+          55,
+          65,
+          70
+        ]
       },
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          55,
+          58,
+          65,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -3713,17 +6631,39 @@
       {
         "frets": "310230",
         "fingers": "310240",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          50,
+          57,
+          62,
+          64
+        ]
       },
       {
         "frets": "x33133",
         "fingers": "022134",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          50,
+          55,
+          58,
+          64,
+          69
+        ]
       },
       {
         "frets": "x31233",
         "fingers": "031244",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          55,
+          58,
+          64,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -3735,7 +6675,13 @@
       {
         "frets": "3x331x",
         "fingers": "203410",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          53,
+          58,
+          60
+        ]
       }
     ]
   },
@@ -3747,7 +6693,15 @@
       {
         "frets": "310032",
         "fingers": "310042",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          43,
+          46,
+          50,
+          55,
+          62,
+          66
+        ]
       }
     ]
   },
@@ -3765,12 +6719,24 @@
       {
         "frets": "xx1342",
         "fingers": "001342",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          56,
+          63,
+          68,
+          71
+        ]
       },
       {
         "frets": "xx3231",
         "fingers": "003241",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          59,
+          63,
+          68,
+          71
+        ]
       }
     ]
   },
@@ -3782,22 +6748,45 @@
       {
         "frets": "42x43x",
         "fingers": "310420",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          47,
+          59,
+          62
+        ]
       },
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          56,
+          62,
+          71
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          56,
+          59,
+          68,
+          74
+        ]
       },
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          56,
+          62,
+          68,
+          71
+        ]
       }
     ]
   },
@@ -3809,12 +6798,24 @@
       {
         "frets": "xx0101",
         "fingers": "000102",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          59,
+          65
+        ]
       },
       {
         "frets": "xx1212",
         "fingers": "001324",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          56,
+          62,
+          65,
+          71
+        ]
       }
     ]
   },
@@ -3826,7 +6827,13 @@
       {
         "frets": "xx1344",
         "fingers": "001344",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          56,
+          63,
+          68,
+          73
+        ]
       }
     ]
   },
@@ -3838,7 +6845,13 @@
       {
         "frets": "4xx344",
         "fingers": "200134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          58,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -3862,7 +6875,13 @@
       {
         "frets": "1x322x",
         "fingers": "104230",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          44,
+          56,
+          60,
+          64
+        ]
       }
     ]
   },
@@ -3874,17 +6893,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          44,
+          51
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          56,
+          63
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          44,
+          51,
+          56
+        ]
       }
     ]
   },
@@ -3896,12 +6928,24 @@
       {
         "frets": "2x132x",
         "fingers": "201430",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          44,
+          53,
+          60,
+          63
+        ]
       },
       {
         "frets": "x3221x",
         "fingers": "042310",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          56,
+          60,
+          65,
+          68
+        ]
       }
     ]
   },
@@ -3913,7 +6957,13 @@
       {
         "frets": "xx2122",
         "fingers": "002134",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          56,
+          60,
+          65,
+          70
+        ]
       }
     ]
   },
@@ -3931,12 +6981,26 @@
       {
         "frets": "xx2132",
         "fingers": "002143",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          56,
+          60,
+          66,
+          70
+        ]
       },
       {
         "frets": "221222",
         "fingers": "221334",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          51,
+          56,
+          60,
+          66,
+          70,
+          75
+        ]
       }
     ]
   },
@@ -3954,7 +7018,14 @@
       {
         "frets": "x21244",
         "fingers": "021344",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          56,
+          60,
+          66,
+          72,
+          77
+        ]
       }
     ]
   },
@@ -3966,7 +7037,13 @@
       {
         "frets": "x3241x",
         "fingers": "032410",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          56,
+          60,
+          67,
+          68
+        ]
       }
     ]
   },
@@ -3978,7 +7055,14 @@
       {
         "frets": "22132x",
         "fingers": "221430",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          51,
+          56,
+          60,
+          67,
+          70
+        ]
       }
     ]
   },
@@ -3990,7 +7074,14 @@
       {
         "frets": "43102x",
         "fingers": "431020",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          48,
+          51,
+          55,
+          61
+        ]
       }
     ]
   },
@@ -4008,7 +7099,13 @@
       {
         "frets": "4x344x",
         "fingers": "201340",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          53,
+          59,
+          63
+        ]
       }
     ]
   },
@@ -4020,7 +7117,13 @@
       {
         "frets": "4x444x",
         "fingers": "203330",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          54,
+          59,
+          63
+        ]
       }
     ]
   },
@@ -4032,22 +7135,46 @@
       {
         "frets": "xx0102",
         "fingers": "000103",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          50,
+          56,
+          59,
+          66
+        ]
       },
       {
         "frets": "4x443x",
         "fingers": "203410",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          54,
+          59,
+          62
+        ]
       },
       {
         "frets": "xx1222",
         "fingers": "001222",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          56,
+          62,
+          66,
+          71
+        ]
       },
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          56,
+          62,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -4059,17 +7186,40 @@
       {
         "frets": "411102",
         "fingers": "411203",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          44,
+          46,
+          51,
+          56,
+          59,
+          66
+        ]
       },
       {
         "frets": "132231",
         "fingers": "132241",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          47,
+          54,
+          58,
+          63,
+          68,
+          71
+        ]
       },
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          56,
+          59,
+          66,
+          70,
+          75
+        ]
       }
     ]
   },
@@ -4081,12 +7231,26 @@
       {
         "frets": "2x1224",
         "fingers": "201334",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          44,
+          53,
+          59,
+          63,
+          70
+        ]
       },
       {
         "frets": "x31233",
         "fingers": "031244",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          56,
+          59,
+          65,
+          70,
+          75
+        ]
       }
     ]
   },
@@ -4110,12 +7274,26 @@
       {
         "frets": "x02220",
         "fingers": "001230",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          61,
+          64
+        ]
       },
       {
         "frets": "x01343",
         "fingers": "001243",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          69,
+          73
+        ]
       }
     ]
   },
@@ -4127,12 +7305,26 @@
       {
         "frets": "x02210",
         "fingers": "002310",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          60,
+          64
+        ]
       },
       {
         "frets": "x01342",
         "fingers": "001342",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          69,
+          72
+        ]
       }
     ]
   },
@@ -4144,22 +7336,45 @@
       {
         "frets": "x0121x",
         "fingers": "001320",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          51,
+          57,
+          60
+        ]
       },
       {
         "frets": "31x21x",
         "fingers": "310420",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          45,
+          48,
+          59,
+          62
+        ]
       },
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          57,
+          63,
+          72
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          57,
+          60,
+          69,
+          75
+        ]
       }
     ]
   },
@@ -4171,12 +7386,26 @@
       {
         "frets": "x01212",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          51,
+          57,
+          60,
+          66
+        ]
       },
       {
         "frets": "x01212",
         "fingers": "001324",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          63,
+          66,
+          72
+        ]
       }
     ]
   },
@@ -4188,22 +7417,50 @@
       {
         "frets": "x00230",
         "fingers": "000120",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          57,
+          62,
+          64
+        ]
       },
       {
         "frets": "x02230",
         "fingers": "001230",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          62,
+          64
+        ]
       },
       {
         "frets": "x01124",
         "fingers": "001124",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          45,
+          52,
+          57,
+          62,
+          69
+        ]
       },
       {
         "frets": "x03311",
         "fingers": "003411",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          45,
+          57,
+          62,
+          64,
+          69
+        ]
       }
     ]
   },
@@ -4215,17 +7472,38 @@
       {
         "frets": "x02200",
         "fingers": "002300",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          59,
+          64
+        ]
       },
       {
         "frets": "x02400",
         "fingers": "001400",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          59,
+          59,
+          64
+        ]
       },
       {
         "frets": "x01100",
         "fingers": "001200",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          45,
+          59,
+          64,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -4237,12 +7515,25 @@
       {
         "frets": "x02230",
         "fingers": "001230",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          62,
+          64
+        ]
       },
       {
         "frets": "x00x30",
         "fingers": "000010",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          62,
+          64
+        ]
       }
     ]
   },
@@ -4254,12 +7545,26 @@
       {
         "frets": "x02030",
         "fingers": "002030",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          55,
+          62,
+          64
+        ]
       },
       {
         "frets": "x01324",
         "fingers": "001324",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          67,
+          74
+        ]
       }
     ]
   },
@@ -4271,7 +7576,14 @@
       {
         "frets": "x03221",
         "fingers": "004231",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          53,
+          57,
+          61,
+          65
+        ]
       }
     ]
   },
@@ -4283,17 +7595,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          45,
+          52
+        ]
       },
       {
         "frets": "x02xxx",
         "fingers": "001000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          45,
+          52,
+          57
+        ]
       }
     ]
   },
@@ -4305,17 +7630,36 @@
       {
         "frets": "x02222",
         "fingers": "001111",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          61,
+          66
+        ]
       },
       {
         "frets": "2x132x",
         "fingers": "201430",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          45,
+          54,
+          61,
+          64
+        ]
       },
       {
         "frets": "x3221x",
         "fingers": "042310",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          57,
+          61,
+          66,
+          69
+        ]
       }
     ]
   },
@@ -4327,7 +7671,14 @@
       {
         "frets": "x04422",
         "fingers": "003411",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          54,
+          59,
+          61,
+          66
+        ]
       }
     ]
   },
@@ -4339,12 +7690,26 @@
       {
         "frets": "x02020",
         "fingers": "002030",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          55,
+          61,
+          64
+        ]
       },
       {
         "frets": "x01323",
         "fingers": "001324",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          67,
+          73
+        ]
       }
     ]
   },
@@ -4356,17 +7721,39 @@
       {
         "frets": "431000",
         "fingers": "431000",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          45,
+          49,
+          52,
+          55,
+          59,
+          64
+        ]
       },
       {
         "frets": "x02423",
         "fingers": "001312",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          59,
+          61,
+          67
+        ]
       },
       {
         "frets": "x21222",
         "fingers": "021333",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          57,
+          61,
+          67,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -4378,12 +7765,27 @@
       {
         "frets": "x00020",
         "fingers": "000020",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          55,
+          61,
+          64
+        ]
       },
       {
         "frets": "320001",
         "fingers": "320001",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          45,
+          49,
+          50,
+          55,
+          59,
+          67
+        ]
       }
     ]
   },
@@ -4395,17 +7797,39 @@
       {
         "frets": "x02022",
         "fingers": "001023",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          55,
+          61,
+          66
+        ]
       },
       {
         "frets": "322010",
         "fingers": "423010",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          45,
+          49,
+          54,
+          55,
+          62,
+          64
+        ]
       },
       {
         "frets": "x21244",
         "fingers": "021344",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          57,
+          61,
+          67,
+          73,
+          78
+        ]
       }
     ]
   },
@@ -4417,12 +7841,26 @@
       {
         "frets": "x02120",
         "fingers": "002130",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          56,
+          61,
+          64
+        ]
       },
       {
         "frets": "x01333",
         "fingers": "001333",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          45,
+          57,
+          64,
+          68,
+          73
+        ]
       }
     ]
   },
@@ -4434,22 +7872,51 @@
       {
         "frets": "x02424",
         "fingers": "001314",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          59,
+          61,
+          68
+        ]
       },
       {
         "frets": "213120",
         "fingers": "214130",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          45,
+          49,
+          56,
+          59,
+          64,
+          64
+        ]
       },
       {
         "frets": "x02213",
         "fingers": "002314",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          45,
+          56,
+          61,
+          64,
+          71
+        ]
       },
       {
         "frets": "22132x",
         "fingers": "221430",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          52,
+          57,
+          61,
+          68,
+          71
+        ]
       }
     ]
   },
@@ -4461,17 +7928,39 @@
       {
         "frets": "x00120",
         "fingers": "000120",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          56,
+          61,
+          64
+        ]
       },
       {
         "frets": "x00224",
         "fingers": "000114",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          57,
+          61,
+          68
+        ]
       },
       {
         "frets": "112213",
         "fingers": "112314",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          45,
+          50,
+          56,
+          61,
+          64,
+          71
+        ]
       }
     ]
   },
@@ -4483,12 +7972,26 @@
       {
         "frets": "x02122",
         "fingers": "002134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          56,
+          61,
+          66
+        ]
       },
       {
         "frets": "x01122",
         "fingers": "001134",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          45,
+          56,
+          61,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -4500,12 +8003,26 @@
       {
         "frets": "x02212",
         "fingers": "002314",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          60,
+          66
+        ]
       },
       {
         "frets": "2x1222",
         "fingers": "201334",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          45,
+          54,
+          60,
+          64,
+          69
+        ]
       }
     ]
   },
@@ -4517,22 +8034,49 @@
       {
         "frets": "x02010",
         "fingers": "002010",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          55,
+          60,
+          64
+        ]
       },
       {
         "frets": "x02213",
         "fingers": "002314",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          57,
+          60,
+          67
+        ]
       },
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          45,
+          55,
+          60,
+          64
+        ]
       },
       {
         "frets": "x01111",
         "fingers": "001111",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          45,
+          55,
+          60,
+          64,
+          69
+        ]
       }
     ]
   },
@@ -4544,17 +8088,35 @@
       {
         "frets": "x0101x",
         "fingers": "002030",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          51,
+          55,
+          60
+        ]
       },
       {
         "frets": "2x221x",
         "fingers": "203410",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          45,
+          55,
+          60,
+          63
+        ]
       },
       {
         "frets": "xx1222",
         "fingers": "001222",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          57,
+          63,
+          67,
+          72
+        ]
       }
     ]
   },
@@ -4566,17 +8128,39 @@
       {
         "frets": "x02413",
         "fingers": "002413",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          59,
+          60,
+          67
+        ]
       },
       {
         "frets": "102010",
         "fingers": "103020",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          48,
+          45,
+          59,
+          55,
+          67,
+          64
+        ]
       },
       {
         "frets": "x31333",
         "fingers": "021344",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          57,
+          60,
+          67,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -4588,12 +8172,26 @@
       {
         "frets": "x01200",
         "fingers": "002400",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          45,
+          54,
+          60,
+          59,
+          64
+        ]
       },
       {
         "frets": "x31233",
         "fingers": "031244",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          57,
+          60,
+          66,
+          71,
+          76
+        ]
       }
     ]
   },
@@ -4605,7 +8203,14 @@
       {
         "frets": "x00010",
         "fingers": "000010",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          50,
+          55,
+          60,
+          64
+        ]
       }
     ]
   },
@@ -4617,7 +8222,14 @@
       {
         "frets": "x02110",
         "fingers": "003120",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          45,
+          52,
+          56,
+          60,
+          64
+        ]
       }
     ]
   },
@@ -4635,7 +8247,13 @@
       {
         "frets": "xx1342",
         "fingers": "001342",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          58,
+          65,
+          70,
+          73
+        ]
       }
     ]
   },
@@ -4647,22 +8265,45 @@
       {
         "frets": "x1232x",
         "fingers": "012430",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          52,
+          58,
+          61
+        ]
       },
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          46,
+          49,
+          61,
+          64
+        ]
       },
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          58,
+          64,
+          73
+        ]
       },
       {
         "frets": "x31x12",
         "fingers": "041023",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          58,
+          61,
+          70,
+          76
+        ]
       }
     ]
   },
@@ -4674,17 +8315,36 @@
       {
         "frets": "x12020",
         "fingers": "012030",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          52,
+          55,
+          61,
+          64
+        ]
       },
       {
         "frets": "xx2323",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          52,
+          58,
+          61,
+          67
+        ]
       },
       {
         "frets": "xx1212",
         "fingers": "001324",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          58,
+          64,
+          67,
+          73
+        ]
       }
     ]
   },
@@ -4714,7 +8374,13 @@
       {
         "frets": "xx1324",
         "fingers": "001324",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          58,
+          65,
+          68,
+          75
+        ]
       }
     ]
   },
@@ -4726,12 +8392,24 @@
       {
         "frets": "x1433x",
         "fingers": "014230",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          54,
+          58,
+          62
+        ]
       },
       {
         "frets": "xx3221",
         "fingers": "004231",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          58,
+          62,
+          66,
+          70
+        ]
       }
     ]
   },
@@ -4743,17 +8421,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          46,
+          53
+        ]
       },
       {
         "frets": "x13xxx",
         "fingers": "013000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          53
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          46,
+          53,
+          58
+        ]
       }
     ]
   },
@@ -4765,17 +8456,38 @@
       {
         "frets": "x13333",
         "fingers": "013333",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          53,
+          58,
+          62,
+          67
+        ]
       },
       {
         "frets": "210022",
         "fingers": "210034",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          46,
+          50,
+          50,
+          55,
+          65,
+          70
+        ]
       },
       {
         "frets": "x4221x",
         "fingers": "042310",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          58,
+          61,
+          66,
+          69
+        ]
       }
     ]
   },
@@ -4787,12 +8499,26 @@
       {
         "frets": "x10011",
         "fingers": "010023",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          50,
+          55,
+          60,
+          65
+        ]
       },
       {
         "frets": "x22122",
         "fingers": "022134",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          53,
+          58,
+          62,
+          67,
+          72
+        ]
       }
     ]
   },
@@ -4804,7 +8530,13 @@
       {
         "frets": "x3231x",
         "fingers": "032410",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          58,
+          62,
+          68,
+          70
+        ]
       }
     ]
   },
@@ -4816,12 +8548,26 @@
       {
         "frets": "x10111",
         "fingers": "010234",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          50,
+          56,
+          60,
+          65
+        ]
       },
       {
         "frets": "x21222",
         "fingers": "021333",
-        "baseFret": 12
+        "baseFret": 12,
+        "midi": [
+          58,
+          62,
+          68,
+          72,
+          77
+        ]
       }
     ]
   },
@@ -4839,17 +8585,39 @@
       {
         "frets": "x10133",
         "fingers": "010244",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          50,
+          56,
+          62,
+          67
+        ]
       },
       {
         "frets": "320011",
         "fingers": "320011",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          46,
+          50,
+          50,
+          55,
+          63,
+          68
+        ]
       },
       {
         "frets": "x21244",
         "fingers": "021344",
-        "baseFret": 12
+        "baseFret": 12,
+        "midi": [
+          58,
+          62,
+          68,
+          74,
+          79
+        ]
       }
     ]
   },
@@ -4867,7 +8635,14 @@
       {
         "frets": "11021x",
         "fingers": "110320",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          41,
+          46,
+          50,
+          57,
+          60
+        ]
       }
     ]
   },
@@ -4879,7 +8654,14 @@
       {
         "frets": "3x0212",
         "fingers": "400213",
-        "baseFret": 4
+        "baseFret": 4,
+        "midi": [
+          46,
+          50,
+          60,
+          63,
+          69
+        ]
       }
     ]
   },
@@ -4897,17 +8679,36 @@
       {
         "frets": "x13x23",
         "fingers": "013024",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          53,
+          61,
+          67
+        ]
       },
       {
         "frets": "x2314x",
         "fingers": "023140",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          49,
+          55,
+          58,
+          65
+        ]
       },
       {
         "frets": "2x1222",
         "fingers": "201334",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          46,
+          55,
+          61,
+          65,
+          70
+        ]
       }
     ]
   },
@@ -4919,12 +8720,24 @@
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          45,
+          55,
+          60,
+          64
+        ]
       },
       {
         "frets": "xx3324",
         "fingers": "002314",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          58,
+          61,
+          68
+        ]
       }
     ]
   },
@@ -4936,17 +8749,35 @@
       {
         "frets": "x1212x",
         "fingers": "013240",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          46,
+          52,
+          56,
+          61
+        ]
       },
       {
         "frets": "2x221x",
         "fingers": "203410",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          46,
+          56,
+          61,
+          64
+        ]
       },
       {
         "frets": "xx1222",
         "fingers": "001222",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          58,
+          64,
+          68,
+          73
+        ]
       }
     ]
   },
@@ -4958,12 +8789,24 @@
       {
         "frets": "xx2413",
         "fingers": "002413",
-        "baseFret": 2
+        "baseFret": 2,
+        "midi": [
+          53,
+          60,
+          61,
+          68
+        ]
       },
       {
         "frets": "x3133x",
         "fingers": "021340",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          58,
+          61,
+          68,
+          72
+        ]
       }
     ]
   },
@@ -4975,12 +8818,25 @@
       {
         "frets": "2x1224",
         "fingers": "201334",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          46,
+          55,
+          61,
+          65,
+          72
+        ]
       },
       {
         "frets": "x3123x",
         "fingers": "031240",
-        "baseFret": 11
+        "baseFret": 11,
+        "midi": [
+          58,
+          61,
+          67,
+          72
+        ]
       }
     ]
   },
@@ -5010,12 +8866,24 @@
       {
         "frets": "xx1342",
         "fingers": "001342",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          59,
+          66,
+          71,
+          74
+        ]
       },
       {
         "frets": "xx3231",
         "fingers": "003241",
-        "baseFret": 10
+        "baseFret": 10,
+        "midi": [
+          62,
+          66,
+          71,
+          74
+        ]
       }
     ]
   },
@@ -5027,22 +8895,45 @@
       {
         "frets": "x20x01",
         "fingers": "030002",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          59,
+          65
+        ]
       },
       {
         "frets": "x2343x",
         "fingers": "012430",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          53,
+          59,
+          62
+        ]
       },
       {
         "frets": "31x32x",
         "fingers": "310420",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          47,
+          50,
+          62,
+          65
+        ]
       },
       {
         "frets": "xx12x2",
         "fingers": "001203",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          59,
+          65,
+          74
+        ]
       }
     ]
   },
@@ -5054,12 +8945,24 @@
       {
         "frets": "xx3434",
         "fingers": "001324",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          53,
+          59,
+          62,
+          68
+        ]
       },
       {
         "frets": "2x121x",
         "fingers": "301420",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          47,
+          56,
+          62,
+          65
+        ]
       }
     ]
   },
@@ -5071,7 +8974,14 @@
       {
         "frets": "x24400",
         "fingers": "013400",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          54,
+          59,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -5083,7 +8993,13 @@
       {
         "frets": "2xx122",
         "fingers": "200134",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          47,
+          61,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -5101,7 +9017,14 @@
       {
         "frets": "x22200",
         "fingers": "012300",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          52,
+          57,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -5113,17 +9036,35 @@
       {
         "frets": "x2100x",
         "fingers": "021000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          55,
+          59
+        ]
       },
       {
         "frets": "xx3221",
         "fingers": "004231",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          55,
+          59,
+          63,
+          67
+        ]
       },
       {
         "frets": "1x322x",
         "fingers": "104230",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          47,
+          59,
+          63,
+          67
+        ]
       }
     ]
   },
@@ -5135,17 +9076,30 @@
       {
         "frets": "13xxxx",
         "fingers": "130000",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          47,
+          54
+        ]
       },
       {
         "frets": "x24xxx",
         "fingers": "013000",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          54
+        ]
       },
       {
         "frets": "133xxx",
         "fingers": "134000",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          47,
+          54,
+          59
+        ]
       }
     ]
   },
@@ -5157,17 +9111,36 @@
       {
         "frets": "x2110x",
         "fingers": "031200",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          56,
+          59
+        ]
       },
       {
         "frets": "x24444",
         "fingers": "013333",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          54,
+          59,
+          63,
+          68
+        ]
       },
       {
         "frets": "1x323x",
         "fingers": "103240",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          47,
+          59,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -5179,7 +9152,14 @@
       {
         "frets": "x22122",
         "fingers": "022134",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          54,
+          59,
+          63,
+          68,
+          73
+        ]
       }
     ]
   },
@@ -5191,7 +9171,14 @@
       {
         "frets": "x21202",
         "fingers": "021304",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          57,
+          59,
+          66
+        ]
       }
     ]
   },
@@ -5203,12 +9190,25 @@
       {
         "frets": "x21222",
         "fingers": "021334",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          57,
+          61,
+          66
+        ]
       },
       {
         "frets": "xx2132",
         "fingers": "002143",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          59,
+          63,
+          69,
+          73
+        ]
       }
     ]
   },
@@ -5220,7 +9220,14 @@
       {
         "frets": "x21200",
         "fingers": "021300",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          57,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -5232,7 +9239,14 @@
       {
         "frets": "x21244",
         "fingers": "021344",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          57,
+          63,
+          68
+        ]
       }
     ]
   },
@@ -5250,17 +9264,37 @@
       {
         "frets": "22132x",
         "fingers": "221430",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          47,
+          51,
+          58,
+          61
+        ]
       },
       {
         "frets": "21312x",
         "fingers": "214130",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          47,
+          51,
+          58,
+          61,
+          66
+        ]
       },
       {
         "frets": "xx2142",
         "fingers": "002143",
-        "baseFret": 8
+        "baseFret": 8,
+        "midi": [
+          59,
+          63,
+          70,
+          73
+        ]
       }
     ]
   },
@@ -5272,7 +9306,14 @@
       {
         "frets": "x21300",
         "fingers": "021300",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          51,
+          58,
+          59,
+          64
+        ]
       }
     ]
   },
@@ -5290,17 +9331,37 @@
       {
         "frets": "220102",
         "fingers": "230104",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          42,
+          47,
+          50,
+          56,
+          59,
+          66
+        ]
       },
       {
         "frets": "xx4434",
         "fingers": "002314",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          54,
+          59,
+          62,
+          68
+        ]
       },
       {
         "frets": "2x122x",
         "fingers": "201340",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          47,
+          56,
+          62,
+          66
+        ]
       }
     ]
   },
@@ -5312,12 +9373,24 @@
       {
         "frets": "1x111x",
         "fingers": "203330",
-        "baseFret": 7
+        "baseFret": 7,
+        "midi": [
+          47,
+          57,
+          62,
+          66
+        ]
       },
       {
         "frets": "xx2213",
         "fingers": "002314",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          54,
+          59,
+          62,
+          69
+        ]
       }
     ]
   },
@@ -5329,17 +9402,35 @@
       {
         "frets": "x2323x",
         "fingers": "013240",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          53,
+          57,
+          62
+        ]
       },
       {
         "frets": "2x221x",
         "fingers": "203410",
-        "baseFret": 6
+        "baseFret": 6,
+        "midi": [
+          47,
+          57,
+          62,
+          65
+        ]
       },
       {
         "frets": "xx1222",
         "fingers": "001222",
-        "baseFret": 9
+        "baseFret": 9,
+        "midi": [
+          59,
+          65,
+          69,
+          74
+        ]
       }
     ]
   },
@@ -5351,12 +9442,26 @@
       {
         "frets": "x20222",
         "fingers": "010234",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          57,
+          61,
+          66
+        ]
       },
       {
         "frets": "x22213",
         "fingers": "023314",
-        "baseFret": 3
+        "baseFret": 3,
+        "midi": [
+          49,
+          54,
+          59,
+          62,
+          69
+        ]
       }
     ]
   },
@@ -5368,12 +9473,26 @@
       {
         "frets": "x20122",
         "fingers": "020134",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          56,
+          61,
+          66
+        ]
       },
       {
         "frets": "x12233",
         "fingers": "012233",
-        "baseFret": 5
+        "baseFret": 5,
+        "midi": [
+          50,
+          56,
+          61,
+          66,
+          71
+        ]
       }
     ]
   },
@@ -5385,7 +9504,14 @@
       {
         "frets": "x20220",
         "fingers": "010230",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          57,
+          61,
+          64
+        ]
       }
     ]
   },
@@ -5397,7 +9523,14 @@
       {
         "frets": "x20302",
         "fingers": "010302",
-        "baseFret": 1
+        "baseFret": 1,
+        "midi": [
+          47,
+          50,
+          58,
+          59,
+          66
+        ]
       }
     ]
   }
