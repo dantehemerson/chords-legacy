@@ -11,24 +11,28 @@ class ChordsGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Chords List'),
-        backgroundColor: Colors.blue,
-      ),
-      body: GridView.count(
-          crossAxisCount: 2,
-          padding: const EdgeInsets.all(50),
-          mainAxisSpacing: 90,
-          crossAxisSpacing: 60,
-          childAspectRatio: 3 / 4,
-          scrollDirection: Axis.vertical,
-          children: List.generate(chords.length, (index) {
-            return ChordWidget(
-                key: ValueKey(index),
-                chord: chords[index],
-                onTap: () async =>
-                    {await ChordPlayer.playChord(chords[index])});
-          })),
-    );
+        appBar: AppBar(
+          title: const Text('Chords List'),
+          backgroundColor: Colors.blue,
+        ),
+        body: Scrollbar(
+          thumbVisibility: true,
+          child: GridView.count(
+              crossAxisCount: 2,
+              padding: const EdgeInsets.all(50),
+              mainAxisSpacing: 90,
+              crossAxisSpacing: 60,
+              childAspectRatio: 3 / 4,
+              // show scroll indicator vertical:
+
+              scrollDirection: Axis.vertical,
+              children: List.generate(chords.length, (index) {
+                return ChordWidget(
+                    key: ValueKey(index),
+                    chord: chords[index],
+                    onTap: () async =>
+                        {await ChordPlayer.playChord(chords[index])});
+              })),
+        ));
   }
 }

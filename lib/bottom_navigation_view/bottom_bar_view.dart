@@ -11,10 +11,16 @@ class BottomBar extends StatelessWidget {
     return BottomNavigationBar(
       elevation: 1,
       currentIndex: currentIndex,
-      unselectedItemColor: Colors.black,
+      unselectedItemColor: const Color.fromARGB(255, 132, 132, 132),
       selectedItemColor: const Color.fromARGB(255, 28, 104, 227),
-      unselectedIconTheme: const IconThemeData(color: Colors.black),
       showUnselectedLabels: true,
+      iconSize: 24,
+      selectedLabelStyle: const TextStyle(
+        fontSize: 11,
+      ),
+      unselectedLabelStyle: const TextStyle(
+        fontSize: 11,
+      ),
       onTap: onTap,
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
@@ -25,15 +31,15 @@ class BottomBar extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            Icons.collections,
+            Icons.library_books,
           ),
-          label: 'Collections',
+          label: 'Library',
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            Icons.favorite,
+            Icons.list_alt,
           ),
-          label: 'Favorites',
+          label: 'My Collections',
         ),
       ],
     );
