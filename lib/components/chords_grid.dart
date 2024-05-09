@@ -23,9 +23,6 @@ class ChordsGrid extends StatelessWidget {
               mainAxisSpacing: 90,
               crossAxisSpacing: 60,
               childAspectRatio: 3 / 4,
-              // show scroll indicator vertical:
-
-              scrollDirection: Axis.vertical,
               children: List.generate(chords.length, (index) {
                 return ChordWidget(
                     key: ValueKey(index),

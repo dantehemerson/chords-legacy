@@ -39,7 +39,7 @@ class BottomBar extends StatelessWidget {
           icon: Icon(
             Icons.list_alt,
           ),
-          label: 'My Collections',
+          label: 'Collections',
         ),
       ],
     );
