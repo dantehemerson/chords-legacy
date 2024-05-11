@@ -6,7 +6,7 @@ import 'package:test_drive/bottom_navigation_view/bottom_bar_view.dart';
 import 'package:test_drive/components/chords_grid.dart';
 import 'package:test_drive/models/chord_model.dart';
 
-class App extends StatelessWidget {
+class App extends StatefulWidget {
   final Future<List<ChordModel>> chordsFuture;
 
   App({super.key}) : chordsFuture = loadChords();
@@ -27,9 +27,16 @@ class App extends StatelessWidget {
   }
 
   @override
+  State<App> createState() => _AppState();
+}
+
+class _AppState extends State<App> {
+  int selectedIndex = 0;
+
+  @override
   Widget build(BuildContext context) {
     return FutureBuilder<List<ChordModel>>(
-      future: chordsFuture,
+      future: widget.chordsFuture,
       builder: (context, snapshot) {
         if (snapshot.hasError) {
           return MaterialApp(
@@ -50,20 +57,38 @@ class App extends StatelessWidget {
         } else {
           List<ChordModel> chords = snapshot.data!;
 
+          Widget getBody() {
+            switch (selectedIndex) {
+              case 0:
+                return ChordsGrid(chords: chords);
+              case 1:
+                return const Text('Collections');
+              case 2:
+                return const Text('Favorites');
+              default:
+                return const Text('Error');
+            }
+          }
+
           return MaterialApp(
               title: 'Flutter Demo',
-              color: Colors.black,
               theme: ThemeData(
-                colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-                useMaterial3: true,
+                colorScheme:
+                    ColorScheme.fromSeed(seedColor: const Color(0x002465ff)),
               ),
               home: Scaffold(
-                body: ChordsGrid(chords: chords),
-                bottomNavigationBar: BottomBar(),
+                body: getBody(),
+                bottomNavigationBar: BottomBar(
+                    currentIndex: selectedIndex,
+                    onTap: (int index) {
+                      setState(() {
+                        selectedIndex = index;
+                      });
+                    }),
               ));
         }
       },
     );
-    // #2465ff
+    //
   }
 }
