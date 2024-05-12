@@ -18,7 +18,7 @@ void main() {
         ],
       );
 
-      final midiNotes = ChordPlayer.getMidiNotes(chord1);
+      final midiNotes = ChordPlayer.getMidiNotes(chord1.positions[0]);
 
       expect(midiNotes.length, equals(5));
       expect(midiNotes, equals([55, 60, 64, 69, 74]));

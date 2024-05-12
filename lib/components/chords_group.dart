@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:test_drive/models/chord_model.dart';
 
 class ChordsGroup extends StatelessWidget {
   const ChordsGroup({
