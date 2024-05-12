@@ -1,94 +1,85 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:test_drive/models/chord_model.dart';
 
 class ChordPainter extends CustomPainter {
-  final ChordModel chord;
+  final ChordPosition chordPosition;
 
-  ChordPainter({required this.chord});
+  ChordPainter({required this.chordPosition});
 
   @override
   void paint(Canvas canvas, Size size) {
-    final double width = size.width;
-    final double paddingTop = size.height * 0.2;
+    final double width = min(size.width, 100);
+    final double height = min(size.height, 120);
+
+    const double paddingTop = 0;
     final double stringSpacing = width / (6 - 1);
 
-    final double fretSpacing = size.height / 4;
+    final double fretSpacing = height / 4;
     final double fretboardWidth = width;
+
+    final double fontSize = width * 0.16;
+    final double strokeWidth = width < 70 ? 1 : 2;
 
     // Draw freet number indicator (X or 0)
     for (int i = 0; i < 6; i++) {
-      if (chord.positions[0].frets[i] == 'x' ||
-          chord.positions[0].frets[i] == '0') {
+      if (chordPosition.frets[i] == 'x' || chordPosition.frets[i] == '0') {
         final double x = stringSpacing * i;
-        final double y = paddingTop - size.height * 0.08;
+        final double y = paddingTop - height * 0.01;
 
-        final String fingerPosition =
-            chord.positions[0].frets[i] == 'x' ? 'X' : '0';
+        final String fingerPosition = chordPosition.frets[i] == 'x' ? 'X' : '0';
         final TextPainter textPainter = TextPainter(
           text: TextSpan(
             text: fingerPosition,
-            style: const TextStyle(
+            style: TextStyle(
               color: Colors.black,
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
+              fontSize: fontSize,
+              fontWeight: FontWeight.w500,
+              // fontFamily: '',
+              height: 1,
+              // fontFamilyFallback: const <String>["Courier"]
             ),
           ),
           textDirection: TextDirection.ltr,
         )..layout();
 
-        textPainter.paint(canvas, Offset(x - textPainter.width / 2, y - 24));
-
-        // TODO: Temp Chord Number
-        final TextPainter textPainter2 = TextPainter(
-          text: TextSpan(
-            text: chord.name,
-            style: const TextStyle(
-              color: Colors.black,
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          textDirection: TextDirection.ltr,
-        )..layout();
-
-        textPainter2.paint(
-            canvas, Offset(textPainter2.width / 2, size.height + 44));
+        textPainter.paint(
+            canvas, Offset(x - textPainter.width / 2, y - width * 0.3));
       }
     }
 
     // Draw nut
     canvas.drawRect(
-      Rect.fromPoints(Offset(-1, paddingTop),
-          Offset(fretboardWidth + 1, paddingTop - (size.height * 0.08))),
-      Paint()..color = Colors.black,
-    );
+        Rect.fromPoints(Offset(-1, paddingTop),
+            Offset(fretboardWidth + 1, paddingTop - (height * 0.08))),
+        Paint()..color = Colors.black);
 
     // Draw freets
     for (int i = 0; i < 5; i++) {
       final double y = paddingTop + fretSpacing * i;
-      canvas.drawLine(
-          Offset(0, y), Offset(fretboardWidth, y), Paint()..strokeWidth = 2);
+      canvas.drawLine(Offset(0, y), Offset(fretboardWidth, y),
+          Paint()..strokeWidth = strokeWidth);
     }
 
     // Draw strings
     for (int i = 0; i < 6; i++) {
       final double x = stringSpacing * i;
-      canvas.drawLine(Offset(x, paddingTop + 0),
-          Offset(x, paddingTop + size.height), Paint()..strokeWidth = 2);
+      canvas.drawLine(Offset(x, paddingTop + 0), Offset(x, paddingTop + height),
+          Paint()..strokeWidth = strokeWidth);
     }
 
-    final double positionIndicatorWidth = size.width * 0.09;
-    final double positionIndicatorFontSize = size.width * 0.12;
+    final double positionIndicatorWidth = width * 0.09;
+    final double positionIndicatorFontSize = width * 0.12;
 
     // Draw finger positions
     for (int stringIndex = 0; stringIndex < 6; stringIndex++) {
-      final int fingerPosition =
-          int.parse(chord.positions[0].fingers[stringIndex]);
+      final int fingerPosition = int.parse(chordPosition.fingers[stringIndex]);
 
       if (fingerPosition != 0) {
         final double x = stringSpacing * stringIndex;
         final double y = paddingTop +
-            fretSpacing * int.parse(chord.positions[0].frets[stringIndex]) -
+            fretSpacing * int.parse(chordPosition.frets[stringIndex]) -
             fretSpacing / 2;
 
         final TextPainter textPainter = TextPainter(

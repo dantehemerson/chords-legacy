@@ -26,9 +26,17 @@ class ChordsGrid extends StatelessWidget {
               children: List.generate(chords.length, (index) {
                 return ChordWidget(
                     key: ValueKey(index),
-                    chord: chords[index],
-                    onTap: () async =>
-                        {await ChordPlayer.playChord(chords[index])});
+                    chordPosition: chords[index].positions[0],
+                    onTap: () async => {
+                          if (Navigator.of(context).canPop())
+                            {await ChordPlayer.playChord(chords[index])}
+                          else
+                            {
+                              Navigator.of(context).push(MaterialPageRoute(
+                                  builder: (context) =>
+                                      ChordsGrid(chords: chords.sublist(0, 4))))
+                            }
+                        });
               })),
         ));
   }
