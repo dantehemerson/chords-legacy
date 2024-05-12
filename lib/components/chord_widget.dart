@@ -14,7 +14,7 @@ class ChordWidget extends StatelessWidget {
     return GestureDetector(
         onTap: onTap,
         child: CustomPaint(
-          size: const Size(60, 70),
+          size: const Size(60, 72),
           painter: ChordPainter(chordPosition: chordPosition),
         ));
   }

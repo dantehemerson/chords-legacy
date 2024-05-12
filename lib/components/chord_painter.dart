@@ -11,7 +11,7 @@ class ChordPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final double width = min(size.width, 100);
-    final double height = min(size.height, 120);
+    final double height = min(width * 1.2, 120);
 
     const double paddingTop = 0;
     final double stringSpacing = width / (6 - 1);
@@ -21,6 +21,8 @@ class ChordPainter extends CustomPainter {
 
     final double fontSize = width * 0.16;
     final double strokeWidth = width < 70 ? 1 : 2;
+
+    final bool showFingerNumber = width >= 70;
 
     // Draw freet number indicator (X or 0)
     for (int i = 0; i < 6; i++) {
@@ -51,7 +53,7 @@ class ChordPainter extends CustomPainter {
 
     // Draw nut
     canvas.drawRect(
-        Rect.fromPoints(Offset(-1, paddingTop),
+        Rect.fromPoints(const Offset(-1, paddingTop),
             Offset(fretboardWidth + 1, paddingTop - (height * 0.08))),
         Paint()..color = Colors.black);
 
@@ -69,7 +71,7 @@ class ChordPainter extends CustomPainter {
           Paint()..strokeWidth = strokeWidth);
     }
 
-    final double positionIndicatorWidth = width * 0.09;
+    final double positionIndicatorWidth = width * 0.08;
     final double positionIndicatorFontSize = width * 0.12;
 
     // Draw finger positions
@@ -82,22 +84,25 @@ class ChordPainter extends CustomPainter {
             fretSpacing * int.parse(chordPosition.frets[stringIndex]) -
             fretSpacing / 2;
 
-        final TextPainter textPainter = TextPainter(
-          text: TextSpan(
-            text: fingerPosition.toString(),
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: positionIndicatorFontSize,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-          textDirection: TextDirection.ltr,
-        )..layout();
-
         canvas.drawCircle(Offset(x, y), positionIndicatorWidth,
             Paint()..color = const Color(0xFF2465FF));
-        textPainter.paint(canvas,
-            Offset(x - textPainter.width / 2, y - textPainter.height / 2));
+
+        if (showFingerNumber) {
+          final TextPainter textPainter = TextPainter(
+            text: TextSpan(
+              text: fingerPosition.toString(),
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: positionIndicatorFontSize,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            textDirection: TextDirection.ltr,
+          )..layout();
+
+          textPainter.paint(canvas,
+              Offset(x - textPainter.width / 2, y - textPainter.height / 2));
+        }
       }
     }
   }
