@@ -6,11 +6,11 @@ class ChordPlayer {
   static final MidiPro midiPro = MidiPro();
   static int? soundFontId;
 
-  static playChord(ChordModel chord) async {
+  static playChord(ChordPosition chordPosition) async {
     soundFontId ??= await MidiPro().loadSoundfont(
         path: 'assets/sounds/guitar_acoustic.sf2', bank: 0, program: 0);
 
-    final midiNotes = getMidiNotes(chord);
+    final midiNotes = getMidiNotes(chordPosition);
     print('Playing chord ${midiNotes.toString()}');
 
     for (final midiNote in midiNotes) {
@@ -20,10 +20,8 @@ class ChordPlayer {
     }
   }
 
-  static List<int> getMidiNotes(ChordModel chord) {
+  static List<int> getMidiNotes(ChordPosition position) {
     final List<int> midiNumbers = [];
-
-    final position = chord.positions[0];
 
     for (int i = 0; i < 6; i++) {
       final string = 6 - i;

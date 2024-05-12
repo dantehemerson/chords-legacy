@@ -1,19 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:test_drive/components/chords_list.dart';
+import 'package:test_drive/components/chords_grid.dart';
 import 'package:test_drive/models/chord_model.dart';
 
-class SearchView extends StatelessWidget {
-  final List<ChordModel> chords;
+class ChordDetailView extends StatelessWidget {
+  final ChordModel chord;
 
-  const SearchView({super.key, required this.chords});
+  const ChordDetailView({super.key, required this.chord});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Chords List'),
+          title: Text(chord.name),
           backgroundColor: Colors.blue,
         ),
-        body: ChordsList(chords: chords));
+        body: Column(children: [
+          Column(children: [
+            Text('Name: ${chord.name}'),
+            Text('Root: ${chord.root}'),
+          ]),
+          Expanded(child: ChordsGrid(chordPositions: chord.positions)),
+        ]));
   }
 }
