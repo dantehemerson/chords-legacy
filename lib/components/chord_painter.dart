@@ -30,14 +30,14 @@ class ChordPainter extends CustomPainter {
         final double x = stringSpacing * i;
         final double y = paddingTop - height * 0.01;
 
-        final String fingerPosition = chordPosition.frets[i] == 'x' ? 'X' : '0';
+        final String fingerPosition = chordPosition.frets[i] == 'x' ? '✕' : '○';
         final TextPainter textPainter = TextPainter(
           text: TextSpan(
             text: fingerPosition,
             style: TextStyle(
               color: Colors.black,
               fontSize: fontSize,
-              fontWeight: FontWeight.w500,
+              fontWeight: FontWeight.bold,
               // fontFamily: '',
               height: 1,
               // fontFamilyFallback: const <String>["Courier"]
