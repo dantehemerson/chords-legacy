@@ -78,7 +78,7 @@ class ChordPainter extends CustomPainter {
     for (int stringIndex = 0; stringIndex < 6; stringIndex++) {
       final int fingerPosition = int.parse(chordPosition.fingers[stringIndex]);
 
-      if (fingerPosition != 0) {
+      if (fingerPosition != 0 && chordPosition.frets[stringIndex] != 'x') {
         final double x = stringSpacing * stringIndex;
         final double y = paddingTop +
             fretSpacing * int.parse(chordPosition.frets[stringIndex]) -
