@@ -15,6 +15,7 @@ class SearchView extends StatefulWidget {
 
 class SearchViewState extends State<SearchView> {
   FiltersModel filters = FiltersModel();
+  bool _isSearchOpen = true;
 
   void _updateFilters(FiltersModel newFilters) {
     setState(() {
@@ -26,8 +27,50 @@ class SearchViewState extends State<SearchView> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Chords List'),
-          backgroundColor: Colors.blue,
+          title: Container(
+              margin: const EdgeInsets.only(left: 16, right: 4),
+              child: const TextField(
+                  textInputAction: TextInputAction.search,
+                  autocorrect: false,
+                  decoration: InputDecoration(
+                      prefixIcon: Icon(Icons.search),
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(20)),
+                          borderSide: BorderSide(
+                              width: 0,
+                              color: Color.fromARGB(255, 252, 252, 252))),
+                      hintText: 'Search for chords',
+                      hintStyle:
+                          TextStyle(color: Color.fromARGB(255, 103, 119, 131)),
+                      contentPadding: EdgeInsets.only(left: 20, right: 20),
+                      filled: true,
+                      fillColor: Colors.white),
+                  style: TextStyle(
+                      color: Color.fromARGB(255, 0, 0, 0), fontSize: 16))),
+          backgroundColor: Colors.white,
+          titleSpacing: 0,
+          actions: [
+            _isSearchOpen
+                ? Container(
+                    margin: const EdgeInsets.only(right: 16),
+                    child: TextButton(
+                      onPressed: () {
+                        setState(() {
+                          _isSearchOpen = false;
+                        });
+                      },
+                      child: const Text('Cancel'),
+                    ),
+                  )
+                : IconButton(
+                    icon: const Icon(Icons.more_vert),
+                    onPressed: () {
+                      setState(() {
+                        _isSearchOpen = !_isSearchOpen;
+                      });
+                    },
+                  )
+          ],
         ),
         body: Column(children: [
           ChordsFilter(
