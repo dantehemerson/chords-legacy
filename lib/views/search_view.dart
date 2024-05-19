@@ -19,8 +19,32 @@ class SearchView extends StatefulWidget {
 
 class SearchViewState extends State<SearchView> {
   FiltersModel filters = FiltersModel();
-  bool _isSearchOpen = true;
   TextEditingController txt = TextEditingController();
+  FocusNode searchFieldFocusNode = FocusNode();
+  // isSearching is attached to the focus of the searchField
+  bool _isSearching = false;
+
+  @override
+  void initState() {
+    super.initState();
+    searchFieldFocusNode = FocusNode(debugLabel: 'Button');
+    searchFieldFocusNode.addListener(_handleFocusChange);
+  }
+
+  void _handleFocusChange() {
+    if (searchFieldFocusNode.hasFocus != _isSearching) {
+      setState(() {
+        _isSearching = searchFieldFocusNode.hasFocus;
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    searchFieldFocusNode.removeListener(_handleFocusChange);
+    searchFieldFocusNode.dispose();
+    super.dispose();
+  }
 
   void _updateSearchText(String newText) {
     setState(() {
@@ -46,7 +70,9 @@ class SearchViewState extends State<SearchView> {
               child: TextField(
                   controller: txt,
                   textInputAction: TextInputAction.search,
+                  focusNode: searchFieldFocusNode,
                   autocorrect: false,
+                  autofocus: _isSearching,
                   onChanged: (s) => {_updateSearchText(s)},
                   decoration: const InputDecoration(
                       prefixIcon: Icon(Icons.search),
@@ -66,29 +92,24 @@ class SearchViewState extends State<SearchView> {
           backgroundColor: Colors.white,
           titleSpacing: 0,
           actions: [
-            _isSearchOpen
+            _isSearching
                 ? Container(
                     margin: const EdgeInsets.only(right: 16),
                     child: TextButton(
                       onPressed: () {
-                        setState(() {
-                          _isSearchOpen = false;
-                        });
+                        _updateSearchText('');
+                        searchFieldFocusNode.unfocus();
                       },
                       child: const Text('Cancel'),
                     ),
                   )
                 : IconButton(
                     icon: const Icon(Icons.more_vert),
-                    onPressed: () {
-                      setState(() {
-                        _isSearchOpen = !_isSearchOpen;
-                      });
-                    },
+                    onPressed: () {},
                   )
           ],
         ),
-        body: _isSearchOpen
+        body: (_isSearching || txt.text.isNotEmpty)
             ? SafeArea(
                 maintainBottomViewPadding: true,
                 child: FooterLayout(
@@ -100,7 +121,7 @@ class SearchViewState extends State<SearchView> {
                           )
                         : null,
                     child: SearchResultsView(
-                      chords: widget.chords,
+                      chords: txt.text.trim() == "" ? [] : widget.chords,
                     )))
             : Column(children: [
                 ChordsFilter(

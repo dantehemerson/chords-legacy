@@ -50,11 +50,11 @@ class KeyboardAttachableFooter extends StatelessWidget {
             Row(
               children: [
                 TextButton(
-                  onPressed: () => onTap('#'), // Call onTap with '♯'
+                  onPressed: () => onTap('♯'), // Call onTap with '♯'
                   child: const Text('♯'),
                 ),
                 TextButton(
-                  onPressed: () => onTap('b'), // Call onTap with '♭'
+                  onPressed: () => onTap('♭'), // Call onTap with '♭'
                   child: const Text('♭'),
                 ),
               ],
