@@ -21,13 +21,12 @@ class SearchViewState extends State<SearchView> {
   FiltersModel filters = FiltersModel();
   TextEditingController txt = TextEditingController();
   FocusNode searchFieldFocusNode = FocusNode();
-  // isSearching is attached to the focus of the searchField
   bool _isSearching = false;
 
   @override
   void initState() {
     super.initState();
-    searchFieldFocusNode = FocusNode(debugLabel: 'Button');
+    searchFieldFocusNode = FocusNode();
     searchFieldFocusNode.addListener(_handleFocusChange);
   }
 
@@ -72,6 +71,7 @@ class SearchViewState extends State<SearchView> {
                   textInputAction: TextInputAction.search,
                   focusNode: searchFieldFocusNode,
                   autocorrect: false,
+                  enableSuggestions: false,
                   autofocus: _isSearching,
                   onChanged: (s) => {_updateSearchText(s)},
                   decoration: const InputDecoration(
@@ -103,10 +103,76 @@ class SearchViewState extends State<SearchView> {
                       child: const Text('Cancel'),
                     ),
                   )
-                : IconButton(
-                    icon: const Icon(Icons.more_vert),
-                    onPressed: () {},
-                  )
+                : MenuAnchor(
+                    style: MenuStyle(
+                      backgroundColor: MaterialStateProperty.all(Colors.white),
+                      padding:
+                          MaterialStateProperty.all(const EdgeInsets.all(0)),
+                    ),
+                    menuChildren: [
+                      MenuItemButton(
+                        onPressed: () {},
+                        child: Text(
+                          'Options',
+                          softWrap: true,
+                          style: TextStyle(letterSpacing: 1),
+                        ),
+                        leadingIcon: Icon(
+                          Icons.settings_outlined,
+                          size: 16,
+                        ),
+                        style: ButtonStyle(
+                          padding: MaterialStateProperty.all(
+                              const EdgeInsets.only(left: 16, right: 16)),
+                        ),
+                      ),
+                      MenuItemButton(
+                        onPressed: () {},
+                        child: Text(
+                          'Rate this app',
+                          softWrap: true,
+                          style: TextStyle(letterSpacing: 1),
+                        ),
+                        leadingIcon: Icon(
+                          Icons.star_outline,
+                          size: 16,
+                        ),
+                        style: ButtonStyle(
+                          padding: MaterialStateProperty.all(
+                              const EdgeInsets.only(left: 16, right: 16)),
+                        ),
+                      ),
+                      MenuItemButton(
+                        onPressed: () {},
+                        child: Text(
+                          'Contact us',
+                          softWrap: true,
+                          style: TextStyle(letterSpacing: 1),
+                        ),
+                        leadingIcon: Icon(
+                          Icons.mail_outline,
+                          size: 16,
+                        ),
+                        style: ButtonStyle(
+                          padding: MaterialStateProperty.all(
+                              const EdgeInsets.only(left: 16, right: 16)),
+                        ),
+                      )
+                    ],
+                    builder: (BuildContext context, MenuController controller,
+                        Widget? child) {
+                      return IconButton(
+                        icon: const Icon(Icons.more_vert),
+                        tooltip: 'Menu options',
+                        onPressed: () {
+                          if (controller.isOpen) {
+                            controller.close();
+                          } else {
+                            controller.open();
+                          }
+                        },
+                      );
+                    }),
           ],
         ),
         body: (_isSearching || txt.text.isNotEmpty)
