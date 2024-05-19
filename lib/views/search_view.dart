@@ -113,6 +113,5 @@ class SearchViewState extends State<SearchView> {
                             .where((chord) => filters.isChordInFilter(chord))
                             .toList()))
               ]));
-    // });
   }
 }
