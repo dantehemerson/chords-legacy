@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter_midi_pro: ^3.0.1
   tonic: ^0.2.5
+  keyboard_attachable: ^2.2.0
+  flutter_keyboard_visibility: 5.4.1
 
 dev_dependencies:
   flutter_test:

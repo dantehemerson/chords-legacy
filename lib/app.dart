@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:test_drive/bottom_navigation_view/bottom_bar_view.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/views/search_view.dart';
@@ -61,8 +62,10 @@ class _AppState extends State<App> {
           Widget getBody() {
             switch (selectedIndex) {
               case 0:
-                return SearchView(
-                    key: const PageStorageKey('search_view'), chords: chords);
+                return KeyboardVisibilityProvider(
+                    child: SearchView(
+                        key: const PageStorageKey('search_view'),
+                        chords: chords));
               case 1:
                 return const Text('Collections');
               case 2:
