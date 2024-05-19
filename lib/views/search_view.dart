@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
+import 'package:keyboard_attachable/keyboard_attachable.dart';
 import 'package:test_drive/components/chords_filters.dart';
 import 'package:test_drive/components/chords_list.dart';
+import 'package:test_drive/components/keyboard_attachable_footer.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/models/filters_model.dart';
 import 'package:test_drive/views/search_results_view.dart';
@@ -17,6 +20,13 @@ class SearchView extends StatefulWidget {
 class SearchViewState extends State<SearchView> {
   FiltersModel filters = FiltersModel();
   bool _isSearchOpen = true;
+  TextEditingController txt = TextEditingController();
+
+  void _updateSearchText(String newText) {
+    setState(() {
+      txt.text = newText;
+    });
+  }
 
   void _updateFilters(FiltersModel newFilters) {
     setState(() {
@@ -26,14 +36,19 @@ class SearchViewState extends State<SearchView> {
 
   @override
   Widget build(BuildContext context) {
+    final bool isKeyboardVisible =
+        KeyboardVisibilityProvider.isKeyboardVisible(context);
+
     return Scaffold(
         appBar: AppBar(
           title: Container(
               margin: const EdgeInsets.only(left: 16, right: 4),
-              child: const TextField(
+              child: TextField(
+                  controller: txt,
                   textInputAction: TextInputAction.search,
                   autocorrect: false,
-                  decoration: InputDecoration(
+                  onChanged: (s) => {_updateSearchText(s)},
+                  decoration: const InputDecoration(
                       prefixIcon: Icon(Icons.search),
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.all(Radius.circular(20)),
@@ -46,7 +61,7 @@ class SearchViewState extends State<SearchView> {
                       contentPadding: EdgeInsets.only(left: 20, right: 20),
                       filled: true,
                       fillColor: Colors.white),
-                  style: TextStyle(
+                  style: const TextStyle(
                       color: Color.fromARGB(255, 0, 0, 0), fontSize: 16))),
           backgroundColor: Colors.white,
           titleSpacing: 0,
@@ -74,9 +89,19 @@ class SearchViewState extends State<SearchView> {
           ],
         ),
         body: _isSearchOpen
-            ? SearchResultsView(
-                chords: widget.chords,
-              )
+            ? SafeArea(
+                maintainBottomViewPadding: true,
+                child: FooterLayout(
+                    footer: isKeyboardVisible
+                        ? KeyboardAttachableFooter(
+                            onTap: (s) {
+                              _updateSearchText(txt.text + s);
+                            },
+                          )
+                        : null,
+                    child: SearchResultsView(
+                      chords: widget.chords,
+                    )))
             : Column(children: [
                 ChordsFilter(
                   filters: filters,
