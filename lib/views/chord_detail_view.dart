@@ -12,7 +12,7 @@ class ChordDetailView extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text(chord.name),
-          backgroundColor: Colors.white,
+          surfaceTintColor: Colors.transparent,
         ),
         body: Column(children: [
           Column(children: [

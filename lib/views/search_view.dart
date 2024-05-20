@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:keyboard_attachable/keyboard_attachable.dart';
 import 'package:test_drive/components/chords_filters.dart';
@@ -59,6 +60,7 @@ class SearchViewState extends State<SearchView> {
 
   @override
   Widget build(BuildContext context) {
+    ThemeData theme = Theme.of(context);
     final bool isKeyboardVisible =
         KeyboardVisibilityProvider.isKeyboardVisible(context);
 
@@ -74,13 +76,29 @@ class SearchViewState extends State<SearchView> {
                 enableSuggestions: false,
                 autofocus: _isSearching,
                 onChanged: (s) => {_updateSearchText(s)},
-                decoration: const InputDecoration(
-                  prefixIcon: Icon(Icons.search),
-                  border: OutlineInputBorder(
+                decoration: InputDecoration(
+                  prefixIcon: Icon(
+                    Icons.search,
+                    color: theme.colorScheme.primary == Colors.white
+                        ? (_isSearching
+                            ? Colors.white
+                            : Colors.white.withAlpha(140))
+                        : theme.colorScheme.primary,
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: const BorderRadius.all(Radius.circular(20)),
+                    borderSide: BorderSide(
+                      color: theme.colorScheme.primary == Colors.white
+                          ? Colors.white.withAlpha(100)
+                          : theme.colorScheme.primary,
+                      width: 2,
+                    ),
+                  ),
+                  border: const OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(20)),
                   ),
                   hintText: 'Search for chords or collections',
-                  contentPadding: EdgeInsets.only(left: 20, right: 20),
+                  contentPadding: const EdgeInsets.only(left: 20, right: 20),
                 ),
               )),
           surfaceTintColor: Colors.transparent,
