@@ -8,11 +8,12 @@ class BottomBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ThemeData theme = Theme.of(context);
+
     return BottomNavigationBar(
       elevation: 1,
       currentIndex: currentIndex,
-      unselectedItemColor: const Color.fromARGB(255, 132, 132, 132),
-      selectedItemColor: const Color.fromARGB(255, 28, 104, 227),
+      selectedItemColor: theme.colorScheme.tertiary,
       showUnselectedLabels: true,
       iconSize: 24,
       selectedLabelStyle: const TextStyle(

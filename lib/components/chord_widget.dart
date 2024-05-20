@@ -10,12 +10,14 @@ class ChordWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ThemeData theme = Theme.of(context);
+
     print("chord position >  ${chordPosition.toJson()}");
     return GestureDetector(
         onTap: onTap,
         child: CustomPaint(
           size: const Size(60, 72),
-          painter: ChordPainter(chordPosition: chordPosition),
+          painter: ChordPainter(chordPosition: chordPosition, theme: theme),
         ));
   }
 }

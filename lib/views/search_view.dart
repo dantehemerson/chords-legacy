@@ -67,29 +67,23 @@ class SearchViewState extends State<SearchView> {
           title: Container(
               margin: const EdgeInsets.only(left: 16, right: 4),
               child: TextField(
-                  controller: txt,
-                  textInputAction: TextInputAction.search,
-                  focusNode: searchFieldFocusNode,
-                  autocorrect: false,
-                  enableSuggestions: false,
-                  autofocus: _isSearching,
-                  onChanged: (s) => {_updateSearchText(s)},
-                  decoration: const InputDecoration(
-                      prefixIcon: Icon(Icons.search),
-                      border: OutlineInputBorder(
-                          borderRadius: BorderRadius.all(Radius.circular(20)),
-                          borderSide: BorderSide(
-                              width: 0,
-                              color: Color.fromARGB(255, 252, 252, 252))),
-                      hintText: 'Search for chords or collections',
-                      hintStyle:
-                          TextStyle(color: Color.fromARGB(255, 103, 119, 131)),
-                      contentPadding: EdgeInsets.only(left: 20, right: 20),
-                      filled: true,
-                      fillColor: Colors.white),
-                  style: const TextStyle(
-                      color: Color.fromARGB(255, 0, 0, 0), fontSize: 16))),
-          backgroundColor: Colors.white,
+                controller: txt,
+                textInputAction: TextInputAction.search,
+                focusNode: searchFieldFocusNode,
+                autocorrect: false,
+                enableSuggestions: false,
+                autofocus: _isSearching,
+                onChanged: (s) => {_updateSearchText(s)},
+                decoration: const InputDecoration(
+                  prefixIcon: Icon(Icons.search),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(20)),
+                  ),
+                  hintText: 'Search for chords or collections',
+                  contentPadding: EdgeInsets.only(left: 20, right: 20),
+                ),
+              )),
+          surfaceTintColor: Colors.transparent,
           titleSpacing: 0,
           actions: [
             _isSearching
@@ -105,19 +99,13 @@ class SearchViewState extends State<SearchView> {
                   )
                 : MenuAnchor(
                     style: MenuStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.white),
                       padding:
                           MaterialStateProperty.all(const EdgeInsets.all(0)),
                     ),
                     menuChildren: [
                       MenuItemButton(
                         onPressed: () {},
-                        child: Text(
-                          'Options',
-                          softWrap: true,
-                          style: TextStyle(letterSpacing: 1),
-                        ),
-                        leadingIcon: Icon(
+                        leadingIcon: const Icon(
                           Icons.settings_outlined,
                           size: 16,
                         ),
@@ -125,15 +113,15 @@ class SearchViewState extends State<SearchView> {
                           padding: MaterialStateProperty.all(
                               const EdgeInsets.only(left: 16, right: 16)),
                         ),
-                      ),
-                      MenuItemButton(
-                        onPressed: () {},
-                        child: Text(
-                          'Rate this app',
+                        child: const Text(
+                          'Options',
                           softWrap: true,
                           style: TextStyle(letterSpacing: 1),
                         ),
-                        leadingIcon: Icon(
+                      ),
+                      MenuItemButton(
+                        onPressed: () {},
+                        leadingIcon: const Icon(
                           Icons.star_outline,
                           size: 16,
                         ),
@@ -141,21 +129,26 @@ class SearchViewState extends State<SearchView> {
                           padding: MaterialStateProperty.all(
                               const EdgeInsets.only(left: 16, right: 16)),
                         ),
-                      ),
-                      MenuItemButton(
-                        onPressed: () {},
-                        child: Text(
-                          'Contact us',
+                        child: const Text(
+                          'Rate this app',
                           softWrap: true,
                           style: TextStyle(letterSpacing: 1),
                         ),
-                        leadingIcon: Icon(
+                      ),
+                      MenuItemButton(
+                        onPressed: () {},
+                        leadingIcon: const Icon(
                           Icons.mail_outline,
                           size: 16,
                         ),
                         style: ButtonStyle(
                           padding: MaterialStateProperty.all(
                               const EdgeInsets.only(left: 16, right: 16)),
+                        ),
+                        child: const Text(
+                          'Contact us',
+                          softWrap: true,
+                          style: TextStyle(letterSpacing: 1),
                         ),
                       )
                     ],

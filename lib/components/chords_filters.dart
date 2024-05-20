@@ -11,14 +11,16 @@ class ChordsFilter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ThemeData theme = Theme.of(context);
+
     return Material(
         elevation: 0.1,
         child: Container(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.background,
             child: Column(
               children: [
                 SizedBox(
-                  height: 16 * 3,
+                  height: 16 * 2.5,
                   child: SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       padding: const EdgeInsets.only(left: 8, right: 8),
@@ -26,7 +28,7 @@ class ChordsFilter extends StatelessWidget {
                           children: rootChords
                               .map((rootChord) => Padding(
                                     padding: const EdgeInsets.only(
-                                        top: 8, bottom: 4, left: 3, right: 3),
+                                        top: 4, bottom: 2, left: 0, right: 6),
                                     child: ElevatedButton(
                                       onPressed: () => {
                                         updateFilters(
@@ -47,12 +49,13 @@ class ChordsFilter extends StatelessWidget {
                                               borderRadius:
                                                   BorderRadius.circular(50),
                                               side: BorderSide(
-                                                  color:
-                                                      (filters.root == rootChord
-                                                              ? Colors.blue[700]
-                                                              : Colors.grey
-                                                                  .shade400) ??
-                                                          Colors.transparent,
+                                                  color: (filters.root ==
+                                                          rootChord
+                                                      ? theme
+                                                          .colorScheme.tertiary
+                                                      : theme
+                                                          .colorScheme.primary
+                                                          .withOpacity(0.3)),
                                                   width: 1.8)),
                                         ),
                                         padding: MaterialStateProperty.all<
@@ -63,26 +66,26 @@ class ChordsFilter extends StatelessWidget {
                                       child: Text(
                                         rootChord,
                                         style: TextStyle(
-                                          fontSize: 16,
-                                          color: (filters.root == rootChord
-                                                  ? Colors.blue[700]
-                                                  : Colors.grey.shade700) ??
-                                              Colors.transparent,
-                                        ),
+                                            fontSize: 16,
+                                            color: (filters.root == rootChord
+                                                ? theme.primaryColor
+                                                : theme.primaryColor
+                                                    .withOpacity(0.7))),
                                       ),
                                     ),
                                   ))
                               .toList())),
                 ),
                 SizedBox(
-                    height: 16 * 2.7,
+                    height: 16 * 2.3,
                     child: SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
+                      padding: const EdgeInsets.only(left: 8, right: 8),
                       child: Row(
                           children: chordTypes
                               .map((chordType) => Padding(
                                     padding: const EdgeInsets.only(
-                                        top: 4, bottom: 8, left: 3, right: 3),
+                                        top: 2, bottom: 6, left: 0, right: 6),
                                     child: ElevatedButton(
                                       onPressed: () {
                                         if (!filters.hasFilterType(chordType)) {
@@ -103,8 +106,9 @@ class ChordsFilter extends StatelessWidget {
                                         backgroundColor:
                                             MaterialStateProperty.all<Color>(
                                                 filters.hasFilterType(chordType)
-                                                    ? Colors.blue.shade700
-                                                    : Colors.grey.shade300),
+                                                    ? theme.colorScheme.tertiary
+                                                    : theme.colorScheme.primary
+                                                        .withOpacity(0.2)),
                                         elevation:
                                             MaterialStateProperty.all<double>(
                                                 0.0),
@@ -127,7 +131,8 @@ class ChordsFilter extends StatelessWidget {
                                             color:
                                                 filters.hasFilterType(chordType)
                                                     ? Colors.white
-                                                    : Colors.grey.shade600),
+                                                    : theme.colorScheme.primary
+                                                        .withOpacity(0.5)),
                                       ),
                                     ),
                                   ))

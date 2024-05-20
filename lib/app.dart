@@ -76,11 +76,19 @@ class _AppState extends State<App> {
           }
 
           return MaterialApp(
-              title: 'Flutter Demo',
-              theme: ThemeData(
-                colorScheme:
-                    ColorScheme.fromSeed(seedColor: const Color(0x002465ff)),
+              theme: ThemeData.light().copyWith(
+                primaryColor: Colors.black,
+                colorScheme: const ColorScheme.light().copyWith(
+                    primary: Colors.black,
+                    secondary: Colors.white,
+                    tertiary: const Color(0xFF2465FF)),
               ),
+              darkTheme: ThemeData.dark().copyWith(
+                  primaryColor: Colors.white,
+                  colorScheme: const ColorScheme.dark().copyWith(
+                      primary: Colors.white,
+                      secondary: Colors.black,
+                      tertiary: const Color.fromARGB(255, 72, 127, 255))),
               home: Scaffold(
                 body: PageStorage(bucket: _bucket, child: getBody()),
                 bottomNavigationBar: BottomBar(

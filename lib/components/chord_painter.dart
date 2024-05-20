@@ -5,8 +5,9 @@ import 'package:test_drive/models/chord_model.dart';
 
 class ChordPainter extends CustomPainter {
   final ChordPosition chordPosition;
+  final ThemeData theme;
 
-  ChordPainter({required this.chordPosition});
+  ChordPainter({required this.chordPosition, required this.theme});
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -35,12 +36,11 @@ class ChordPainter extends CustomPainter {
           text: TextSpan(
             text: fingerPosition,
             style: TextStyle(
-              color: Colors.black,
+              color: theme.colorScheme.primary,
               fontSize: fontSize,
               fontWeight: FontWeight.bold,
               // fontFamily: '',
               height: 1,
-              // fontFamilyFallback: const <String>["Courier"]
             ),
           ),
           textDirection: TextDirection.ltr,
@@ -55,20 +55,28 @@ class ChordPainter extends CustomPainter {
     canvas.drawRect(
         Rect.fromPoints(const Offset(-1, paddingTop),
             Offset(fretboardWidth + 1, paddingTop - (height * 0.08))),
-        Paint()..color = Colors.black);
+        Paint()..color = theme.colorScheme.primary);
 
     // Draw freets
     for (int i = 0; i < 5; i++) {
       final double y = paddingTop + fretSpacing * i;
-      canvas.drawLine(Offset(0, y), Offset(fretboardWidth, y),
-          Paint()..strokeWidth = strokeWidth);
+      canvas.drawLine(
+          Offset(0, y),
+          Offset(fretboardWidth, y),
+          Paint()
+            ..strokeWidth = strokeWidth
+            ..color = theme.colorScheme.primary);
     }
 
     // Draw strings
     for (int i = 0; i < 6; i++) {
       final double x = stringSpacing * i;
-      canvas.drawLine(Offset(x, paddingTop + 0), Offset(x, paddingTop + height),
-          Paint()..strokeWidth = strokeWidth);
+      canvas.drawLine(
+          Offset(x, paddingTop + 0),
+          Offset(x, paddingTop + height),
+          Paint()
+            ..strokeWidth = strokeWidth
+            ..color = theme.colorScheme.primary);
     }
 
     final double positionIndicatorWidth = width * 0.08;
@@ -85,7 +93,7 @@ class ChordPainter extends CustomPainter {
             fretSpacing / 2;
 
         canvas.drawCircle(Offset(x, y), positionIndicatorWidth,
-            Paint()..color = const Color(0xFF2465FF));
+            Paint()..color = theme.colorScheme.tertiary);
 
         if (showFingerNumber) {
           final TextPainter textPainter = TextPainter(
