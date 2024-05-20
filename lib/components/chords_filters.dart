@@ -15,9 +15,9 @@ class ChordsFilter extends StatelessWidget {
       children: [
         SizedBox(
           height: 16 * 3,
-          width: double.infinity,
           child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.only(left: 8, right: 8),
               child: Row(
                   children: rootChords
                       .map((rootChord) => Padding(
@@ -26,26 +26,25 @@ class ChordsFilter extends StatelessWidget {
                             child: ElevatedButton(
                               onPressed: () => {
                                 updateFilters(
-                                  FiltersModel(root: rootChord),
+                                  filters.copyWith(root: rootChord),
                                 )
                               },
                               style: ButtonStyle(
                                 minimumSize: MaterialStateProperty.all<Size>(
                                   const Size.fromWidth(50),
                                 ),
-                                backgroundColor:
-                                    MaterialStateProperty.all<Color>(
-                                        filters.root == rootChord
-                                            ? const Color.fromARGB(
-                                                255, 166, 255, 173)
-                                            : const Color(0xFFf9fafa)),
                                 elevation:
                                     MaterialStateProperty.all<double>(0.0),
                                 shape: MaterialStateProperty.all<
                                     RoundedRectangleBorder>(
                                   RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(50),
-                                  ),
+                                      borderRadius: BorderRadius.circular(50),
+                                      side: BorderSide(
+                                          color: (filters.root == rootChord
+                                                  ? Colors.blue[700]
+                                                  : Colors.grey.shade400) ??
+                                              Colors.transparent,
+                                          width: 1.8)),
                                 ),
                                 padding: MaterialStateProperty.all<
                                     EdgeInsetsGeometry>(
@@ -54,14 +53,20 @@ class ChordsFilter extends StatelessWidget {
                               ),
                               child: Text(
                                 rootChord,
-                                style: const TextStyle(fontSize: 16),
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: (filters.root == rootChord
+                                          ? Colors.blue[700]
+                                          : Colors.grey.shade700) ??
+                                      Colors.transparent,
+                                ),
                               ),
                             ),
                           ))
                       .toList())),
         ),
         SizedBox(
-            height: 16 * 3,
+            height: 16 * 2.8,
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
@@ -70,20 +75,32 @@ class ChordsFilter extends StatelessWidget {
                             padding: const EdgeInsets.only(
                                 top: 4, bottom: 8, left: 3, right: 3),
                             child: ElevatedButton(
-                              onPressed: () => {},
+                              onPressed: () {
+                                if (!filters.hasFilterType(chordType)) {
+                                  updateFilters(
+                                    filters.copyWith().addFilterType(chordType),
+                                  );
+                                } else {
+                                  updateFilters(
+                                    filters
+                                        .copyWith()
+                                        .removeFilterType(chordType),
+                                  );
+                                }
+                              },
                               style: ButtonStyle(
-                                minimumSize: MaterialStateProperty.all<Size>(
-                                  const Size.fromWidth(50),
-                                ),
-                                backgroundColor: MaterialStateProperty.all<
-                                        Color>(
-                                    const Color.fromARGB(255, 240, 230, 255)),
+                                backgroundColor:
+                                    MaterialStateProperty.all<Color>(
+                                        filters.hasFilterType(chordType)
+                                            ? Colors.red
+                                            : const Color.fromARGB(
+                                                255, 240, 230, 255)),
                                 elevation:
                                     MaterialStateProperty.all<double>(0.0),
                                 shape: MaterialStateProperty.all<
                                     RoundedRectangleBorder>(
                                   RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(8),
+                                    borderRadius: BorderRadius.circular(20),
                                   ),
                                 ),
                                 padding: MaterialStateProperty.all<
@@ -93,7 +110,7 @@ class ChordsFilter extends StatelessWidget {
                               ),
                               child: Text(
                                 chordType,
-                                style: const TextStyle(fontSize: 16),
+                                style: const TextStyle(fontSize: 14),
                               ),
                             ),
                           ))
