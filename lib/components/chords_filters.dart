@@ -13,97 +13,92 @@ class ChordsFilter extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Column(children: [
-          SizedBox(
-              height: 16 * 3,
-              child: Scrollbar(
-                trackVisibility: true,
-                thumbVisibility: true,
-                child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: rootChords
-                        .map((rootChord) => Padding(
-                              padding: const EdgeInsets.only(
-                                  top: 8, bottom: 4, left: 3, right: 3),
-                              child: ElevatedButton(
-                                onPressed: () => {
-                                  updateFilters(
-                                    FiltersModel(root: rootChord),
-                                  )
-                                },
-                                style: ButtonStyle(
-                                  minimumSize: MaterialStateProperty.all<Size>(
-                                    const Size.fromWidth(50),
-                                  ),
-                                  backgroundColor:
-                                      MaterialStateProperty.all<Color>(
-                                          filters.root == rootChord
-                                              ? const Color.fromARGB(
-                                                  255, 166, 255, 173)
-                                              : const Color(0xFFf9fafa)),
-                                  elevation:
-                                      MaterialStateProperty.all<double>(0.0),
-                                  shape: MaterialStateProperty.all<
-                                      RoundedRectangleBorder>(
-                                    RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(8),
-                                    ),
-                                  ),
-                                  padding: MaterialStateProperty.all<
-                                      EdgeInsetsGeometry>(
-                                    EdgeInsets.zero,
+        SizedBox(
+          height: 16 * 3,
+          width: double.infinity,
+          child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                  children: rootChords
+                      .map((rootChord) => Padding(
+                            padding: const EdgeInsets.only(
+                                top: 8, bottom: 4, left: 3, right: 3),
+                            child: ElevatedButton(
+                              onPressed: () => {
+                                updateFilters(
+                                  FiltersModel(root: rootChord),
+                                )
+                              },
+                              style: ButtonStyle(
+                                minimumSize: MaterialStateProperty.all<Size>(
+                                  const Size.fromWidth(50),
+                                ),
+                                backgroundColor:
+                                    MaterialStateProperty.all<Color>(
+                                        filters.root == rootChord
+                                            ? const Color.fromARGB(
+                                                255, 166, 255, 173)
+                                            : const Color(0xFFf9fafa)),
+                                elevation:
+                                    MaterialStateProperty.all<double>(0.0),
+                                shape: MaterialStateProperty.all<
+                                    RoundedRectangleBorder>(
+                                  RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50),
                                   ),
                                 ),
-                                child: Text(
-                                  rootChord,
-                                  style: const TextStyle(fontSize: 16),
+                                padding: MaterialStateProperty.all<
+                                    EdgeInsetsGeometry>(
+                                  EdgeInsets.zero,
                                 ),
                               ),
-                            ))
-                        .toList()),
-              )),
-          SizedBox(
-              height: 16 * 3,
-              child: Scrollbar(
-                trackVisibility: true,
-                thumbVisibility: true,
-                child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: chordTypes
-                        .map((chordType) => Padding(
-                              padding: const EdgeInsets.only(
-                                  top: 4, bottom: 8, left: 3, right: 3),
-                              child: ElevatedButton(
-                                onPressed: () => {},
-                                style: ButtonStyle(
-                                  minimumSize: MaterialStateProperty.all<Size>(
-                                    const Size.fromWidth(50),
-                                  ),
-                                  backgroundColor: MaterialStateProperty.all<
-                                          Color>(
-                                      const Color.fromARGB(255, 240, 230, 255)),
-                                  elevation:
-                                      MaterialStateProperty.all<double>(0.0),
-                                  shape: MaterialStateProperty.all<
-                                      RoundedRectangleBorder>(
-                                    RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(8),
-                                    ),
-                                  ),
-                                  padding: MaterialStateProperty.all<
-                                      EdgeInsetsGeometry>(
-                                    EdgeInsets.zero,
+                              child: Text(
+                                rootChord,
+                                style: const TextStyle(fontSize: 16),
+                              ),
+                            ),
+                          ))
+                      .toList())),
+        ),
+        SizedBox(
+            height: 16 * 3,
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                  children: chordTypes
+                      .map((chordType) => Padding(
+                            padding: const EdgeInsets.only(
+                                top: 4, bottom: 8, left: 3, right: 3),
+                            child: ElevatedButton(
+                              onPressed: () => {},
+                              style: ButtonStyle(
+                                minimumSize: MaterialStateProperty.all<Size>(
+                                  const Size.fromWidth(50),
+                                ),
+                                backgroundColor: MaterialStateProperty.all<
+                                        Color>(
+                                    const Color.fromARGB(255, 240, 230, 255)),
+                                elevation:
+                                    MaterialStateProperty.all<double>(0.0),
+                                shape: MaterialStateProperty.all<
+                                    RoundedRectangleBorder>(
+                                  RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(8),
                                   ),
                                 ),
-                                child: Text(
-                                  chordType,
-                                  style: const TextStyle(fontSize: 16),
+                                padding: MaterialStateProperty.all<
+                                    EdgeInsetsGeometry>(
+                                  EdgeInsets.zero,
                                 ),
                               ),
-                            ))
-                        .toList()),
-              )),
-        ]),
+                              child: Text(
+                                chordType,
+                                style: const TextStyle(fontSize: 16),
+                              ),
+                            ),
+                          ))
+                      .toList()),
+            )),
       ],
     );
   }
