@@ -34,6 +34,13 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   int selectedIndex = 0;
   final PageStorageBucket _bucket = PageStorageBucket();
+  ThemeMode themeMode = ThemeMode.system;
+
+  _setThemeMode(ThemeMode newThemeMode) {
+    setState(() {
+      themeMode = newThemeMode;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -65,7 +72,9 @@ class _AppState extends State<App> {
                 return KeyboardVisibilityProvider(
                     child: SearchView(
                         key: const PageStorageKey('search_view'),
-                        chords: chords));
+                        chords: chords,
+                        themeMode: themeMode,
+                        setThemeMode: _setThemeMode));
               case 1:
                 return const Text('Collections');
               case 2:
@@ -76,6 +85,7 @@ class _AppState extends State<App> {
           }
 
           return MaterialApp(
+              themeMode: themeMode,
               theme: ThemeData.light().copyWith(
                 primaryColor: Colors.black,
                 colorScheme: const ColorScheme.light().copyWith(

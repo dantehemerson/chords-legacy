@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:keyboard_attachable/keyboard_attachable.dart';
 import 'package:test_drive/components/chords_filters.dart';
 import 'package:test_drive/components/chords_list.dart';
 import 'package:test_drive/components/keyboard_attachable_footer.dart';
+import 'package:test_drive/extensions/string_extensions.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/models/filters_model.dart';
 import 'package:test_drive/views/search_results_view.dart';
 
 class SearchView extends StatefulWidget {
   final List<ChordModel> chords;
+  final ThemeMode themeMode;
+  final Function(ThemeMode) setThemeMode;
 
-  const SearchView({super.key, required this.chords});
+  const SearchView(
+      {super.key,
+      required this.chords,
+      required this.themeMode,
+      required this.setThemeMode});
 
   @override
   State<StatefulWidget> createState() => SearchViewState();
@@ -137,18 +143,35 @@ class SearchViewState extends State<SearchView> {
                           style: TextStyle(letterSpacing: 1),
                         ),
                       ),
-                      MenuItemButton(
-                        onPressed: () {},
+                      SubmenuButton(
                         leadingIcon: const Icon(
-                          Icons.star_outline,
+                          Icons.contrast,
                           size: 16,
                         ),
-                        style: ButtonStyle(
+                        menuStyle: MenuStyle(
                           padding: MaterialStateProperty.all(
-                              const EdgeInsets.only(left: 16, right: 16)),
+                              const EdgeInsets.only(top: 0)),
                         ),
+                        menuChildren: ThemeMode.values.map((themeMode) {
+                          return MenuItemButton(
+                            onPressed: () {
+                              widget.setThemeMode(themeMode);
+                            },
+                            leadingIcon: widget.themeMode == themeMode
+                                ? const Icon(
+                                    Icons.check,
+                                    size: 16,
+                                  )
+                                : null,
+                            style: ButtonStyle(
+                              padding: MaterialStateProperty.all(
+                                  const EdgeInsets.only(left: 16, right: 16)),
+                            ),
+                            child: Text(themeMode.name.capitalize()),
+                          );
+                        }).toList(),
                         child: const Text(
-                          'Rate this app',
+                          'Theme',
                           softWrap: true,
                           style: TextStyle(letterSpacing: 1),
                         ),
