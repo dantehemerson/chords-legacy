@@ -40,6 +40,7 @@ dependencies:
   keyboard_attachable: ^2.2.0
   flutter_keyboard_visibility: 5.4.1
   shared_preferences: ^2.2.3
+  package_info_plus: ^8.0.0
 
 dev_dependencies:
   flutter_test:

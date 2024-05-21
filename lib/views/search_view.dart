@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:keyboard_attachable/keyboard_attachable.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:test_drive/components/chords_filters.dart';
 import 'package:test_drive/components/chords_list.dart';
 import 'package:test_drive/components/keyboard_attachable_footer.dart';
@@ -30,12 +31,20 @@ class SearchViewState extends State<SearchView> {
   TextEditingController txt = TextEditingController();
   FocusNode searchFieldFocusNode = FocusNode();
   bool _isSearching = false;
+  PackageInfo? _packageInfo;
 
   @override
   void initState() {
     super.initState();
     searchFieldFocusNode = FocusNode();
     searchFieldFocusNode.addListener(_handleFocusChange);
+
+    () async {
+      final packageInfo = await PackageInfo.fromPlatform();
+      setState(() {
+        _packageInfo = packageInfo;
+      });
+    }();
   }
 
   void _handleFocusChange() {
@@ -141,16 +150,16 @@ class SearchViewState extends State<SearchView> {
                                 textAlign: TextAlign.center,
                                 text: TextSpan(
                                     style: DefaultTextStyle.of(context).style,
-                                    children: const [
-                                      TextSpan(
+                                    children: [
+                                      const TextSpan(
                                           text: 'Chords App',
                                           style: TextStyle(
                                               fontSize: 18,
                                               fontWeight: FontWeight.bold)),
                                       TextSpan(
-                                        text: '\nVersion: 1.0.0',
-                                      ),
-                                      TextSpan(
+                                          text:
+                                              '\nVersion: ${_packageInfo?.version}'),
+                                      const TextSpan(
                                           text:
                                               '\n\n© 2024 Chords App\nAll rights reserved.'),
                                     ])),
