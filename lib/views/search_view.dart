@@ -104,6 +104,10 @@ class SearchViewState extends State<SearchView> {
                   )
                 : MenuAnchor(
                     style: MenuStyle(
+                      backgroundColor: MaterialStateProperty.all(
+                          theme.colorScheme.secondary),
+                      surfaceTintColor: MaterialStateProperty.all(
+                          theme.colorScheme.secondary),
                       padding:
                           MaterialStateProperty.all(const EdgeInsets.all(0)),
                     ),
@@ -114,6 +118,10 @@ class SearchViewState extends State<SearchView> {
                           size: 16,
                         ),
                         menuStyle: MenuStyle(
+                          backgroundColor: MaterialStateProperty.all(
+                              theme.colorScheme.secondary),
+                          surfaceTintColor: MaterialStateProperty.all(
+                              theme.colorScheme.secondary),
                           padding: MaterialStateProperty.all(
                               const EdgeInsets.only(top: 0)),
                         ),

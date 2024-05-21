@@ -99,13 +99,13 @@ class AppState extends State<App> {
               darkTheme: AppTheme.dark,
               home: Scaffold(
                 body: PageStorage(bucket: _bucket, child: getBody()),
-                bottomNavigationBar: BottomBar(
-                    currentIndex: selectedIndex,
-                    onTap: (int index) {
-                      setState(() {
-                        selectedIndex = index;
-                      });
-                    }),
+                // bottomNavigationBar: BottomBar(
+                //     currentIndex: selectedIndex,
+                //     onTap: (int index) {
+                //       setState(() {
+                //         selectedIndex = index;
+                //       });
+                //     }),
               ));
         }
       },
