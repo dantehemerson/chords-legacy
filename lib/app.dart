@@ -3,14 +3,17 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:test_drive/bottom_navigation_view/bottom_bar_view.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/views/search_view.dart';
 
 class App extends StatefulWidget {
   final Future<List<ChordModel>> chordsFuture;
+  final ThemeMode initialThemeMode;
 
-  App({super.key}) : chordsFuture = loadChords();
+  App({super.key, required this.initialThemeMode})
+      : chordsFuture = loadChords();
 
   static Future<List<ChordModel>> loadChords() async {
     try {
@@ -28,18 +31,23 @@ class App extends StatefulWidget {
   }
 
   @override
-  State<App> createState() => _AppState();
+  // ignore: no_logic_in_create_state
+  State<App> createState() => _AppState(themeMode: initialThemeMode);
 }
 
 class _AppState extends State<App> {
   int selectedIndex = 0;
   final PageStorageBucket _bucket = PageStorageBucket();
-  ThemeMode themeMode = ThemeMode.system;
+  ThemeMode themeMode;
 
-  _setThemeMode(ThemeMode newThemeMode) {
+  _AppState({required this.themeMode});
+
+  _setThemeMode(ThemeMode newThemeMode) async {
     setState(() {
       themeMode = newThemeMode;
     });
+    (await SharedPreferences.getInstance())
+        .setString('themeMode', newThemeMode.name.toString());
   }
 
   @override
