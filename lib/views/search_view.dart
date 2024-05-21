@@ -158,16 +158,15 @@ class SearchViewState extends State<SearchView> {
                               widget.setThemeMode(themeMode);
                             },
                             leadingIcon: widget.themeMode == themeMode
-                                ? const Icon(
-                                    Icons.check,
-                                    size: 16,
-                                  )
-                                : null,
+                                ? const Icon(Icons.check, size: 16)
+                                : const SizedBox(width: 12),
                             style: ButtonStyle(
                               padding: MaterialStateProperty.all(
                                   const EdgeInsets.only(left: 16, right: 16)),
                             ),
-                            child: Text(themeMode.name.capitalize()),
+                            child: Text(
+                              themeMode.name.capitalize(),
+                            ),
                           );
                         }).toList(),
                         child: const Text(

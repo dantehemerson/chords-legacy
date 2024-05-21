@@ -6,6 +6,7 @@ import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:test_drive/bottom_navigation_view/bottom_bar_view.dart';
 import 'package:test_drive/models/chord_model.dart';
+import 'package:test_drive/themes/app_theme.dart';
 import 'package:test_drive/views/search_view.dart';
 
 class App extends StatefulWidget {
@@ -32,15 +33,15 @@ class App extends StatefulWidget {
 
   @override
   // ignore: no_logic_in_create_state
-  State<App> createState() => _AppState(themeMode: initialThemeMode);
+  State<App> createState() => AppState(themeMode: initialThemeMode);
 }
 
-class _AppState extends State<App> {
+class AppState extends State<App> {
   int selectedIndex = 0;
   final PageStorageBucket _bucket = PageStorageBucket();
   ThemeMode themeMode;
 
-  _AppState({required this.themeMode});
+  AppState({required this.themeMode});
 
   _setThemeMode(ThemeMode newThemeMode) async {
     setState(() {
@@ -94,19 +95,8 @@ class _AppState extends State<App> {
 
           return MaterialApp(
               themeMode: themeMode,
-              theme: ThemeData.light().copyWith(
-                primaryColor: Colors.black,
-                colorScheme: const ColorScheme.light().copyWith(
-                    primary: Colors.black,
-                    secondary: Colors.white,
-                    tertiary: const Color(0xFF2465FF)),
-              ),
-              darkTheme: ThemeData.dark().copyWith(
-                  primaryColor: Colors.white,
-                  colorScheme: const ColorScheme.dark().copyWith(
-                      primary: Colors.white,
-                      secondary: Colors.black,
-                      tertiary: const Color.fromARGB(255, 72, 127, 255))),
+              theme: AppTheme.light,
+              darkTheme: AppTheme.dark,
               home: Scaffold(
                 body: PageStorage(bucket: _bucket, child: getBody()),
                 bottomNavigationBar: BottomBar(
