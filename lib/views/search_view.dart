@@ -4,6 +4,7 @@ import 'package:keyboard_attachable/keyboard_attachable.dart';
 import 'package:test_drive/components/chords_filters.dart';
 import 'package:test_drive/components/chords_list.dart';
 import 'package:test_drive/components/keyboard_attachable_footer.dart';
+import 'package:test_drive/components/search_field.dart';
 import 'package:test_drive/extensions/string_extensions.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/models/filters_model.dart';
@@ -72,41 +73,12 @@ class SearchViewState extends State<SearchView> {
 
     return Scaffold(
         appBar: AppBar(
-          title: Container(
-              margin: const EdgeInsets.only(left: 16, right: 4),
-              child: TextField(
-                controller: txt,
-                textInputAction: TextInputAction.search,
-                focusNode: searchFieldFocusNode,
-                autocorrect: false,
-                enableSuggestions: false,
-                autofocus: _isSearching,
-                onChanged: (s) => {_updateSearchText(s)},
-                decoration: InputDecoration(
-                  prefixIcon: Icon(
-                    Icons.search,
-                    color: theme.colorScheme.primary == Colors.white
-                        ? (_isSearching
-                            ? Colors.white
-                            : Colors.white.withAlpha(140))
-                        : theme.colorScheme.primary,
-                  ),
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: const BorderRadius.all(Radius.circular(20)),
-                    borderSide: BorderSide(
-                      color: theme.colorScheme.primary == Colors.white
-                          ? Colors.white.withAlpha(100)
-                          : theme.colorScheme.primary,
-                      width: 2,
-                    ),
-                  ),
-                  border: const OutlineInputBorder(
-                    borderRadius: BorderRadius.all(Radius.circular(20)),
-                  ),
-                  hintText: 'Search for chords or collections',
-                  contentPadding: const EdgeInsets.only(left: 20, right: 20),
-                ),
-              )),
+          title: SearchField(
+            controller: txt,
+            focusNode: searchFieldFocusNode,
+            isSearching: _isSearching,
+            onChanged: _updateSearchText,
+          ),
           surfaceTintColor: Colors.transparent,
           titleSpacing: 0,
           actions: [
@@ -127,22 +99,6 @@ class SearchViewState extends State<SearchView> {
                           MaterialStateProperty.all(const EdgeInsets.all(0)),
                     ),
                     menuChildren: [
-                      MenuItemButton(
-                        onPressed: () {},
-                        leadingIcon: const Icon(
-                          Icons.settings_outlined,
-                          size: 16,
-                        ),
-                        style: ButtonStyle(
-                          padding: MaterialStateProperty.all(
-                              const EdgeInsets.only(left: 16, right: 16)),
-                        ),
-                        child: const Text(
-                          'Options',
-                          softWrap: true,
-                          style: TextStyle(letterSpacing: 1),
-                        ),
-                      ),
                       SubmenuButton(
                         leadingIcon: const Icon(
                           Icons.contrast,
@@ -176,9 +132,38 @@ class SearchViewState extends State<SearchView> {
                         ),
                       ),
                       MenuItemButton(
-                        onPressed: () {},
+                        onPressed: () => showDialog<String>(
+                          context: context,
+                          builder: (BuildContext context) => AlertDialog(
+                            backgroundColor: theme.colorScheme.secondary,
+                            surfaceTintColor: theme.colorScheme.secondary,
+                            content: RichText(
+                                textAlign: TextAlign.center,
+                                text: TextSpan(
+                                    style: DefaultTextStyle.of(context).style,
+                                    children: const [
+                                      TextSpan(
+                                          text: 'Chords App',
+                                          style: TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold)),
+                                      TextSpan(
+                                        text: '\nVersion: 1.0.0',
+                                      ),
+                                      TextSpan(
+                                          text:
+                                              '\n\n© 2024 Chords App\nAll rights reserved.'),
+                                    ])),
+                            actions: <Widget>[
+                              TextButton(
+                                onPressed: () => Navigator.pop(context, 'OK'),
+                                child: const Text('Close'),
+                              ),
+                            ],
+                          ),
+                        ),
                         leadingIcon: const Icon(
-                          Icons.mail_outline,
+                          Icons.info_outline,
                           size: 16,
                         ),
                         style: ButtonStyle(
@@ -186,7 +171,7 @@ class SearchViewState extends State<SearchView> {
                               const EdgeInsets.only(left: 16, right: 16)),
                         ),
                         child: const Text(
-                          'Contact us',
+                          'About',
                           softWrap: true,
                           style: TextStyle(letterSpacing: 1),
                         ),

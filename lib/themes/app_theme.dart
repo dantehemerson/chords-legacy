@@ -11,6 +11,7 @@ class AppTheme {
 
   static ThemeData dark = ThemeData.dark().copyWith(
       primaryColor: Colors.white,
+      brightness: Brightness.dark,
       colorScheme: const ColorScheme.dark().copyWith(
           primary: Colors.white,
           secondary: Colors.black,
