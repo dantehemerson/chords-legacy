@@ -3,8 +3,9 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:test_drive/bottom_navigation_view/bottom_bar_view.dart';
+import 'package:test_drive/generated/l10n.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/themes/app_theme.dart';
 import 'package:test_drive/views/search_view.dart';
@@ -97,6 +98,13 @@ class AppState extends State<App> {
               themeMode: themeMode,
               theme: AppTheme.light,
               darkTheme: AppTheme.dark,
+              localizationsDelegates: const [
+                S.delegate,
+                GlobalMaterialLocalizations.delegate,
+                GlobalWidgetsLocalizations.delegate,
+                GlobalCupertinoLocalizations.delegate,
+              ],
+              supportedLocales: S.delegate.supportedLocales,
               home: Scaffold(
                 body: PageStorage(bucket: _bucket, child: getBody()),
                 // bottomNavigationBar: BottomBar(

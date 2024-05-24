@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_drive/generated/l10n.dart';
 
 class SearchField extends StatelessWidget {
   final void Function(String) onChanged;
@@ -46,7 +47,7 @@ class SearchField extends StatelessWidget {
             border: const OutlineInputBorder(
               borderRadius: BorderRadius.all(Radius.circular(20)),
             ),
-            hintText: 'Search for chords or collections',
+            hintText: S.of(context).home_searchTextField,
             contentPadding: const EdgeInsets.only(left: 20, right: 20),
           ),
         ));
