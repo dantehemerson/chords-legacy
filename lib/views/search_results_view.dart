@@ -42,7 +42,7 @@ class _SearchResultsViewState extends State<SearchResultsView> {
         //           style: ButtonStyle(
         //               alignment: Alignment.center,
         //               padding:
-        //                   MaterialStateProperty.all(const EdgeInsets.all(0))),
+        //                   WidgetStateProperty.all(const EdgeInsets.all(0))),
         //           onSelectionChanged: (newSelection) {
         //             setState(() {
         //               searchTypeSelected = newSelection.first;

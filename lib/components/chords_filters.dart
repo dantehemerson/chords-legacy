@@ -37,13 +37,13 @@ class ChordsFilter extends StatelessWidget {
                                       },
                                       style: ButtonStyle(
                                         minimumSize:
-                                            MaterialStateProperty.all<Size>(
+                                            WidgetStateProperty.all<Size>(
                                           const Size.fromWidth(50),
                                         ),
                                         elevation:
-                                            MaterialStateProperty.all<double>(
+                                            WidgetStateProperty.all<double>(
                                                 0.0),
-                                        shape: MaterialStateProperty.all<
+                                        shape: WidgetStateProperty.all<
                                             RoundedRectangleBorder>(
                                           RoundedRectangleBorder(
                                               borderRadius:
@@ -58,7 +58,7 @@ class ChordsFilter extends StatelessWidget {
                                                           .withOpacity(0.3)),
                                                   width: 1.8)),
                                         ),
-                                        padding: MaterialStateProperty.all<
+                                        padding: WidgetStateProperty.all<
                                             EdgeInsetsGeometry>(
                                           EdgeInsets.zero,
                                         ),
@@ -104,22 +104,22 @@ class ChordsFilter extends StatelessWidget {
                                       },
                                       style: ButtonStyle(
                                         backgroundColor:
-                                            MaterialStateProperty.all<Color>(
+                                            WidgetStateProperty.all<Color>(
                                                 filters.hasFilterType(chordType)
                                                     ? theme.colorScheme.tertiary
                                                     : theme.colorScheme.primary
                                                         .withOpacity(0.2)),
                                         elevation:
-                                            MaterialStateProperty.all<double>(
+                                            WidgetStateProperty.all<double>(
                                                 0.0),
-                                        shape: MaterialStateProperty.all<
+                                        shape: WidgetStateProperty.all<
                                             RoundedRectangleBorder>(
                                           RoundedRectangleBorder(
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                           ),
                                         ),
-                                        padding: MaterialStateProperty.all<
+                                        padding: WidgetStateProperty.all<
                                             EdgeInsetsGeometry>(
                                           EdgeInsets.zero,
                                         ),

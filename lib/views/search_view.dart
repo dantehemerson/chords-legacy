@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
+import 'package:intl/intl.dart';
 import 'package:keyboard_attachable/keyboard_attachable.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:test_drive/components/chords_filters.dart';
@@ -7,20 +8,24 @@ import 'package:test_drive/components/chords_list.dart';
 import 'package:test_drive/components/keyboard_attachable_footer.dart';
 import 'package:test_drive/components/search_field.dart';
 import 'package:test_drive/extensions/string_extensions.dart';
+import 'package:test_drive/generated/l10n.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/models/filters_model.dart';
+import 'package:test_drive/utils/locale_utils.dart';
 import 'package:test_drive/views/search_results_view.dart';
 
 class SearchView extends StatefulWidget {
   final List<ChordModel> chords;
   final ThemeMode themeMode;
   final Function(ThemeMode) setThemeMode;
+  final Function(Locale) setLocale;
 
   const SearchView(
       {super.key,
       required this.chords,
       required this.themeMode,
-      required this.setThemeMode});
+      required this.setThemeMode,
+      required this.setLocale});
 
   @override
   State<StatefulWidget> createState() => SearchViewState();
@@ -104,12 +109,11 @@ class SearchViewState extends State<SearchView> {
                   )
                 : MenuAnchor(
                     style: MenuStyle(
-                      backgroundColor: MaterialStateProperty.all(
-                          theme.colorScheme.secondary),
-                      surfaceTintColor: MaterialStateProperty.all(
-                          theme.colorScheme.secondary),
-                      padding:
-                          MaterialStateProperty.all(const EdgeInsets.all(0)),
+                      backgroundColor:
+                          WidgetStateProperty.all(theme.colorScheme.secondary),
+                      surfaceTintColor:
+                          WidgetStateProperty.all(theme.colorScheme.secondary),
+                      padding: WidgetStateProperty.all(const EdgeInsets.all(0)),
                     ),
                     menuChildren: [
                       SubmenuButton(
@@ -118,11 +122,11 @@ class SearchViewState extends State<SearchView> {
                           size: 16,
                         ),
                         menuStyle: MenuStyle(
-                          backgroundColor: MaterialStateProperty.all(
+                          backgroundColor: WidgetStateProperty.all(
                               theme.colorScheme.secondary),
-                          surfaceTintColor: MaterialStateProperty.all(
+                          surfaceTintColor: WidgetStateProperty.all(
                               theme.colorScheme.secondary),
-                          padding: MaterialStateProperty.all(
+                          padding: WidgetStateProperty.all(
                               const EdgeInsets.only(top: 0)),
                         ),
                         menuChildren: ThemeMode.values.map((themeMode) {
@@ -134,7 +138,7 @@ class SearchViewState extends State<SearchView> {
                                 ? const Icon(Icons.check, size: 16)
                                 : const SizedBox(width: 12),
                             style: ButtonStyle(
-                              padding: MaterialStateProperty.all(
+                              padding: WidgetStateProperty.all(
                                   const EdgeInsets.only(left: 16, right: 16)),
                             ),
                             child: Text(
@@ -144,6 +148,46 @@ class SearchViewState extends State<SearchView> {
                         }).toList(),
                         child: const Text(
                           'Theme',
+                          softWrap: true,
+                          style: TextStyle(letterSpacing: 1),
+                        ),
+                      ),
+                      SubmenuButton(
+                        leadingIcon: const Icon(
+                          Icons.language_outlined,
+                          size: 16,
+                        ),
+                        menuStyle: MenuStyle(
+                          backgroundColor: WidgetStateProperty.all(
+                              theme.colorScheme.secondary),
+                          surfaceTintColor: WidgetStateProperty.all(
+                              theme.colorScheme.secondary),
+                          padding: WidgetStateProperty.all(
+                              const EdgeInsets.only(top: 0)),
+                        ),
+                        menuChildren: S.delegate.supportedLocales.map((locale) {
+                          return MenuItemButton(
+                            onPressed: () {
+                              widget.setLocale(locale);
+                            },
+                            leadingIcon:
+                                Intl.getCurrentLocale() == locale.languageCode
+                                    ? const Icon(Icons.check, size: 16)
+                                    : const SizedBox(width: 12),
+                            style: ButtonStyle(
+                              padding: WidgetStateProperty.all(
+                                  const EdgeInsets.only(left: 16, right: 16)),
+                            ),
+                            child: Text(
+                              locale.languageCode.capitalize() +
+                                  (LocaleUtils.isDefaultLocale(locale)
+                                      ? '(Default)'
+                                      : ''),
+                            ),
+                          );
+                        }).toList(),
+                        child: const Text(
+                          'Language',
                           softWrap: true,
                           style: TextStyle(letterSpacing: 1),
                         ),
@@ -184,7 +228,7 @@ class SearchViewState extends State<SearchView> {
                           size: 16,
                         ),
                         style: ButtonStyle(
-                          padding: MaterialStateProperty.all(
+                          padding: WidgetStateProperty.all(
                               const EdgeInsets.only(left: 16, right: 16)),
                         ),
                         child: const Text(

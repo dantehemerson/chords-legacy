@@ -1,19 +1,28 @@
 // ignore_for_file: unused_import
+import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:test_drive/app.dart';
-
-// Extensions:
-import 'package:test_drive/extensions/string_extensions.dart';
+import 'package:test_drive/constants/system_preference_key.dart';
+import 'package:test_drive/utils/locale_utils.dart';
 import 'package:test_drive/utils/theme_utils.dart';
+import 'package:test_drive/extensions/string_extensions.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   final ThemeMode initialThemeMode = ThemeUtils.getThemeModeFromString(
-      (await SharedPreferences.getInstance()).getString('themeMode'));
+      (await SharedPreferences.getInstance())
+          .getString(SystemPreferenceKey.themeMode));
+
+  final preferredLocale = (await SharedPreferences.getInstance())
+      .getString(SystemPreferenceKey.locale);
+
+  final Locale systemLocale =
+      LocaleUtils.toLocale(preferredLocale ?? Platform.localeName) ??
+          const Locale('en');
 
   // Lock the game to portrait mode on mobile devices.
   await SystemChrome.setPreferredOrientations([
@@ -23,5 +32,6 @@ void main() async {
 
   runApp(App(
     initialThemeMode: initialThemeMode,
+    locale: systemLocale,
   ));
 }
