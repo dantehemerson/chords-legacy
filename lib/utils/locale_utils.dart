@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'dart:ui';
 
 class LocaleUtils {
   static Locale? toLocale(String localeString) {

@@ -19,12 +19,14 @@ class SearchView extends StatefulWidget {
   final List<ChordModel> chords;
   final ThemeMode themeMode;
   final Function(ThemeMode) setThemeMode;
+  final Function(Locale) setLocale;
 
   const SearchView(
       {super.key,
       required this.chords,
       required this.themeMode,
-      required this.setThemeMode});
+      required this.setThemeMode,
+      required this.setLocale});
 
   @override
   State<StatefulWidget> createState() => SearchViewState();
@@ -167,7 +169,7 @@ class SearchViewState extends State<SearchView> {
                         menuChildren: S.delegate.supportedLocales.map((locale) {
                           return MenuItemButton(
                             onPressed: () {
-                              // widget.setThemeMode(themeMode);
+                              widget.setLocale(locale);
                             },
                             leadingIcon:
                                 Intl.getCurrentLocale() == locale.languageCode
@@ -182,10 +184,10 @@ class SearchViewState extends State<SearchView> {
                             ),
                           );
                         }).toList(),
-                        child: Text(
-                          'Language: ' + Locale('es').languageCode,
+                        child: const Text(
+                          'Language',
                           softWrap: true,
-                          style: const TextStyle(letterSpacing: 1),
+                          style: TextStyle(letterSpacing: 1),
                         ),
                       ),
                       MenuItemButton(

@@ -1,3 +1,5 @@
+// ignore_for_file: no_logic_in_create_state
+
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -13,8 +15,9 @@ import 'package:test_drive/views/search_view.dart';
 class App extends StatefulWidget {
   final Future<List<ChordModel>> chordsFuture;
   final ThemeMode initialThemeMode;
+  final Locale locale;
 
-  App({super.key, required this.initialThemeMode})
+  App({super.key, required this.initialThemeMode, required this.locale})
       : chordsFuture = loadChords();
 
   static Future<List<ChordModel>> loadChords() async {
@@ -33,17 +36,17 @@ class App extends StatefulWidget {
   }
 
   @override
-  // ignore: no_logic_in_create_state
-  State<App> createState() => AppState(themeMode: initialThemeMode);
+  State<App> createState() =>
+      AppState(themeMode: initialThemeMode, locale: locale);
 }
 
 class AppState extends State<App> {
   int selectedIndex = 0;
   final PageStorageBucket _bucket = PageStorageBucket();
   ThemeMode themeMode;
-  Locale locale = const Locale('en');
+  Locale locale;
 
-  AppState({required this.themeMode});
+  AppState({required this.themeMode, required this.locale});
 
   _setThemeMode(ThemeMode newThemeMode) async {
     setState(() {
@@ -53,7 +56,11 @@ class AppState extends State<App> {
         .setString('themeMode', newThemeMode.name.toString());
   }
 
-  _setLocale(Locale newLocale) {}
+  _setLocale(Locale newLocale) {
+    setState(() {
+      locale = newLocale;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -87,6 +94,7 @@ class AppState extends State<App> {
                         key: const PageStorageKey('search_view'),
                         chords: chords,
                         themeMode: themeMode,
+                        setLocale: _setLocale,
                         setThemeMode: _setThemeMode));
               case 1:
                 return const Text('Collections');
@@ -107,7 +115,7 @@ class AppState extends State<App> {
                 GlobalWidgetsLocalizations.delegate,
                 GlobalCupertinoLocalizations.delegate,
               ],
-              locale: const Locale.fromSubtags(languageCode: 'en'),
+              locale: locale,
               supportedLocales: S.delegate.supportedLocales,
               home: Scaffold(
                 body: PageStorage(bucket: _bucket, child: getBody()),
