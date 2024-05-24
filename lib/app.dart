@@ -1,7 +1,6 @@
 // ignore_for_file: no_logic_in_create_state
 
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -12,7 +11,6 @@ import 'package:test_drive/constants/system_preference_key.dart';
 import 'package:test_drive/generated/l10n.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/themes/app_theme.dart';
-import 'package:test_drive/utils/locale_utils.dart';
 import 'package:test_drive/views/search_view.dart';
 
 class App extends StatefulWidget {
@@ -60,21 +58,12 @@ class AppState extends State<App> {
   }
 
   _setLocale(Locale newLocale) async {
-    final safeLocale = newLocale.languageCode == 'system'
-        ? LocaleUtils.toLocale(Platform.localeName) ?? const Locale('en')
-        : newLocale;
-
     setState(() {
-      locale = safeLocale;
+      locale = newLocale;
     });
 
-    if (newLocale.languageCode == 'system') {
-      (await SharedPreferences.getInstance())
-          .remove(SystemPreferenceKey.locale);
-    } else {
-      (await SharedPreferences.getInstance())
-          .setString(SystemPreferenceKey.locale, newLocale.languageCode);
-    }
+    (await SharedPreferences.getInstance())
+        .setString(SystemPreferenceKey.locale, newLocale.languageCode);
   }
 
   @override

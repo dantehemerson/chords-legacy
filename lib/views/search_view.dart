@@ -11,6 +11,7 @@ import 'package:test_drive/extensions/string_extensions.dart';
 import 'package:test_drive/generated/l10n.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/models/filters_model.dart';
+import 'package:test_drive/utils/locale_utils.dart';
 import 'package:test_drive/views/search_results_view.dart';
 
 class SearchView extends StatefulWidget {
@@ -83,9 +84,6 @@ class SearchViewState extends State<SearchView> {
     ThemeData theme = Theme.of(context);
     final bool isKeyboardVisible =
         KeyboardVisibilityProvider.isKeyboardVisible(context);
-
-    final supportedLocales = List<Locale>.from(S.delegate.supportedLocales);
-    supportedLocales.insert(0, const Locale('system'));
 
     return Scaffold(
         appBar: AppBar(
@@ -167,7 +165,7 @@ class SearchViewState extends State<SearchView> {
                           padding: WidgetStateProperty.all(
                               const EdgeInsets.only(top: 0)),
                         ),
-                        menuChildren: supportedLocales.map((locale) {
+                        menuChildren: S.delegate.supportedLocales.map((locale) {
                           return MenuItemButton(
                             onPressed: () {
                               widget.setLocale(locale);
@@ -181,7 +179,10 @@ class SearchViewState extends State<SearchView> {
                                   const EdgeInsets.only(left: 16, right: 16)),
                             ),
                             child: Text(
-                              locale.languageCode.capitalize(),
+                              locale.languageCode.capitalize() +
+                                  (LocaleUtils.isDefaultLocale(locale)
+                                      ? '(Default)'
+                                      : ''),
                             ),
                           );
                         }).toList(),

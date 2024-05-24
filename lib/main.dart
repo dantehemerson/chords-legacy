@@ -17,11 +17,11 @@ void main() async {
       (await SharedPreferences.getInstance())
           .getString(SystemPreferenceKey.themeMode));
 
-  final localePreference = (await SharedPreferences.getInstance())
+  final preferredLocale = (await SharedPreferences.getInstance())
       .getString(SystemPreferenceKey.locale);
 
   final Locale systemLocale =
-      LocaleUtils.toLocale(localePreference ?? Platform.localeName) ??
+      LocaleUtils.toLocale(preferredLocale ?? Platform.localeName) ??
           const Locale('en');
 
   // Lock the game to portrait mode on mobile devices.

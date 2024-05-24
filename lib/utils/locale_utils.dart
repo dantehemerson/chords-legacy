@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:ui';
 
 class LocaleUtils {
@@ -10,5 +11,11 @@ class LocaleUtils {
     } else {
       return Locale(localeString);
     }
+  }
+
+  static bool isDefaultLocale(Locale locale) {
+    final systemLocale = LocaleUtils.toLocale(Platform.localeName);
+
+    return locale.languageCode == systemLocale?.languageCode;
   }
 }
