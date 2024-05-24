@@ -22,6 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "action__cancel": MessageLookupByLibrary.simpleMessage("Cancelar"),
         "home_searchTextField":
             MessageLookupByLibrary.simpleMessage("Buscar acordes o colecciones")
       };

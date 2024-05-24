@@ -59,6 +59,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Cancel`
+  String get action__cancel {
+    return Intl.message(
+      'Cancel',
+      name: 'action__cancel',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

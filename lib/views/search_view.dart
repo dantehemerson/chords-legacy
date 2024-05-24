@@ -104,7 +104,7 @@ class SearchViewState extends State<SearchView> {
                         _updateSearchText('');
                         searchFieldFocusNode.unfocus();
                       },
-                      child: const Text('Cancel'),
+                      child: Text(S.of(context).action__cancel),
                     ),
                   )
                 : MenuAnchor(

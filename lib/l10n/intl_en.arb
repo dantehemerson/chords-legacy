@@ -1,3 +1,4 @@
 {
-  "home_searchTextField": "Search for chords or collections"
+  "home_searchTextField": "Search for chords or collections",
+  "action__cancel": "Cancel"
 }
