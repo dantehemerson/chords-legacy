@@ -104,12 +104,11 @@ class SearchViewState extends State<SearchView> {
                   )
                 : MenuAnchor(
                     style: MenuStyle(
-                      backgroundColor: MaterialStateProperty.all(
-                          theme.colorScheme.secondary),
-                      surfaceTintColor: MaterialStateProperty.all(
-                          theme.colorScheme.secondary),
-                      padding:
-                          MaterialStateProperty.all(const EdgeInsets.all(0)),
+                      backgroundColor:
+                          WidgetStateProperty.all(theme.colorScheme.secondary),
+                      surfaceTintColor:
+                          WidgetStateProperty.all(theme.colorScheme.secondary),
+                      padding: WidgetStateProperty.all(const EdgeInsets.all(0)),
                     ),
                     menuChildren: [
                       SubmenuButton(
@@ -118,11 +117,11 @@ class SearchViewState extends State<SearchView> {
                           size: 16,
                         ),
                         menuStyle: MenuStyle(
-                          backgroundColor: MaterialStateProperty.all(
+                          backgroundColor: WidgetStateProperty.all(
                               theme.colorScheme.secondary),
-                          surfaceTintColor: MaterialStateProperty.all(
+                          surfaceTintColor: WidgetStateProperty.all(
                               theme.colorScheme.secondary),
-                          padding: MaterialStateProperty.all(
+                          padding: WidgetStateProperty.all(
                               const EdgeInsets.only(top: 0)),
                         ),
                         menuChildren: ThemeMode.values.map((themeMode) {
@@ -134,7 +133,7 @@ class SearchViewState extends State<SearchView> {
                                 ? const Icon(Icons.check, size: 16)
                                 : const SizedBox(width: 12),
                             style: ButtonStyle(
-                              padding: MaterialStateProperty.all(
+                              padding: WidgetStateProperty.all(
                                   const EdgeInsets.only(left: 16, right: 16)),
                             ),
                             child: Text(
@@ -184,7 +183,7 @@ class SearchViewState extends State<SearchView> {
                           size: 16,
                         ),
                         style: ButtonStyle(
-                          padding: MaterialStateProperty.all(
+                          padding: WidgetStateProperty.all(
                               const EdgeInsets.only(left: 16, right: 16)),
                         ),
                         child: const Text(

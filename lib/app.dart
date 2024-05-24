@@ -104,6 +104,7 @@ class AppState extends State<App> {
                 GlobalWidgetsLocalizations.delegate,
                 GlobalCupertinoLocalizations.delegate,
               ],
+              locale: const Locale.fromSubtags(languageCode: 'en'),
               supportedLocales: S.delegate.supportedLocales,
               home: Scaffold(
                 body: PageStorage(bucket: _bucket, child: getBody()),
