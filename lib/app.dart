@@ -41,6 +41,7 @@ class AppState extends State<App> {
   int selectedIndex = 0;
   final PageStorageBucket _bucket = PageStorageBucket();
   ThemeMode themeMode;
+  Locale locale = const Locale('en');
 
   AppState({required this.themeMode});
 
@@ -51,6 +52,8 @@ class AppState extends State<App> {
     (await SharedPreferences.getInstance())
         .setString('themeMode', newThemeMode.name.toString());
   }
+
+  _setLocale(Locale newLocale) {}
 
   @override
   Widget build(BuildContext context) {
