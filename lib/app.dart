@@ -1,15 +1,18 @@
 // ignore_for_file: no_logic_in_create_state
 
 import 'dart:convert';
+import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:test_drive/constants/system_preference_key.dart';
 import 'package:test_drive/generated/l10n.dart';
 import 'package:test_drive/models/chord_model.dart';
 import 'package:test_drive/themes/app_theme.dart';
+import 'package:test_drive/utils/locale_utils.dart';
 import 'package:test_drive/views/search_view.dart';
 
 class App extends StatefulWidget {
@@ -53,13 +56,25 @@ class AppState extends State<App> {
       themeMode = newThemeMode;
     });
     (await SharedPreferences.getInstance())
-        .setString('themeMode', newThemeMode.name.toString());
+        .setString(SystemPreferenceKey.themeMode, newThemeMode.name.toString());
   }
 
-  _setLocale(Locale newLocale) {
+  _setLocale(Locale newLocale) async {
+    final safeLocale = newLocale.languageCode == 'system'
+        ? LocaleUtils.toLocale(Platform.localeName) ?? const Locale('en')
+        : newLocale;
+
     setState(() {
-      locale = newLocale;
+      locale = safeLocale;
     });
+
+    if (newLocale.languageCode == 'system') {
+      (await SharedPreferences.getInstance())
+          .remove(SystemPreferenceKey.locale);
+    } else {
+      (await SharedPreferences.getInstance())
+          .setString(SystemPreferenceKey.locale, newLocale.languageCode);
+    }
   }
 
   @override

@@ -86,6 +86,9 @@ class SearchViewState extends State<SearchView> {
     final bool isKeyboardVisible =
         KeyboardVisibilityProvider.isKeyboardVisible(context);
 
+    final supportedLocales = List<Locale>.from(S.delegate.supportedLocales);
+    supportedLocales.insert(0, const Locale('system'));
+
     return Scaffold(
         appBar: AppBar(
           title: SearchField(
@@ -166,7 +169,7 @@ class SearchViewState extends State<SearchView> {
                           padding: WidgetStateProperty.all(
                               const EdgeInsets.only(top: 0)),
                         ),
-                        menuChildren: S.delegate.supportedLocales.map((locale) {
+                        menuChildren: supportedLocales.map((locale) {
                           return MenuItemButton(
                             onPressed: () {
                               widget.setLocale(locale);
