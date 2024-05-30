@@ -24,6 +24,7 @@ class SearchField extends StatelessWidget {
           controller: controller,
           textInputAction: TextInputAction.search,
           focusNode: focusNode,
+          scribbleEnabled: false,
           autocorrect: false,
           enableSuggestions: false,
           autofocus: isSearching,

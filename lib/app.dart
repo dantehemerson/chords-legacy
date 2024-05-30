@@ -7,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:test_drive/bottom_navigation_view/bottom_bar_view.dart';
 import 'package:test_drive/constants/system_preference_key.dart';
 import 'package:test_drive/generated/l10n.dart';
 import 'package:test_drive/models/chord_model.dart';
@@ -111,6 +112,7 @@ class AppState extends State<App> {
 
           return MaterialApp(
               themeMode: themeMode,
+              debugShowCheckedModeBanner: false,
               theme: AppTheme.light,
               darkTheme: AppTheme.dark,
               localizationsDelegates: const [
@@ -123,13 +125,13 @@ class AppState extends State<App> {
               supportedLocales: S.delegate.supportedLocales,
               home: Scaffold(
                 body: PageStorage(bucket: _bucket, child: getBody()),
-                // bottomNavigationBar: BottomBar(
-                //     currentIndex: selectedIndex,
-                //     onTap: (int index) {
-                //       setState(() {
-                //         selectedIndex = index;
-                //       });
-                //     }),
+                bottomNavigationBar: BottomBar(
+                    currentIndex: selectedIndex,
+                    onTap: (int index) {
+                      setState(() {
+                        selectedIndex = index;
+                      });
+                    }),
               ));
         }
       },

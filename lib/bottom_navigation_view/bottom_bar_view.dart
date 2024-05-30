@@ -32,16 +32,10 @@ class BottomBar extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            Icons.library_books,
+            Icons.list_alt,
           ),
-          label: 'Library',
+          label: 'Collections',
         ),
-        // BottomNavigationBarItem(
-        //   icon: Icon(
-        //     Icons.list_alt,
-        //   ),
-        //   label: 'Collections',
-        // ),
       ],
     );
   }
