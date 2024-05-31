@@ -1,6 +1,6 @@
 # test_drive
 
-A new Flutter project.
+<img width="400px" src="https://github.com/dantehemerson/chords/assets/18385321/dd6e7b9c-d0bd-4074-9ac5-7902c56b74ae"/>
 
 ## Getting Started
 
